@@ -32,7 +32,7 @@ df['Free_Show'] = df['Free show?'].astype(str).str.upper().str.contains('TRUE').
 
 df['Notes'] = df['Notes'].fillna('')
 
-df = df.dropna(subset=['Date'])
+df = df.dropna(subset=['Date','Venue','Borough'])
 
 records = df.to_dict(orient='records')
                     

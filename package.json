@@ -1,19 +1,20 @@
 {
-  "dependencies": {
-    "@sveltejs/kit": "^2.62.0",
-    "d3": "^7.9.0"
-  },
-  "scripts": {
-    "dev": "vite dev",
-    "build": "vite build",
-    "preview": "vite preview",
-    "check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json"
-  },
-  "devDependencies": {
-    "@sveltejs/adapter-static": "^3.0.0",
-    "@sveltejs/kit": "^2.62.0",
-    "@sveltejs/vite-plugin-svelte": "^3.0.0",
-    "svelte": "^4.0.0",
-    "vite": "^5.0.0"
-  }
+	"name": "in-the-crowd",
+	"private": true,
+	"version": "0.0.1",
+	"type": "module",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"prepare": "svelte-kit sync || echo ''"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^7.0.1",
+		"@sveltejs/kit": "^2.57.0",
+		"@sveltejs/vite-plugin-svelte": "^7.0.0",
+		"@types/node": "^25.9.1",
+		"svelte": "^5.55.2",
+		"vite": "^8.0.7"
+	}
 }

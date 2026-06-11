@@ -9,11 +9,11 @@ OUTPUT_JSON.parent.mkdir(parents=True, exist_ok=True)
 
 df = pd.read_csv(RAW_CSV)
 
-# df['Date'] = pd.to_datetime(df['Date'], errors='coerce')
+df['Date'] = pd.to_datetime(df['Date'], errors='coerce')
 
-df['Year'] = df['Date'].astype('Int64')
-# df['Month'] = df['Date'].dt.month
-# df['Day'] = df['Date'].dt.day_name()
+df['Year'] = df['Date'].dt.year.astype('Int64')
+df['Month'] = df['Date'].dt.month.astype('Int64')
+df['Day'] = df['Date'].dt.day_name()
 
 
 df['Artist'] = df['Artist'].str.strip()

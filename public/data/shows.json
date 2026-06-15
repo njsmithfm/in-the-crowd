@@ -546,7 +546,7 @@
     "Free_Show": false
   },
   {
-    "Artist": "ar",
+    "Artist": "Ganavya",
     "Date": "2024-07-21 00:00:00",
     "Venue": "Joe's Pub",
     "Borough": "Manhattan",
@@ -555,7 +555,7 @@
     "Year": 2024,
     "Month": 7,
     "Day": "Sunday",
-    "Primary Artist": "ar",
+    "Primary Artist": "Ganavya",
     "Free_Show": false
   },
   {
@@ -1404,6 +1404,19 @@
     "Month": 3,
     "Day": "Sunday",
     "Primary Artist": "Kahil El'Zabar",
+    "Free_Show": false
+  },
+  {
+    "Artist": "John Zorn",
+    "Date": "2024-05-17 00:00:00",
+    "Venue": "Louis Armstrong Stadium",
+    "Borough": "Queens",
+    "Free show?": "VERDADERO",
+    "Notes": "",
+    "Year": 2024,
+    "Month": 5,
+    "Day": "Friday",
+    "Primary Artist": "John Zorn",
     "Free_Show": false
   }
 ]

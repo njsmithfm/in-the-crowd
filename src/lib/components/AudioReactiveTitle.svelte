@@ -5,7 +5,7 @@
   let canvasEl;
   let { artistName = "Artist Name", videoElement } = $props();
 
-  const noise = new SimplexNoise();
+  const noise = new createNoise2D();
   let time = 0;
   let audioContext;
   let analyser;

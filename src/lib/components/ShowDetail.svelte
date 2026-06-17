@@ -1,58 +1,59 @@
 <script>
-  let { show = null, onClose } = $props();
+  import AudioReactiveTitle from "./AudioReactiveTitle.svelte";
+  import shows from "../../../public/data/shows.json";
+
+  let { artistName = null, onClose } = $props();
+
+  let artistShows = $derived(
+    artistName
+      ? shows
+          .filter((show) => show.Artist === artistName)
+          .sort((a, b) => new Date(b.Date) - new Date(a.Date))
+      : [],
+  );
+
+  let artistNotes = "Notes about this artist...";
 </script>
 
-<div class="detail-view">
-  <div class="detail-content">
+<div class="detail-panel">
+  {#if artistName}
     <button class="close-btn" onclick={onClose}>✕</button>
 
-    {#if show}
-      <h2>{show.artist}</h2>
+    <AudioReactiveTitle {artistName} />
 
-      <div class="show-details">
-        <p class="venue">
-          <strong>Venue:</strong>
-          {show.venue}
-        </p>
-        <p class="date">
-          <strong>Date:</strong>
-          {new Date(show.date).toLocaleDateString()}
-        </p>
-        {#if show.description}
-          <p class="description">
-            <strong>Notes:</strong>
-            {show.description}
-          </p>
-        {/if}
+    <div class="artist-info">
+      <h3>Shows ({artistShows.length})</h3>
+      <div class="shows-list">
+        {#each artistShows as show}
+          <div class="show-item">
+            <span class="show-date">
+              {new Date(show.Date).toLocaleDateString()}
+            </span>
+            <span class="show-venue">{show.Venue}</span>
+            {#if show.Free_Show}
+              <span class="badge-free">FREE</span>
+            {/if}
+          </div>
+        {/each}
       </div>
-    {/if}
-  </div>
+
+      <h3>Notes</h3>
+      <div class="notes">
+        {artistNotes}
+      </div>
+    </div>
+  {/if}
 </div>
 
 <style>
-  .detail-view {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.7);
+  .detail-panel {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1000;
-    overflow-y: auto;
-  }
-
-  .detail-content {
+    flex-direction: column;
+    height: 100%;
     background-color: white;
-    border-radius: 8px;
-    max-width: 800px;
-    width: 90%;
-    padding: 2rem;
-    position: relative;
-    max-height: 90vh;
+    border-left: 1px solid #ddd;
     overflow-y: auto;
+    position: relative;
   }
 
   .close-btn {
@@ -65,35 +66,67 @@
     cursor: pointer;
     color: #666;
     padding: 0.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    z-index: 10;
   }
 
   .close-btn:hover {
     color: #000;
   }
 
-  .show-details {
-    margin-top: 2rem;
+  .artist-info {
+    padding: 2rem 1.5rem;
+    flex: 1;
   }
 
-  h2 {
-    margin-top: 0;
-    font-size: 1.8rem;
+  h3 {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    font-weight: 600;
   }
 
-  .venue,
-  .date,
-  .description {
-    margin: 0.5rem 0;
-    line-height: 1.6;
+  .shows-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
   }
 
-  .description {
-    margin-top: 1rem;
+  .show-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    font-size: 0.95rem;
+  }
+
+  .show-date {
+    font-weight: 600;
+    color: #333;
+    min-width: 90px;
+  }
+
+  .show-venue {
+    flex: 1;
+    color: #666;
+  }
+
+  .badge-free {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 3px;
+    font-size: 0.75rem;
+    font-weight: bold;
+  }
+
+  .notes {
     padding: 1rem;
     background-color: #f9f9f9;
     border-left: 3px solid #333;
+    line-height: 1.6;
+    color: #555;
   }
 </style>

@@ -1,6 +1,6 @@
 <script>
   import shows from "../../../public/data/shows.json";
-  let { onSelectShow } = $props();
+  let { onSelectShow = null } = $props();
 
   const groupedByBorough = shows.reduce((acc, show) => {
     const borough = show.Borough;
@@ -8,14 +8,17 @@
     acc[borough].push(show);
     return acc;
   }, {});
+
   const handleShowClick = (show) => {
-    onSelectShow({
-      artist: show.Artist,
-      venue: show.Venue,
-      date: show.Date,
-      borough: show.Borough,
-      free_show: show.Free_Show,
-    });
+    if (onSelectShow) {
+      onSelectShow({
+        artist: show.Artist,
+        venue: show.Venue,
+        date: show.Date,
+        borough: show.Borough,
+        free_show: show.Free_Show,
+      });
+    }
   };
 </script>
 

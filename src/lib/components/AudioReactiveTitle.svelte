@@ -1,6 +1,6 @@
 <script>
   import { onMount } from "svelte";
-  import { SimplexNoise } from "simplex-noise";
+  import { createNoise2D } from "simplex-noise";
 
   let canvasEl;
   let { artistName = "Artist Name", videoElement } = $props();
@@ -76,7 +76,8 @@
 </script>
 
 <div class="title-container">
-  <canvas bind:this={canvasEl} width="900" height="200" class="audio-canvas" />
+  <canvas bind:this={canvasEl} width="900" height="200" class="audio-canvas"
+  ></canvas>
 </div>
 
 <style>

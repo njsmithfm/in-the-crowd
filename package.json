@@ -19,6 +19,7 @@
 	},
 	"dependencies": {
 		"@fontsource/public-sans": "^5.2.7",
+		"d3": "^7.9.0",
 		"simplex-noise": "^4.0.3"
 	}
 }

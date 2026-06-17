@@ -96,7 +96,7 @@
     "Venue": "Avant Gardener",
     "Borough": "Brooklyn",
     "Free show?": "FALSO",
-    "Notes": "got invited, it was boring",
+    "Notes": "Got invited and I was bored to death.",
     "Year": 2022,
     "Month": 3,
     "Day": "Tuesday",
@@ -572,6 +572,19 @@
     "Free_Show": false
   },
   {
+    "Artist": "Esperanza Spalding",
+    "Date": "2025-03-28 00:00:00",
+    "Venue": "Big Ears 2025",
+    "Borough": "Knoxville, TN",
+    "Free show?": "VERDADERO",
+    "Notes": "",
+    "Year": 2025,
+    "Month": 3,
+    "Day": "Friday",
+    "Primary Artist": "Esperanza Spalding",
+    "Free_Show": false
+  },
+  {
     "Artist": "Shabaka Hutchings",
     "Date": "2024-01-15 00:00:00",
     "Venue": "Le Poisson Rouge",
@@ -798,7 +811,7 @@
     "Venue": "Brooklyn Steel",
     "Borough": "Brooklyn",
     "Free show?": "FALSO",
-    "Notes": "sound sucked ass",
+    "Notes": "The sound here truly sucked.",
     "Year": 2024,
     "Month": 10,
     "Day": "Sunday",

@@ -2,6 +2,9 @@
   import Timeline from "$lib/components/Timeline.svelte";
   import Map from "$lib/components/Map.svelte";
   import ShowDetail from "$lib/components/ShowDetail.svelte";
+  import "@fontsource/public-sans"; // Defaults to weight 400
+  import "@fontsource/public-sans/400.css"; // Specify weight
+  import "@fontsource/public-sans/400-italic.css"; // Specify weight and style
 
   let activeView = $state("timeline");
   let selectedShow = $state(null);
@@ -23,3 +26,9 @@
 {#if selectedShow}
   <ShowDetail show={selectedShow} onClose={() => (selectedShow = null)} />
 {/if}
+
+<style>
+  * {
+    font-family: "Public Sans", sans-serif;
+  }
+</style>

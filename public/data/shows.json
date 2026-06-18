@@ -1192,10 +1192,7 @@
     "Year": 2026,
     "Month": 2,
     "Day": "Friday",
-    "Primary Artist": [
-      "Jeff Rosenstock",
-      "Chris Farren"
-    ],
+    "Primary Artist": ["Jeff Rosenstock", "Chris Farren"],
     "Free_Show": false
   },
   {

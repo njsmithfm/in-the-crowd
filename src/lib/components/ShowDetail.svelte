@@ -12,7 +12,11 @@
       : [],
   );
 
-  let artistNotes = "Notes about this artist...";
+  let artistNotes =
+    shows.find((show) => show.Artist === artistName)?.Notes ||
+    "No notes available.";
+
+  let artistFrequency = artistShows.length;
 </script>
 
 <div class="detail-panel">
@@ -41,6 +45,21 @@
       <div class="notes">
         {artistNotes}
       </div>
+
+      {#if artistFrequency >= 1}
+        <h3>Other shows by {artistName}</h3>
+        {#each artistShows as show}
+          <div class="show-item">
+            <span class="show-date">
+              {new Date(show.Date).toLocaleDateString()}
+            </span>
+            <span class="show-venue">{show.Venue}</span>
+            {#if show.Free_Show}
+              <span class="badge-free">FREE</span>
+            {/if}
+          </div>
+        {/each}
+      {/if}
     </div>
   {/if}
 </div>

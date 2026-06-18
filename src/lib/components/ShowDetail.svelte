@@ -26,21 +26,6 @@
     <AudioReactiveTitle {artistName} />
 
     <div class="artist-info">
-      <h3>Shows ({artistShows.length})</h3>
-      <div class="shows-list">
-        {#each artistShows as show}
-          <div class="show-item">
-            <span class="show-date">
-              {new Date(show.Date).toLocaleDateString()}
-            </span>
-            <span class="show-venue">{show.Venue}</span>
-            {#if show.Free_Show}
-              <span class="badge-free">FREE</span>
-            {/if}
-          </div>
-        {/each}
-      </div>
-
       <h3>Notes</h3>
       <div class="notes">
         {artistNotes}

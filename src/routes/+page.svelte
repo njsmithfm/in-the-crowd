@@ -5,9 +5,6 @@
   import ShowsList from "$lib/components/ShowsList.svelte";
   import VenueFrequency from "$lib/components/venueFrequency.svelte";
   import ArtistFrequency from "$lib/components/artistFrequency.svelte";
-  import "@fontsource/public-sans";
-  import "@fontsource/public-sans/400.css";
-  import "@fontsource/public-sans/400-italic.css";
 
   let activeView = $state("artists");
   let selectedArtist = $state(null);
@@ -71,10 +68,6 @@
 </div>
 
 <style>
-  :global(*) {
-    font-family: "Public Sans", sans-serif;
-  }
-
   .container {
     display: flex;
     flex-direction: column;

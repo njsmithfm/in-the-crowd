@@ -22,6 +22,7 @@
 <div class="detail-panel">
   <button class="close-btn" onclick={onClose}>✕</button>
 
+  <!-- Display the AudioReactiveTitle component if component is provided, otherwise show a simple h2 element displaying {artistName} -->
   {#if AudioReactiveTitle !== ""}
     <AudioReactiveTitle {artistName} />
   {:else}

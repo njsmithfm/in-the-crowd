@@ -26,10 +26,12 @@
     <AudioReactiveTitle {artistName} />
 
     <div class="artist-info">
-      <h3>Notes</h3>
-      <div class="notes">
-        {artistNotes}
-      </div>
+      {#if artistNotes?.length > 0}
+        <h3>Notes</h3>
+        <div class="notes">
+          {artistNotes}
+        </div>
+      {/if}
 
       {#if artistFrequency >= 1}
         <h3>Other shows by {artistName}</h3>

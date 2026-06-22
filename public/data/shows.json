@@ -1192,7 +1192,10 @@
     "Year": 2026,
     "Month": 2,
     "Day": "Friday",
-    "Primary Artist": ["Jeff Rosenstock", "Chris Farren"],
+    "Primary Artist": [
+      "Jeff Rosenstock",
+      "Chris Farren"
+    ],
     "Free_Show": false
   },
   {
@@ -1427,6 +1430,32 @@
     "Month": 5,
     "Day": "Friday",
     "Primary Artist": "John Zorn",
+    "Free_Show": false
+  },
+  {
+    "Artist": "Iron Chic",
+    "Date": "2026-06-26 00:00:00",
+    "Venue": "Brooklyn Monarch",
+    "Borough": " Brooklyn",
+    "Free show?": "FALSO",
+    "Notes": "",
+    "Year": 2026,
+    "Month": 6,
+    "Day": "Friday",
+    "Primary Artist": "Iron Chic",
+    "Free_Show": false
+  },
+  {
+    "Artist": "The Lawrence Arms",
+    "Date": "2026-06-26 00:00:00",
+    "Venue": "Brooklyn Monarch",
+    "Borough": " Brooklyn",
+    "Free show?": "FALSO",
+    "Notes": "",
+    "Year": 2026,
+    "Month": 6,
+    "Day": "Friday",
+    "Primary Artist": "The Lawrence Arms",
     "Free_Show": false
   }
 ]

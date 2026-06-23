@@ -1,5 +1,4 @@
 <script>
-  import AudioReactiveTitle from "./AudioReactiveTitle.svelte";
   import shows from "../../../public/data/shows.json";
 
   let { artistName = null, onClose } = $props();
@@ -21,12 +20,6 @@
 
 <div class="detail-panel">
   <button class="close-btn" onclick={onClose}>✕</button>
-
-  {#if AudioReactiveTitle !== ""}
-    <AudioReactiveTitle {artistName} />
-  {:else}
-    <h2>{artistName}</h2>
-  {/if}
 
   <div class="artist-info">
     {#if artistNotes?.length > 0}

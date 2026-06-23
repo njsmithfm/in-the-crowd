@@ -1,10 +1,6 @@
 <script>
-  import Timeline from "$lib/components/Timeline.svelte";
-  import Map from "$lib/components/Map.svelte";
   import ShowDetail from "$lib/components/ShowDetail.svelte";
   import ShowsList from "$lib/components/ShowsList.svelte";
-  import VenueFrequency from "$lib/components/venueFrequency.svelte";
-  import ArtistFrequency from "$lib/components/artistFrequency.svelte";
 
   let activeView = $state("artists");
   let selectedArtist = $state(null);

@@ -123,7 +123,7 @@
   .badge-free {
     display: inline-block;
     padding: 0.25rem 0.5rem;
-    background-color: #4caf50;
+    background-color: #ec09c1;
     color: white;
     border-radius: 3px;
     font-size: 0.75rem;

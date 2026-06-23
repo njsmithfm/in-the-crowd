@@ -23,46 +23,35 @@ def get_primary_artist(artist):
         return None
     artist_lower = artist.lower()
     if 'antarctigo' in artist_lower:
-        return 'Jeff Rosenstock','Chris Farren'
+        return 'Jeff Rosenstock','Chris Farren','Antarctigo Vespucci'
     if 'irreversible entanglements' in artist_lower:
-        return 'Moor Mother'
+        return 'Moor Mother','Irreversible Entanglements'
     if 'chicago underground' in artist_lower:
-        return 'Rob Mazurek','Chad Taylor'
+        return 'Rob Mazurek','Chad Taylor','Chicago Underground Duo'
     if 'Pharoah Sanders' in artist_lower:
-        return ''
+        return 'James Brandon Lewis','Joshua Abrams','Chad Taylor','Jeff Parker'
     return artist
 
 df['Primary Artist'] = df['Artist'].apply(get_primary_artist)
 
-# Define what counts as a "True" value (case insensitive)
+# Define truth values for english and spanish
 true_values = {'TRUE', 'YES', 'VERDADERO'}
-# Create a set-based check (much faster and accurate)
+
 df['Free_Show'] = df['Free_Show'].astype(str).str.upper().apply(lambda x: x.strip() in true_values)
 
 df['Notes'] = df['Notes'].fillna('')
 
 df = df.dropna(subset=['Date','Venue','Borough'])
 
-# 1. SORT BY DATE first (Oldest to Newest)
-# This ensures the numbering follows the timeline
-# Sorts by Date (primary) and Venue (secondary) for tie-breaking
+
 df = df.sort_values(['Date', 'Venue'], ascending=[True, True])
 
-# 2. Reset index so the row count starts fresh after sorting/dropping
 df = df.reset_index(drop=True)
 
-# 3. Create ONLY 'Show_Number' based on the sorted order
-# We remove the line "df['Show Number'] = ..." entirely
+
 df['Show_Number'] = range(1, len(df) + 1)
 
-# Note: The column 'Free show?' from the CSV is kept as raw data.
-# If you want to REMOVE the raw 'Free show?' column from the JSON output,
-# uncomment the next line:
-# df = df.drop(columns=['Free show?']) 
-# But usually, it's better to keep the original data unless you are sure you don't need it.
-# Since you mentioned "repeated datapoints", I assume you want to remove the snake_case versions 
-# if they are duplicates of existing columns, but here you seem to have BOTH.
-# If you specifically want to drop the CSV's raw "Free show?" column because you have "Free_Show":
+
 df = df.drop(columns=['Free show?'], errors='ignore') 
 
 records = df.to_dict(orient='records')

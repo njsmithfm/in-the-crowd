@@ -94,7 +94,7 @@
   }
 
   .badge.free {
-    background-color: #4caf50;
+    background-color: #ec09c1;
     color: white;
   }
 </style>

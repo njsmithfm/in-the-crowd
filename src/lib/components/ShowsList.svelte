@@ -134,7 +134,7 @@
   .badge {
     display: inline-block;
     padding: 0.2rem 0.4rem;
-    background-color: #4caf50;
+    background-color: #ec09c1;
     color: white;
     border-radius: 2px;
     font-size: 0.7rem;

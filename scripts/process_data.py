@@ -40,16 +40,30 @@ df['Notes'] = df['Notes'].fillna('')
 
 df = df.dropna(subset=['Date','Venue','Borough'])
 
-# Reset index to ensure clean sequential numbers after dropping NaNs
-df = df.reset_index(drop=True)
-# Create the Show Number column (1-based index)
-df['Show_Number'] = range(1, len(df) + 1)
-# --- ADD THIS BLOCK ENDS HERE ---
+# 1. SORT BY DATE first (Oldest to Newest)
+# This ensures the numbering follows the timeline
+# Sorts by Date (primary) and Venue (secondary) for tie-breaking
+df = df.sort_values(['Date', 'Venue'], ascending=[True, True])
 
-df['Show Number'] = df['Show_Number'].astype(int)
+# 2. Reset index so the row count starts fresh after sorting/dropping
+df = df.reset_index(drop=True)
+
+# 3. Create ONLY 'Show_Number' based on the sorted order
+# We remove the line "df['Show Number'] = ..." entirely
+df['Show_Number'] = range(1, len(df) + 1)
+
+# Note: The column 'Free show?' from the CSV is kept as raw data.
+# If you want to REMOVE the raw 'Free show?' column from the JSON output,
+# uncomment the next line:
+# df = df.drop(columns=['Free show?']) 
+# But usually, it's better to keep the original data unless you are sure you don't need it.
+# Since you mentioned "repeated datapoints", I assume you want to remove the snake_case versions 
+# if they are duplicates of existing columns, but here you seem to have BOTH.
+# If you specifically want to drop the CSV's raw "Free show?" column because you have "Free_Show":
+df = df.drop(columns=['Free show?'], errors='ignore') 
 
 records = df.to_dict(orient='records')
-                    
+
 with open(OUTPUT_JSON, 'w', encoding='utf-8') as f:
     json.dump(records, f, indent=2, default=str)
 

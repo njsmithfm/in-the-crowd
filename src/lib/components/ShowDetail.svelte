@@ -11,15 +11,29 @@
       : [],
   );
 
-  let artistNotes =
-    shows.find((show) => show.Artist === artistName)?.Notes ||
-    "No notes available.";
+  let artistNotes = $derived(
+    artistName
+      ? shows.find((show) => show.Artist === artistName)?.Notes ||
+          "No notes available."
+      : "No notes available.",
+  );
+  let artistVenue = $derived(
+    shows.find((show) => show.Show_Number === artistName)?.Venue,
+  );
 
-  let artistFrequency = artistShows.length;
+  let artistFrequency = $derived(artistShows.length);
 </script>
 
 <div class="detail-panel">
   <button class="close-btn" onclick={onClose}>✕</button>
+
+  <div class="artist-name">
+    <h1>{artistName}</h1>
+    <p>Times seen since 2022: {artistFrequency}</p>
+  </div>
+  <div class="venue">
+    <h2>{artistVenue}</h2>
+  </div>
 
   <div class="artist-info">
     {#if artistNotes?.length > 0}
@@ -86,10 +100,8 @@
     font-weight: 600;
   }
 
-  .shows-list {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+  .artist-name {
+    margin: 0 1.5rem;
   }
 
   .show-item {

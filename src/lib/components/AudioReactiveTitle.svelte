@@ -1,7 +1,6 @@
 <script>
   import { onMount } from "svelte";
   import { createNoise2D } from "simplex-noise";
-
   let canvasEl;
   let { artistName = "Artist Name", videoElement } = $props();
 

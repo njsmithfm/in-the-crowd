@@ -24,6 +24,12 @@ def get_primary_artist(artist):
     artist_lower = artist.lower()
     if 'antarctigo' in artist_lower:
         return 'Jeff Rosenstock','Chris Farren'
+    if 'irreversible entanglements' in artist_lower:
+        return 'Moor Mother'
+    if 'chicago underground' in artist_lower:
+        return 'Rob Mazurek','Chad Taylor'
+    if 'Pharoah Sanders' in artist_lower:
+        return ''
     return artist
 
 df['Primary Artist'] = df['Artist'].apply(get_primary_artist)
@@ -33,6 +39,14 @@ df['Free_Show'] = df['Free show?'].astype(str).str.upper().str.contains('TRUE').
 df['Notes'] = df['Notes'].fillna('')
 
 df = df.dropna(subset=['Date','Venue','Borough'])
+
+# Reset index to ensure clean sequential numbers after dropping NaNs
+df = df.reset_index(drop=True)
+# Create the Show Number column (1-based index)
+df['Show_Number'] = range(1, len(df) + 1)
+# --- ADD THIS BLOCK ENDS HERE ---
+
+df['Show Number'] = df['Show_Number'].astype(int)
 
 records = df.to_dict(orient='records')
                     

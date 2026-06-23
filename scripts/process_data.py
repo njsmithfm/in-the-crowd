@@ -34,7 +34,10 @@ def get_primary_artist(artist):
 
 df['Primary Artist'] = df['Artist'].apply(get_primary_artist)
 
-df['Free_Show'] = df['Free show?'].astype(str).str.upper().str.contains('TRUE').astype(bool)
+# Define what counts as a "True" value (case insensitive)
+true_values = {'TRUE', 'YES', 'VERDADERO'}
+# Create a set-based check (much faster and accurate)
+df['Free_Show'] = df['Free_Show'].astype(str).str.upper().apply(lambda x: x.strip() in true_values)
 
 df['Notes'] = df['Notes'].fillna('')
 

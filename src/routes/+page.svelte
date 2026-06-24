@@ -5,7 +5,7 @@
   let selectedShow = $state(null);
 
   const handleSelection = (showData) => {
-    console.log("Parent received:", showData);
+    console.log("Parent page received:", showData);
     selectedShow = showData;
   };
 </script>

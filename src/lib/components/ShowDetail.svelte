@@ -6,7 +6,7 @@
   <!-- Check if 'show' exists first -->
   {#if show}
     <h1>{show.Artist}</h1>
-    <p>{show.Venue}</p>
+    <p>{show.Venue} in {show.Borough}</p>
     <p>
       {new Date(show.Date).toLocaleDateString("en-gb", {
         day: "numeric",

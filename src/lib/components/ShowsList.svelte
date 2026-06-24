@@ -8,7 +8,7 @@
 {#each shows as show}
   <button
     onclick={() => {
-      console.log("List button clicked!", show.Artist);
+      console.log("Successful New Artist Selection:", show.Artist);
       if (onSelect) {
         onSelect(show);
       } else {
@@ -16,6 +16,6 @@
       }
     }}
   >
-    {show.Artist} - {show.Venue}
+    <strong>{show.Artist}</strong> at {show.Venue}
   </button>
 {/each}

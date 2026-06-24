@@ -9,7 +9,6 @@
     <p>{show.Venue}</p>
     <p>
       {new Date(show.Date).toLocaleDateString("en-gb", {
-        weekday: "long",
         day: "numeric",
         month: "long",
         year: "numeric",

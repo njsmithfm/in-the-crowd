@@ -13,8 +13,6 @@
     <p>Venue: {show.Venue}</p>
     <p>Date: {show.Date}</p>
     <p>Notes: {show.Notes}</p>
-    Fallback if properties are undefined
-    <!-- <pre>{JSON.stringify(show, null, 2)}</pre> -->
   {:else}
     <p style="color: red; font-weight: bold;">SHOW IS NULL/UNDEFINED</p>
   {/if}

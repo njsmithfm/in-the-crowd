@@ -2,7 +2,7 @@
   let { show, onClose } = $props();
 </script>
 
-<div>
+<div style="border: 5px solid #EC09C1; padding: 20px; background: white;">
   <!-- Check if 'show' exists first -->
   {#if show}
     <h1>{show.Artist}</h1>
@@ -18,7 +18,9 @@
       <p><strong><i>Notes:</i></strong> {show.Notes}</p>
     {/if}
   {:else}
-    <p>Select a show to view details</p>
+    <p style="color: #EC09C1; font-weight: bold;">
+      Select a show to view details
+    </p>
   {/if}
 
   <button onclick={onClose}>Close</button>

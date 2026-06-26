@@ -10,13 +10,13 @@
   };
 </script>
 
-<div>
-  <div>
+<div style="display: flex; height: 100vh;">
+  <div style="flex: 65%; border-right: 1px solid #000; padding: 1rem;">
     <!-- Explicitly pass the function -->
     <ShowsList onSelect={handleSelection} />
   </div>
 
-  <div>
+  <div style="flex: 35%; padding: 1rem;">
     <!-- Pass the object directly -->
     <ShowDetail show={selectedShow} onClose={() => (selectedShow = null)} />
   </div>

@@ -1,3 +1,41 @@
 * {
   font-family: "Public Sans", sans-serif;
 }
+
+.shows-list-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 1rem;
+  overflow-y: auto;
+}
+h2 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.date-shows {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+.show-list-item {
+  display: block;
+  align-items: left;
+}
+button {
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+  background: #fff;
+  border-top: 0.5px solid rgb(236, 9, 193, 0.25);
+  border-bottom: 0.5px solid rgb(236, 9, 193, 0.25);
+}
+button:hover {
+  border-top: 0.5px solid rgb(236, 9, 193);
+  border-bottom: 0.5px solid rgb(236, 9, 193);
+}

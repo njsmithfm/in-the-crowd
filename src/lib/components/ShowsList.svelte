@@ -6,9 +6,24 @@
 </script>
 
 <div class="shows-list-container">
-  <h2>Shows by Date</h2>
+  <!-- Fixed header that doesn't move -->
+  <div class="fixed-header">
+    <h2>Shows by Date</h2>
 
-  <div class="date-shows">
+    <div
+      class="column-header-row"
+      style="border-bottom: 1px solid #000; padding: 10px 5px;"
+    >
+      <span>Gig</span>
+      <span>Date</span>
+      <span>Artist</span>
+      <span>Venue</span>
+      <span>Borough</span>
+    </div>
+  </div>
+
+  <!-- Scrollable content that sits BELOW the header -->
+  <div class="date-shows-scrolling-area">
     {#each shows as show}
       <button
         onclick={() => {
@@ -20,9 +35,54 @@
           }
         }}
       >
-        <div class="show-list-item">
-          <strong>{show.Artist}</strong> at {show.Venue}
+        <div class="show-data-row">
+          <span class="col-gig">{show.Show_Number}</span>
+          <span class="col-date"
+            >{new Date(show.Date).toLocaleDateString("en-gb", {
+              day: "numeric",
+              month: "long",
+              year: "numeric",
+            })}</span
+          >
+          <span class="col-artist"><strong>{show.Artist}</strong></span>
+          <span class="col-venue">{show.Venue}</span>
+          <span class="col-borough">{show.Borough}</span>
         </div>
-      </button>{/each}
+      </button>
+    {/each}
   </div>
 </div>
+
+<style>
+  .fixed-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+    height: var(--header-total-height);
+  }
+
+  .date-shows-scrolling-area {
+    margin-top: var(--header-total-height);
+    max-height: calc(100vh - var(--header-total-height));
+    overflow-y: auto;
+  }
+  button {
+    padding: 0.5rem 1rem;
+    border: none;
+    text-align: left;
+    width: 100%;
+    background: #fff;
+    border-top: 0.5px solid rgb(236, 9, 193, 0.25);
+    border-bottom: 0.5px solid rgb(236, 9, 193, 0.25);
+    text-align: left;
+    cursor: pointer;
+    margin: 0;
+    padding: 3px;
+  }
+
+  button:hover {
+    border-top: 0.5px solid rgb(236, 9, 193);
+    border-bottom: 0.5px solid rgb(236, 9, 193);
+  }
+</style>

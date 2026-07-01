@@ -8,7 +8,9 @@
   height: 100%;
   padding: 1rem;
   overflow-y: auto;
+  margin: 0 auto;
 }
+
 h2 {
   margin-top: 0;
   margin-bottom: 1.5rem;
@@ -25,17 +27,56 @@ h2 {
   display: block;
   align-items: left;
 }
-button {
-  padding: 0.5rem 1rem;
-  border: none;
-  cursor: pointer;
-  text-align: left;
-  width: 100%;
-  background: #fff;
-  border-top: 0.5px solid rgb(236, 9, 193, 0.25);
-  border-bottom: 0.5px solid rgb(236, 9, 193, 0.25);
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 12px;
+  background: white;
+  border-radius: 4px;
+  /* Sticky positioning */
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
-button:hover {
-  border-top: 0.5px solid rgb(236, 9, 193);
-  border-bottom: 0.5px solid rgb(236, 9, 193);
+
+.date-shows {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.column-header-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 2fr 1fr;
+  font-weight: 600;
+  color: #666;
+  font-size: 14px;
+  /* Sticky positioning for headers too */
+  position: sticky;
+  top: 70px;
+  background: white;
+  z-index: 9;
+}
+
+.show-data-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 2fr 1fr;
+  gap: 16px;
+  align-items: center;
+}
+
+.col-date,
+.col-borough {
+  min-width: 80px;
+}
+
+.col-venue {
+  word-break: break-word;
+}
+.shows-list-header {
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 10;
+  padding-bottom: 1rem;
 }

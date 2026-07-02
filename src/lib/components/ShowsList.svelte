@@ -1,7 +1,16 @@
 <script>
   import shows from "../../../public/data/shows.json";
-  const sortedShows = shows.sort((a, b) => b.Show_Number - a.Show_Number);
-  // Ensure this name matches the parent's key
+
+  const sortedShows = [...shows].sort((a, b) => b.Show_Number - a.Show_Number);
+
+  const groupedShows = Object.values(
+    sortedShows.reduce((groups, show) => {
+      const key = show.Bill_ID;
+      (groups[key] ??= []).push(show);
+      return groups;
+    }, {}),
+  ).sort((a, b) => b[0].Show_Number - a[0].Show_Number);
+
   let { onSelect } = $props();
 </script>
 
@@ -25,35 +34,31 @@
 
   <!-- Scrollable content that sits BELOW the header -->
   <div class="date-shows-scrolling-area">
-    {#each sortedShows as show}
-      <button
-        onclick={() => {
-          console.log("Successful New Artist Selection:", show.Artist);
-          if (onSelect) {
-            onSelect(show);
-          } else {
-            console.error("onSelect prop is missing!");
-          }
-        }}
-      >
-        <div class="show-data-row">
-          <span class="col-gig">{show.Show_Number} </span>
-          <span class="col-date"
-            >{new Date(show.Date).toLocaleDateString("en-gb", {
-              day: "numeric",
-              month: "long",
-              year: "numeric",
-            })}</span
-          >
-          <span class="col-artist"><strong>{show.Artist}</strong></span>
-          <span class="col-venue">{show.Venue}</span>
-          <span class="col-borough">{show.Borough}</span>
-          <span class="col-free-show">
-            {#if show?.Free_Show == true}
-              <div class="free-show">FREE</div>{/if}</span
-          >
-        </div>
-      </button>
+    {#each groupedShows as billShows}
+      <div class="bill-group">
+        {#each billShows as show}
+          <button onclick={() => onSelect?.(show)}>
+            <div class="show-data-row">
+              <span class="col-gig">{show.Show_Number}</span>
+              <span class="col-date"
+                >{new Date(show.Date).toLocaleDateString("en-gb", {
+                  day: "numeric",
+                  month: "long",
+                  year: "numeric",
+                })}</span
+              >
+              <span class="col-artist"><strong>{show.Artist}</strong></span>
+              <span class="col-venue">{show.Venue}</span>
+              <span class="col-borough">{show.Borough}</span>
+              {#if show.Free_Show}
+                <span class="col-free-show"
+                  ><div class="free-show">FREE</div></span
+                >
+              {/if}
+            </div>
+          </button>
+        {/each}
+      </div>
     {/each}
   </div>
 </div>
@@ -72,24 +77,20 @@
     max-height: calc(100vh - var(--header-total-height));
     overflow-y: auto;
   }
+
   button {
     padding: 0.5rem 1rem;
     border: none;
     text-align: left;
     width: 100%;
     background: #fff;
-    border-top: 0.5px solid rgb(236, 9, 193, 0.25);
-    border-bottom: 0.5px solid rgb(236, 9, 193, 0.25);
-    text-align: left;
+    /* border-top: 0.5px solid rgb(236, 9, 193, 0.25);
+    border-bottom: 0.5px solid rgb(236, 9, 193, 0.25); */
     cursor: pointer;
     margin: 0;
     padding: 3px;
   }
 
-  button:hover {
-    border-top: 0.5px solid rgb(236, 9, 193);
-    border-bottom: 0.5px solid rgb(236, 9, 193);
-  }
   .free-show {
     display: inline-block;
     border: 1px solid #000;
@@ -98,5 +99,14 @@
     padding: 1.5px 2px;
     margin-left: 5px;
     border-radius: 3px;
+  }
+
+  .bill-group {
+    border-top: 0.5px solid rgb(236, 9, 193, 0.25);
+    border-bottom: 0.5px solid rgb(236, 9, 193, 0.25);
+  }
+  .bill-group:hover {
+    border-top: 0.5px solid rgb(236, 9, 193);
+    border-bottom: 0.5px solid rgb(236, 9, 193);
   }
 </style>

@@ -47,10 +47,10 @@ df = df.dropna(subset=['Date','Venue','Borough'])
 df = df.sort_values(['Date', 'Venue'], ascending=[True, True])
 
 df = df.reset_index(drop=True)
-
-
+df['Bill_ID'] = df['Date'].astype(str) + '|' + df['Venue']
 df['Show_Number'] = range(1, len(df) + 1)
 df['mediaPath'] = df['Show_Number'].apply(lambda n: f"/media/{int(n)}/{int(n)}.jpg")
+
 
 
 df = df.drop(columns=['Free show?'], errors='ignore') 

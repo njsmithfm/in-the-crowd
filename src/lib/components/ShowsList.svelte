@@ -18,7 +18,8 @@
       <span>Date</span>
       <span>Artist</span>
       <span>Venue</span>
-      <span>Borough</span>
+      <span>Location</span>
+      <span></span>
     </div>
   </div>
 
@@ -36,7 +37,7 @@
         }}
       >
         <div class="show-data-row">
-          <span class="col-gig">{show.Show_Number}</span>
+          <span class="col-gig">{show.Show_Number} </span>
           <span class="col-date"
             >{new Date(show.Date).toLocaleDateString("en-gb", {
               day: "numeric",
@@ -47,6 +48,10 @@
           <span class="col-artist"><strong>{show.Artist}</strong></span>
           <span class="col-venue">{show.Venue}</span>
           <span class="col-borough">{show.Borough}</span>
+          <span class="col-free-show">
+            {#if show?.Free_Show == true}
+              <div class="free-show">FREE</div>{/if}</span
+          >
         </div>
       </button>
     {/each}
@@ -84,5 +89,14 @@
   button:hover {
     border-top: 0.5px solid rgb(236, 9, 193);
     border-bottom: 0.5px solid rgb(236, 9, 193);
+  }
+  .free-show {
+    display: inline-block;
+    border: 1px solid #000;
+    color: #ec09c1;
+    font-size: 0.7rem;
+    padding: 1.5px 2px;
+    margin-left: 5px;
+    border-radius: 3px;
   }
 </style>

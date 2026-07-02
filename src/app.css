@@ -47,7 +47,7 @@ h2 {
 
 .column-header-row {
   display: grid;
-  grid-template-columns: 1fr 1fr 2fr 2fr 1fr;
+  grid-template-columns: 1fr 1fr 2fr 2fr 1fr 1fr;
   font-weight: 600;
   color: #666;
   font-size: 14px;
@@ -60,7 +60,7 @@ h2 {
 
 .show-data-row {
   display: grid;
-  grid-template-columns: 1fr 1fr 2fr 2fr 1fr;
+  grid-template-columns: 1fr 1fr 2fr 2fr 1fr 1fr;
   gap: 16px;
   align-items: center;
 }

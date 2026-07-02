@@ -14,7 +14,7 @@
         year: "numeric",
       })}
     </p>
-    {#if show.Notes}
+    {#if show?.Notes}
       <p><strong><i>Notes:</i></strong> {show.Notes}</p>
     {/if}
     {#if show?.Image_Path}

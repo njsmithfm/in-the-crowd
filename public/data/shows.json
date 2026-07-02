@@ -395,18 +395,60 @@
     "Show_Number": 28
   },
   {
+    "Artist": "Standing on the Corner",
+    "Date": "2023-05-13 00:00:00",
+    "Venue": "The Ruins at Knockdown Center",
+    "Borough": "Queens",
+    "Free_Show": false,
+    "Notes": "",
+    "mediaPath": "/media/29/29.jpg",
+    "Year": 2023,
+    "Month": 5,
+    "Day": "Saturday",
+    "Primary Artist": "Standing on the Corner",
+    "Show_Number": 29
+  },
+  {
+    "Artist": "Makaya McCraven",
+    "Date": "2023-05-13 00:00:00",
+    "Venue": "The Ruins at Knockdown Center",
+    "Borough": "Queens",
+    "Free_Show": false,
+    "Notes": "",
+    "mediaPath": "/media/30/30.jpg",
+    "Year": 2023,
+    "Month": 5,
+    "Day": "Saturday",
+    "Primary Artist": "Makaya McCraven",
+    "Show_Number": 30
+  },
+  {
+    "Artist": "Laraaji",
+    "Date": "2023-05-13 00:00:00",
+    "Venue": "The Ruins at Knockdown Center",
+    "Borough": "Queens",
+    "Free_Show": false,
+    "Notes": "",
+    "mediaPath": "/media/31/31.jpg",
+    "Year": 2023,
+    "Month": 5,
+    "Day": "Saturday",
+    "Primary Artist": "Laraaji",
+    "Show_Number": 31
+  },
+  {
     "Artist": "Blink-182",
     "Date": "2023-05-24 00:00:00",
     "Venue": "Barclays Center",
     "Borough": "Brooklyn",
     "Free_Show": true,
     "Notes": "",
-    "mediaPath": "/media/29/29.jpg",
+    "mediaPath": "/media/32/32.jpg",
     "Year": 2023,
     "Month": 5,
     "Day": "Wednesday",
     "Primary Artist": "Blink-182",
-    "Show_Number": 29
+    "Show_Number": 32
   },
   {
     "Artist": "Oumou Sangare",
@@ -415,12 +457,12 @@
     "Borough": "Brooklyn",
     "Free_Show": true,
     "Notes": "",
-    "mediaPath": "/media/30/30.jpg",
+    "mediaPath": "/media/33/33.jpg",
     "Year": 2023,
     "Month": 7,
     "Day": "Friday",
     "Primary Artist": "Oumou Sangare",
-    "Show_Number": 30
+    "Show_Number": 33
   },
   {
     "Artist": "Bouncing Souls",
@@ -429,12 +471,12 @@
     "Borough": "New Jersey",
     "Free_Show": false,
     "Notes": "Stoked for the Summer! Fest",
-    "mediaPath": "/media/31/31.jpg",
+    "mediaPath": "/media/34/34.jpg",
     "Year": 2023,
     "Month": 7,
     "Day": "Saturday",
     "Primary Artist": "Bouncing Souls",
-    "Show_Number": 31
+    "Show_Number": 34
   },
   {
     "Artist": "Screaming Females",
@@ -443,12 +485,12 @@
     "Borough": "New Jersey",
     "Free_Show": false,
     "Notes": "Stoked for the Summer! Fest",
-    "mediaPath": "/media/32/32.jpg",
+    "mediaPath": "/media/35/35.jpg",
     "Year": 2023,
     "Month": 7,
     "Day": "Saturday",
     "Primary Artist": "Screaming Females",
-    "Show_Number": 32
+    "Show_Number": 35
   },
   {
     "Artist": "Bayside",
@@ -457,12 +499,12 @@
     "Borough": "New Jersey",
     "Free_Show": false,
     "Notes": "Stoked for the Summer! Fest",
-    "mediaPath": "/media/33/33.jpg",
+    "mediaPath": "/media/36/36.jpg",
     "Year": 2023,
     "Month": 7,
     "Day": "Saturday",
     "Primary Artist": "Bayside",
-    "Show_Number": 33
+    "Show_Number": 36
   },
   {
     "Artist": "Brandee Younger",
@@ -471,12 +513,12 @@
     "Borough": "Manhattan",
     "Free_Show": true,
     "Notes": "",
-    "mediaPath": "/media/34/34.jpg",
+    "mediaPath": "/media/37/37.jpg",
     "Year": 2023,
     "Month": 7,
     "Day": "Sunday",
     "Primary Artist": "Brandee Younger",
-    "Show_Number": 34
+    "Show_Number": 37
   },
   {
     "Artist": "The Comet Is Coming",
@@ -485,12 +527,12 @@
     "Borough": "Manhattan",
     "Free_Show": true,
     "Notes": "",
-    "mediaPath": "/media/35/35.jpg",
+    "mediaPath": "/media/38/38.jpg",
     "Year": 2023,
     "Month": 8,
     "Day": "Wednesday",
     "Primary Artist": "The Comet Is Coming",
-    "Show_Number": 35
+    "Show_Number": 38
   },
   {
     "Artist": "Ibeyi",
@@ -499,12 +541,12 @@
     "Borough": "Manhattan",
     "Free_Show": true,
     "Notes": "",
-    "mediaPath": "/media/36/36.jpg",
+    "mediaPath": "/media/39/39.jpg",
     "Year": 2023,
     "Month": 8,
     "Day": "Wednesday",
     "Primary Artist": "Ibeyi",
-    "Show_Number": 36
+    "Show_Number": 39
   },
   {
     "Artist": "Aja Monet",
@@ -513,12 +555,12 @@
     "Borough": "Manhattan",
     "Free_Show": true,
     "Notes": "",
-    "mediaPath": "/media/37/37.jpg",
+    "mediaPath": "/media/40/40.jpg",
     "Year": 2023,
     "Month": 8,
     "Day": "Wednesday",
     "Primary Artist": "Aja Monet",
-    "Show_Number": 37
+    "Show_Number": 40
   },
   {
     "Artist": "The Smiths Tribute",
@@ -527,12 +569,12 @@
     "Borough": "Manhattan",
     "Free_Show": false,
     "Notes": "",
-    "mediaPath": "/media/38/38.jpg",
+    "mediaPath": "/media/41/41.jpg",
     "Year": 2023,
     "Month": 8,
     "Day": "Friday",
     "Primary Artist": "The Smiths Tribute",
-    "Show_Number": 38
+    "Show_Number": 41
   },
   {
     "Artist": "Arthur Verocai",
@@ -541,12 +583,12 @@
     "Borough": "Manhattan",
     "Free_Show": true,
     "Notes": "",
-    "mediaPath": "/media/39/39.jpg",
+    "mediaPath": "/media/42/42.jpg",
     "Year": 2023,
     "Month": 8,
     "Day": "Friday",
     "Primary Artist": "Arthur Verocai",
-    "Show_Number": 39
+    "Show_Number": 42
   },
   {
     "Artist": "Fishbone",
@@ -555,12 +597,12 @@
     "Borough": "New Jersey",
     "Free_Show": false,
     "Notes": "A set that I'll remember forever. I met Angelo before and after this show. ",
-    "mediaPath": "/media/40/40.jpg",
+    "mediaPath": "/media/43/43.jpg",
     "Year": 2023,
     "Month": 9,
     "Day": "Tuesday",
     "Primary Artist": "Fishbone",
-    "Show_Number": 40
+    "Show_Number": 43
   },
   {
     "Artist": "Parliament-Funkadelic",
@@ -569,12 +611,12 @@
     "Borough": "New Jersey",
     "Free_Show": false,
     "Notes": "",
-    "mediaPath": "/media/41/41.jpg",
+    "mediaPath": "/media/44/44.jpg",
     "Year": 2023,
     "Month": 9,
     "Day": "Tuesday",
     "Primary Artist": "Parliament-Funkadelic",
-    "Show_Number": 41
+    "Show_Number": 44
   },
   {
     "Artist": "Common",
@@ -583,12 +625,12 @@
     "Borough": "Manhattan",
     "Free_Show": true,
     "Notes": "I saw Common do the windmill. I GOT THE TAPES.",
-    "mediaPath": "/media/42/42.jpg",
+    "mediaPath": "/media/45/45.jpg",
     "Year": 2023,
     "Month": 9,
     "Day": "Thursday",
     "Primary Artist": "Common",
-    "Show_Number": 42
+    "Show_Number": 45
   },
   {
     "Artist": "Alabaster DePlume",
@@ -597,12 +639,12 @@
     "Borough": "Brooklyn",
     "Free_Show": false,
     "Notes": "",
-    "mediaPath": "/media/43/43.jpg",
+    "mediaPath": "/media/46/46.jpg",
     "Year": 2023,
     "Month": 9,
     "Day": "Friday",
     "Primary Artist": "Alabaster DePlume",
-    "Show_Number": 43
+    "Show_Number": 46
   },
   {
     "Artist": "De La Soul",
@@ -611,12 +653,12 @@
     "Borough": "Brooklyn",
     "Free_Show": false,
     "Notes": "RIP Dave. Talib Kweli and Pharoahe Monch filled in.\ud83d\ude4f",
-    "mediaPath": "/media/44/44.jpg",
+    "mediaPath": "/media/47/47.jpg",
     "Year": 2023,
     "Month": 9,
     "Day": "Wednesday",
     "Primary Artist": "De La Soul",
-    "Show_Number": 44
+    "Show_Number": 47
   },
   {
     "Artist": "Wu Tang Clan",
@@ -625,12 +667,12 @@
     "Borough": "Brooklyn",
     "Free_Show": false,
     "Notes": "Wu-Tang forever. A dream come true. RZA released the Tao of Wu when I was in high school, I devoured it, and the Wu shaped who I was, there at the threshold of adulthood.",
-    "mediaPath": "/media/45/45.jpg",
+    "mediaPath": "/media/48/48.jpg",
     "Year": 2023,
     "Month": 9,
     "Day": "Wednesday",
     "Primary Artist": "Wu Tang Clan",
-    "Show_Number": 45
+    "Show_Number": 48
   },
   {
     "Artist": "Nas",
@@ -639,12 +681,12 @@
     "Borough": "Brooklyn",
     "Free_Show": false,
     "Notes": "",
-    "mediaPath": "/media/46/46.jpg",
+    "mediaPath": "/media/49/49.jpg",
     "Year": 2023,
     "Month": 9,
     "Day": "Wednesday",
     "Primary Artist": "Nas",
-    "Show_Number": 46
+    "Show_Number": 49
   },
   {
     "Artist": "Vijay Iyer",
@@ -653,12 +695,12 @@
     "Borough": "New Jersey",
     "Free_Show": false,
     "Notes": "McCarter Theater Center (Matthews Theater)",
-    "mediaPath": "/media/47/47.jpg",
+    "mediaPath": "/media/50/50.jpg",
     "Year": 2023,
     "Month": 10,
     "Day": "Thursday",
     "Primary Artist": "Vijay Iyer",
-    "Show_Number": 47
+    "Show_Number": 50
   },
   {
     "Artist": "Shazhad Ismaily",
@@ -667,12 +709,12 @@
     "Borough": "New Jersey",
     "Free_Show": false,
     "Notes": "McCarter Theater Center (Matthews Theater)",
-    "mediaPath": "/media/48/48.jpg",
+    "mediaPath": "/media/51/51.jpg",
     "Year": 2023,
     "Month": 10,
     "Day": "Thursday",
     "Primary Artist": "Shazhad Ismaily",
-    "Show_Number": 48
+    "Show_Number": 51
   },
   {
     "Artist": "Arooj Aftab",
@@ -681,12 +723,12 @@
     "Borough": "New Jersey",
     "Free_Show": false,
     "Notes": "McCarter Theater Center (Matthews Theater)",
-    "mediaPath": "/media/49/49.jpg",
+    "mediaPath": "/media/52/52.jpg",
     "Year": 2023,
     "Month": 10,
     "Day": "Thursday",
     "Primary Artist": "Arooj Aftab",
-    "Show_Number": 49
+    "Show_Number": 52
   },
   {
     "Artist": "Pharoah Sanders Harvest Time Project",
@@ -695,12 +737,12 @@
     "Borough": "Brooklyn",
     "Free_Show": false,
     "Notes": "",
-    "mediaPath": "/media/50/50.jpg",
+    "mediaPath": "/media/53/53.jpg",
     "Year": 2023,
     "Month": 10,
     "Day": "Saturday",
     "Primary Artist": "Pharoah Sanders Harvest Time Project",
-    "Show_Number": 50
+    "Show_Number": 53
   },
   {
     "Artist": "Daniel Villarreal",
@@ -709,12 +751,12 @@
     "Borough": "Brooklyn",
     "Free_Show": true,
     "Notes": "First time I ever got in on a photopass. Technically I was there on assignment from Public Seminar while doing my grad school thesis. (for lack of a better word)",
-    "mediaPath": "/media/51/51.jpg",
+    "mediaPath": "/media/54/54.jpg",
     "Year": 2023,
     "Month": 10,
     "Day": "Wednesday",
     "Primary Artist": "Daniel Villarreal",
-    "Show_Number": 51
+    "Show_Number": 54
   },
   {
     "Artist": "Ben Lamar Gay",
@@ -723,12 +765,12 @@
     "Borough": "Brooklyn",
     "Free_Show": false,
     "Notes": "",
-    "mediaPath": "/media/52/52.jpg",
+    "mediaPath": "/media/55/55.jpg",
     "Year": 2023,
     "Month": 10,
     "Day": "Sunday",
     "Primary Artist": "Ben Lamar Gay",
-    "Show_Number": 52
+    "Show_Number": 55
   },
   {
     "Artist": "Moor Mother",
@@ -737,12 +779,12 @@
     "Borough": "Manhattan",
     "Free_Show": false,
     "Notes": "",
-    "mediaPath": "/media/53/53.jpg",
+    "mediaPath": "/media/56/56.jpg",
     "Year": 2023,
     "Month": 12,
     "Day": "Monday",
     "Primary Artist": "Moor Mother",
-    "Show_Number": 53
+    "Show_Number": 56
   },
   {
     "Artist": "Streetlight Manifesto",
@@ -751,60 +793,15 @@
     "Borough": "New Jersey",
     "Free_Show": false,
     "Notes": "20th Anniversary Show",
-    "mediaPath": "/media/54/54.jpg",
+    "mediaPath": "/media/57/57.jpg",
     "Year": 2023,
     "Month": 12,
     "Day": "Saturday",
     "Primary Artist": "Streetlight Manifesto",
-    "Show_Number": 54
-  },
-  {
-    "Artist": "Esperanza Spalding",
-    "Date": "2024-01-15 00:00:00",
-    "Venue": "Le Poisson Rouge",
-    "Borough": "Manhattan",
-    "Free_Show": false,
-    "Notes": "",
-    "mediaPath": "/media/55/55.jpg",
-    "Year": 2024,
-    "Month": 1,
-    "Day": "Monday",
-    "Primary Artist": "Esperanza Spalding",
-    "Show_Number": 55
-  },
-  {
-    "Artist": "Shabaka Hutchings",
-    "Date": "2024-01-15 00:00:00",
-    "Venue": "Le Poisson Rouge",
-    "Borough": "Manhattan",
-    "Free_Show": false,
-    "Notes": "",
-    "mediaPath": "/media/56/56.jpg",
-    "Year": 2024,
-    "Month": 1,
-    "Day": "Monday",
-    "Primary Artist": "Shabaka Hutchings",
-    "Show_Number": 56
-  },
-  {
-    "Artist": "Irreversible Entanglements",
-    "Date": "2024-01-15 00:00:00",
-    "Venue": "Le Poisson Rouge",
-    "Borough": "Manhattan",
-    "Free_Show": false,
-    "Notes": "",
-    "mediaPath": "/media/57/57.jpg",
-    "Year": 2024,
-    "Month": 1,
-    "Day": "Monday",
-    "Primary Artist": [
-      "Moor Mother",
-      "Irreversible Entanglements"
-    ],
     "Show_Number": 57
   },
   {
-    "Artist": "James Brandon Lewis",
+    "Artist": "Esperanza Spalding",
     "Date": "2024-01-15 00:00:00",
     "Venue": "Le Poisson Rouge",
     "Borough": "Manhattan",
@@ -814,11 +811,11 @@
     "Year": 2024,
     "Month": 1,
     "Day": "Monday",
-    "Primary Artist": "James Brandon Lewis",
+    "Primary Artist": "Esperanza Spalding",
     "Show_Number": 58
   },
   {
-    "Artist": "Messthetics",
+    "Artist": "Shabaka Hutchings",
     "Date": "2024-01-15 00:00:00",
     "Venue": "Le Poisson Rouge",
     "Borough": "Manhattan",
@@ -828,8 +825,53 @@
     "Year": 2024,
     "Month": 1,
     "Day": "Monday",
-    "Primary Artist": "Messthetics",
+    "Primary Artist": "Shabaka Hutchings",
     "Show_Number": 59
+  },
+  {
+    "Artist": "Irreversible Entanglements",
+    "Date": "2024-01-15 00:00:00",
+    "Venue": "Le Poisson Rouge",
+    "Borough": "Manhattan",
+    "Free_Show": false,
+    "Notes": "",
+    "mediaPath": "/media/60/60.jpg",
+    "Year": 2024,
+    "Month": 1,
+    "Day": "Monday",
+    "Primary Artist": [
+      "Moor Mother",
+      "Irreversible Entanglements"
+    ],
+    "Show_Number": 60
+  },
+  {
+    "Artist": "James Brandon Lewis",
+    "Date": "2024-01-15 00:00:00",
+    "Venue": "Le Poisson Rouge",
+    "Borough": "Manhattan",
+    "Free_Show": false,
+    "Notes": "",
+    "mediaPath": "/media/61/61.jpg",
+    "Year": 2024,
+    "Month": 1,
+    "Day": "Monday",
+    "Primary Artist": "James Brandon Lewis",
+    "Show_Number": 61
+  },
+  {
+    "Artist": "Messthetics",
+    "Date": "2024-01-15 00:00:00",
+    "Venue": "Le Poisson Rouge",
+    "Borough": "Manhattan",
+    "Free_Show": false,
+    "Notes": "",
+    "mediaPath": "/media/62/62.jpg",
+    "Year": 2024,
+    "Month": 1,
+    "Day": "Monday",
+    "Primary Artist": "Messthetics",
+    "Show_Number": 62
   },
   {
     "Artist": "Reverend Kristin Michael Hayter",
@@ -838,12 +880,12 @@
     "Borough": "Manhattan",
     "Free_Show": false,
     "Notes": "",
-    "mediaPath": "/media/60/60.jpg",
+    "mediaPath": "/media/63/63.jpg",
     "Year": 2024,
     "Month": 1,
     "Day": "Friday",
     "Primary Artist": "Reverend Kristin Michael Hayter",
-    "Show_Number": 60
+    "Show_Number": 63
   },
   {
     "Artist": "Nicole Mitchell",
@@ -852,12 +894,12 @@
     "Borough": "Manhattan",
     "Free_Show": false,
     "Notes": "",
-    "mediaPath": "/media/61/61.jpg",
+    "mediaPath": "/media/64/64.jpg",
     "Year": 2024,
     "Month": 3,
     "Day": "Saturday",
     "Primary Artist": "Nicole Mitchell",
-    "Show_Number": 61
+    "Show_Number": 64
   },
   {
     "Artist": "Vijay Iyer",
@@ -866,12 +908,12 @@
     "Borough": "Manhattan",
     "Free_Show": false,
     "Notes": "",
-    "mediaPath": "/media/62/62.jpg",
+    "mediaPath": "/media/65/65.jpg",
     "Year": 2024,
     "Month": 3,
     "Day": "Saturday",
     "Primary Artist": "Vijay Iyer",
-    "Show_Number": 62
+    "Show_Number": 65
   },
   {
     "Artist": "Alkaline Trio",
@@ -880,12 +922,12 @@
     "Borough": "Brooklyn",
     "Free_Show": false,
     "Notes": "",
-    "mediaPath": "/media/63/63.jpg",
+    "mediaPath": "/media/66/66.jpg",
     "Year": 2024,
     "Month": 3,
     "Day": "Saturday",
     "Primary Artist": "Alkaline Trio",
-    "Show_Number": 63
+    "Show_Number": 66
   },
   {
     "Artist": "Drug Church",
@@ -894,12 +936,12 @@
     "Borough": "Brooklyn",
     "Free_Show": false,
     "Notes": "",
-    "mediaPath": "/media/64/64.jpg",
+    "mediaPath": "/media/67/67.jpg",
     "Year": 2024,
     "Month": 3,
     "Day": "Saturday",
     "Primary Artist": "Drug Church",
-    "Show_Number": 64
+    "Show_Number": 67
   },
   {
     "Artist": "Worriers",
@@ -908,12 +950,12 @@
     "Borough": "Brooklyn",
     "Free_Show": false,
     "Notes": "",
-    "mediaPath": "/media/65/65.jpg",
+    "mediaPath": "/media/68/68.jpg",
     "Year": 2024,
     "Month": 3,
     "Day": "Saturday",
     "Primary Artist": "Worriers",
-    "Show_Number": 65
+    "Show_Number": 68
   },
   {
     "Artist": "Kokoroko",
@@ -922,12 +964,12 @@
     "Borough": "Manhattan",
     "Free_Show": false,
     "Notes": "",
-    "mediaPath": "/media/66/66.jpg",
+    "mediaPath": "/media/69/69.jpg",
     "Year": 2024,
     "Month": 3,
     "Day": "Wednesday",
     "Primary Artist": "Kokoroko",
-    "Show_Number": 66
+    "Show_Number": 69
   },
   {
     "Artist": "Strung Out",
@@ -936,12 +978,12 @@
     "Borough": "Brooklyn",
     "Free_Show": false,
     "Notes": "",
-    "mediaPath": "/media/67/67.jpg",
+    "mediaPath": "/media/70/70.jpg",
     "Year": 2024,
     "Month": 3,
     "Day": "Thursday",
     "Primary Artist": "Strung Out",
-    "Show_Number": 67
+    "Show_Number": 70
   },
   {
     "Artist": "Less Than Jake",
@@ -950,12 +992,12 @@
     "Borough": "Brooklyn",
     "Free_Show": false,
     "Notes": "",
-    "mediaPath": "/media/68/68.jpg",
+    "mediaPath": "/media/71/71.jpg",
     "Year": 2024,
     "Month": 3,
     "Day": "Thursday",
     "Primary Artist": "Less Than Jake",
-    "Show_Number": 68
+    "Show_Number": 71
   },
   {
     "Artist": "Armand Hammer",
@@ -964,12 +1006,12 @@
     "Borough": "Manhattan",
     "Free_Show": true,
     "Notes": "",
-    "mediaPath": "/media/69/69.jpg",
+    "mediaPath": "/media/72/72.jpg",
     "Year": 2024,
     "Month": 4,
     "Day": "Saturday",
     "Primary Artist": "Armand Hammer",
-    "Show_Number": 69
+    "Show_Number": 72
   },
   {
     "Artist": "Cloud Nothings",
@@ -978,12 +1020,12 @@
     "Borough": "Manhattan",
     "Free_Show": true,
     "Notes": "",
-    "mediaPath": "/media/70/70.jpg",
+    "mediaPath": "/media/73/73.jpg",
     "Year": 2024,
     "Month": 4,
     "Day": "Saturday",
     "Primary Artist": "Cloud Nothings",
-    "Show_Number": 70
+    "Show_Number": 73
   },
   {
     "Artist": "Fatoumata Diawara",
@@ -992,12 +1034,12 @@
     "Borough": "Manhattan",
     "Free_Show": false,
     "Notes": "",
-    "mediaPath": "/media/71/71.jpg",
+    "mediaPath": "/media/74/74.jpg",
     "Year": 2024,
     "Month": 4,
     "Day": "Friday",
     "Primary Artist": "Fatoumata Diawara",
-    "Show_Number": 71
+    "Show_Number": 74
   },
   {
     "Artist": "Colin Stetson",
@@ -1006,12 +1048,12 @@
     "Borough": "Brooklyn",
     "Free_Show": false,
     "Notes": "",
-    "mediaPath": "/media/72/72.jpg",
+    "mediaPath": "/media/75/75.jpg",
     "Year": 2024,
     "Month": 5,
     "Day": "Saturday",
     "Primary Artist": "Colin Stetson",
-    "Show_Number": 72
+    "Show_Number": 75
   },
   {
     "Artist": "John Zorn",
@@ -1020,12 +1062,12 @@
     "Borough": "Queens",
     "Free_Show": true,
     "Notes": "My master's commencement ceremony",
-    "mediaPath": "/media/73/73.jpg",
+    "mediaPath": "/media/76/76.jpg",
     "Year": 2024,
     "Month": 5,
     "Day": "Friday",
     "Primary Artist": "John Zorn",
-    "Show_Number": 73
+    "Show_Number": 76
   },
   {
     "Artist": "Los Campesinos!",
@@ -1034,12 +1076,12 @@
     "Borough": "Brooklyn",
     "Free_Show": false,
     "Notes": "",
-    "mediaPath": "/media/74/74.jpg",
+    "mediaPath": "/media/77/77.jpg",
     "Year": 2024,
     "Month": 6,
     "Day": "Saturday",
     "Primary Artist": "Los Campesinos!",
-    "Show_Number": 74
+    "Show_Number": 77
   },
   {
     "Artist": "Baaba Maal",
@@ -1048,12 +1090,12 @@
     "Borough": "Manhattan",
     "Free_Show": true,
     "Notes": "",
-    "mediaPath": "/media/75/75.jpg",
+    "mediaPath": "/media/78/78.jpg",
     "Year": 2024,
     "Month": 6,
     "Day": "Thursday",
     "Primary Artist": "Baaba Maal",
-    "Show_Number": 75
+    "Show_Number": 78
   },
   {
     "Artist": "Dana and Alden",
@@ -1062,12 +1104,12 @@
     "Borough": "Manhattan",
     "Free_Show": true,
     "Notes": "Not for me",
-    "mediaPath": "/media/76/76.jpg",
+    "mediaPath": "/media/79/79.jpg",
     "Year": 2024,
     "Month": 6,
     "Day": "Saturday",
     "Primary Artist": "Dana and Alden",
-    "Show_Number": 76
+    "Show_Number": 79
   },
   {
     "Artist": "Yussef Dayes",
@@ -1076,12 +1118,12 @@
     "Borough": "Manhattan",
     "Free_Show": true,
     "Notes": "",
-    "mediaPath": "/media/77/77.jpg",
+    "mediaPath": "/media/80/80.jpg",
     "Year": 2024,
     "Month": 6,
     "Day": "Saturday",
     "Primary Artist": "Yussef Dayes",
-    "Show_Number": 77
+    "Show_Number": 80
   },
   {
     "Artist": "Combo Chimbita",
@@ -1090,12 +1132,12 @@
     "Borough": "Manhattan",
     "Free_Show": true,
     "Notes": "",
-    "mediaPath": "/media/78/78.jpg",
+    "mediaPath": "/media/81/81.jpg",
     "Year": 2024,
     "Month": 6,
     "Day": "Tuesday",
     "Primary Artist": "Combo Chimbita",
-    "Show_Number": 78
+    "Show_Number": 81
   },
   {
     "Artist": "Fishbone",
@@ -1104,12 +1146,12 @@
     "Borough": "Brooklyn",
     "Free_Show": true,
     "Notes": "",
-    "mediaPath": "/media/79/79.jpg",
+    "mediaPath": "/media/82/82.jpg",
     "Year": 2024,
     "Month": 6,
     "Day": "Saturday",
     "Primary Artist": "Fishbone",
-    "Show_Number": 79
+    "Show_Number": 82
   },
   {
     "Artist": "Son Rompe Pera",
@@ -1118,12 +1160,12 @@
     "Borough": "Brooklyn",
     "Free_Show": true,
     "Notes": "",
-    "mediaPath": "/media/80/80.jpg",
+    "mediaPath": "/media/83/83.jpg",
     "Year": 2024,
     "Month": 6,
     "Day": "Saturday",
     "Primary Artist": "Son Rompe Pera",
-    "Show_Number": 80
+    "Show_Number": 83
   },
   {
     "Artist": "Celeste",
@@ -1132,12 +1174,12 @@
     "Borough": "Manhattan",
     "Free_Show": true,
     "Notes": "",
-    "mediaPath": "/media/81/81.jpg",
+    "mediaPath": "/media/84/84.jpg",
     "Year": 2024,
     "Month": 7,
     "Day": "Sunday",
     "Primary Artist": "Celeste",
-    "Show_Number": 81
+    "Show_Number": 84
   },
   {
     "Artist": "Ezra Collective",
@@ -1146,12 +1188,12 @@
     "Borough": "Manhattan",
     "Free_Show": true,
     "Notes": "",
-    "mediaPath": "/media/82/82.jpg",
+    "mediaPath": "/media/85/85.jpg",
     "Year": 2024,
     "Month": 7,
     "Day": "Sunday",
     "Primary Artist": "Ezra Collective",
-    "Show_Number": 82
+    "Show_Number": 85
   },
   {
     "Artist": "Juggaknots",
@@ -1160,12 +1202,12 @@
     "Borough": "Manhattan",
     "Free_Show": true,
     "Notes": "",
-    "mediaPath": "/media/83/83.jpg",
+    "mediaPath": "/media/86/86.jpg",
     "Year": 2024,
     "Month": 7,
     "Day": "Monday",
     "Primary Artist": "Juggaknots",
-    "Show_Number": 83
+    "Show_Number": 86
   },
   {
     "Artist": "The Pharcyde",
@@ -1174,12 +1216,12 @@
     "Borough": "Brooklyn",
     "Free_Show": true,
     "Notes": "",
-    "mediaPath": "/media/84/84.jpg",
+    "mediaPath": "/media/87/87.jpg",
     "Year": 2024,
     "Month": 7,
     "Day": "Friday",
     "Primary Artist": "The Pharcyde",
-    "Show_Number": 84
+    "Show_Number": 87
   },
   {
     "Artist": "Common",
@@ -1188,12 +1230,12 @@
     "Borough": "Brooklyn",
     "Free_Show": true,
     "Notes": "",
-    "mediaPath": "/media/85/85.jpg",
+    "mediaPath": "/media/88/88.jpg",
     "Year": 2024,
     "Month": 7,
     "Day": "Sunday",
     "Primary Artist": "Common",
-    "Show_Number": 85
+    "Show_Number": 88
   },
   {
     "Artist": "Ganavya",
@@ -1202,12 +1244,12 @@
     "Borough": "Manhattan",
     "Free_Show": false,
     "Notes": "",
-    "mediaPath": "/media/86/86.jpg",
+    "mediaPath": "/media/89/89.jpg",
     "Year": 2024,
     "Month": 7,
     "Day": "Sunday",
     "Primary Artist": "Ganavya",
-    "Show_Number": 86
+    "Show_Number": 89
   },
   {
     "Artist": "Arooj Aftab",
@@ -1216,12 +1258,12 @@
     "Borough": "Manhattan",
     "Free_Show": true,
     "Notes": "She played Mohabbat at this show, after publicly saying earlier in the year she'd be done with it.",
-    "mediaPath": "/media/87/87.jpg",
+    "mediaPath": "/media/90/90.jpg",
     "Year": 2024,
     "Month": 7,
     "Day": "Wednesday",
     "Primary Artist": "Arooj Aftab",
-    "Show_Number": 87
+    "Show_Number": 90
   },
   {
     "Artist": "TV Moms",
@@ -1230,12 +1272,12 @@
     "Borough": "Brooklyn",
     "Free_Show": false,
     "Notes": "",
-    "mediaPath": "/media/88/88.jpg",
+    "mediaPath": "/media/91/91.jpg",
     "Year": 2024,
     "Month": 8,
     "Day": "Sunday",
     "Primary Artist": "TV Moms",
-    "Show_Number": 88
+    "Show_Number": 91
   },
   {
     "Artist": "Jeff Rosenstock",
@@ -1244,12 +1286,12 @@
     "Borough": "Brooklyn",
     "Free_Show": false,
     "Notes": "",
-    "mediaPath": "/media/89/89.jpg",
+    "mediaPath": "/media/92/92.jpg",
     "Year": 2024,
     "Month": 8,
     "Day": "Wednesday",
     "Primary Artist": "Jeff Rosenstock",
-    "Show_Number": 89
+    "Show_Number": 92
   },
   {
     "Artist": "Chris Farren",
@@ -1258,12 +1300,12 @@
     "Borough": "Brooklyn",
     "Free_Show": false,
     "Notes": "",
-    "mediaPath": "/media/90/90.jpg",
+    "mediaPath": "/media/93/93.jpg",
     "Year": 2024,
     "Month": 8,
     "Day": "Wednesday",
     "Primary Artist": "Chris Farren",
-    "Show_Number": 90
+    "Show_Number": 93
   },
   {
     "Artist": "Santigold",
@@ -1271,13 +1313,13 @@
     "Venue": "Terminal 5",
     "Borough": "Manhattan",
     "Free_Show": false,
-    "Notes": "My birthday",
-    "mediaPath": "/media/91/91.jpg",
+    "Notes": "My birthday present to me \ud83c\udf82",
+    "mediaPath": "/media/94/94.jpg",
     "Year": 2024,
     "Month": 8,
     "Day": "Friday",
     "Primary Artist": "Santigold",
-    "Show_Number": 91
+    "Show_Number": 94
   },
   {
     "Artist": "Arooj Aftab",
@@ -1286,12 +1328,12 @@
     "Borough": "Manhattan",
     "Free_Show": true,
     "Notes": "",
-    "mediaPath": "/media/92/92.jpg",
+    "mediaPath": "/media/95/95.jpg",
     "Year": 2024,
     "Month": 8,
     "Day": "Friday",
     "Primary Artist": "Arooj Aftab",
-    "Show_Number": 92
+    "Show_Number": 95
   },
   {
     "Artist": "Vijay Iyer",
@@ -1300,12 +1342,12 @@
     "Borough": "Manhattan",
     "Free_Show": true,
     "Notes": "",
-    "mediaPath": "/media/93/93.jpg",
+    "mediaPath": "/media/96/96.jpg",
     "Year": 2024,
     "Month": 8,
     "Day": "Friday",
     "Primary Artist": "Vijay Iyer",
-    "Show_Number": 93
+    "Show_Number": 96
   },
   {
     "Artist": "Elephant Gym",
@@ -1314,12 +1356,12 @@
     "Borough": "Brooklyn",
     "Free_Show": false,
     "Notes": "",
-    "mediaPath": "/media/94/94.jpg",
+    "mediaPath": "/media/97/97.jpg",
     "Year": 2024,
     "Month": 9,
     "Day": "Friday",
     "Primary Artist": "Elephant Gym",
-    "Show_Number": 94
+    "Show_Number": 97
   },
   {
     "Artist": "Mass of the Fermenting Dregs",
@@ -1328,12 +1370,12 @@
     "Borough": "Brooklyn",
     "Free_Show": false,
     "Notes": "The sound here truly sucked.",
-    "mediaPath": "/media/95/95.jpg",
+    "mediaPath": "/media/98/98.jpg",
     "Year": 2024,
     "Month": 10,
     "Day": "Sunday",
     "Primary Artist": "Mass of the Fermenting Dregs",
-    "Show_Number": 95
+    "Show_Number": 98
   },
   {
     "Artist": "Berke Can Ozcan",
@@ -1342,12 +1384,12 @@
     "Borough": "Manhattan",
     "Free_Show": false,
     "Notes": "",
-    "mediaPath": "/media/96/96.jpg",
+    "mediaPath": "/media/99/99.jpg",
     "Year": 2024,
     "Month": 10,
     "Day": "Tuesday",
     "Primary Artist": "Berke Can Ozcan",
-    "Show_Number": 96
+    "Show_Number": 99
   },
   {
     "Artist": "Atmosphere",
@@ -1356,12 +1398,12 @@
     "Borough": "Brooklyn",
     "Free_Show": false,
     "Notes": "",
-    "mediaPath": "/media/97/97.jpg",
+    "mediaPath": "/media/100/100.jpg",
     "Year": 2025,
     "Month": 2,
     "Day": "Monday",
     "Primary Artist": "Atmosphere",
-    "Show_Number": 97
+    "Show_Number": 100
   },
   {
     "Artist": "Sage Francis",
@@ -1370,12 +1412,26 @@
     "Borough": "Brooklyn",
     "Free_Show": false,
     "Notes": "",
-    "mediaPath": "/media/98/98.jpg",
+    "mediaPath": "/media/101/101.jpg",
     "Year": 2025,
     "Month": 2,
     "Day": "Monday",
     "Primary Artist": "Sage Francis",
-    "Show_Number": 98
+    "Show_Number": 101
+  },
+  {
+    "Artist": "Patti Smith",
+    "Date": "2025-03-05 00:00:00",
+    "Venue": "Cooper Union",
+    "Borough": "Manhattan",
+    "Free_Show": true,
+    "Notes": "This was a talk, a back and forth with her and one of the Creative Writing faculty at Cooper Union. But she did play some songs, she sang Because the Night (which is a classic) and My Blakean Year (which we sat through).",
+    "mediaPath": "/media/102/102.jpg",
+    "Year": 2025,
+    "Month": 3,
+    "Day": "Wednesday",
+    "Primary Artist": "Patti Smith",
+    "Show_Number": 102
   },
   {
     "Artist": "Esperanza Spalding",
@@ -1384,12 +1440,12 @@
     "Borough": "Knoxville, TN",
     "Free_Show": true,
     "Notes": "",
-    "mediaPath": "/media/99/99.jpg",
+    "mediaPath": "/media/103/103.jpg",
     "Year": 2025,
     "Month": 3,
     "Day": "Friday",
     "Primary Artist": "Esperanza Spalding",
-    "Show_Number": 99
+    "Show_Number": 103
   },
   {
     "Artist": "Anohni",
@@ -1398,12 +1454,26 @@
     "Borough": "Knoxville, TN",
     "Free_Show": true,
     "Notes": "",
-    "mediaPath": "/media/100/100.jpg",
+    "mediaPath": "/media/104/104.jpg",
     "Year": 2025,
     "Month": 3,
     "Day": "Friday",
     "Primary Artist": "Anohni",
-    "Show_Number": 100
+    "Show_Number": 104
+  },
+  {
+    "Artist": "Wadada Leo Smith",
+    "Date": "2025-03-28 00:00:00",
+    "Venue": "Big Ears 2025",
+    "Borough": "Knoxville, TN",
+    "Free_Show": true,
+    "Notes": "",
+    "mediaPath": "/media/105/105.jpg",
+    "Year": 2025,
+    "Month": 3,
+    "Day": "Friday",
+    "Primary Artist": "Wadada Leo Smith",
+    "Show_Number": 105
   },
   {
     "Artist": "Ganavya",
@@ -1412,12 +1482,12 @@
     "Borough": "Knoxville, TN",
     "Free_Show": true,
     "Notes": "",
-    "mediaPath": "/media/101/101.jpg",
+    "mediaPath": "/media/106/106.jpg",
     "Year": 2025,
     "Month": 3,
     "Day": "Saturday",
     "Primary Artist": "Ganavya",
-    "Show_Number": 101
+    "Show_Number": 106
   },
   {
     "Artist": "Maruja",
@@ -1426,12 +1496,40 @@
     "Borough": "Knoxville, TN",
     "Free_Show": true,
     "Notes": "",
-    "mediaPath": "/media/102/102.jpg",
+    "mediaPath": "/media/107/107.jpg",
     "Year": 2025,
     "Month": 3,
     "Day": "Saturday",
     "Primary Artist": "Maruja",
-    "Show_Number": 102
+    "Show_Number": 107
+  },
+  {
+    "Artist": "Steve Roach",
+    "Date": "2025-03-29 00:00:00",
+    "Venue": "Big Ears 2025",
+    "Borough": "Knoxville, TN",
+    "Free_Show": true,
+    "Notes": "",
+    "mediaPath": "/media/108/108.jpg",
+    "Year": 2025,
+    "Month": 3,
+    "Day": "Saturday",
+    "Primary Artist": "Steve Roach",
+    "Show_Number": 108
+  },
+  {
+    "Artist": "Mary Lattimore",
+    "Date": "2025-03-29 00:00:00",
+    "Venue": "Big Ears 2025",
+    "Borough": "Knoxville, TN",
+    "Free_Show": true,
+    "Notes": "",
+    "mediaPath": "/media/109/109.jpg",
+    "Year": 2025,
+    "Month": 3,
+    "Day": "Saturday",
+    "Primary Artist": "Mary Lattimore",
+    "Show_Number": 109
   },
   {
     "Artist": "Anoushka Shankar",
@@ -1440,12 +1538,26 @@
     "Borough": "Knoxville, TN",
     "Free_Show": true,
     "Notes": "",
-    "mediaPath": "/media/103/103.jpg",
+    "mediaPath": "/media/110/110.jpg",
     "Year": 2025,
     "Month": 3,
     "Day": "Sunday",
     "Primary Artist": "Anoushka Shankar",
-    "Show_Number": 103
+    "Show_Number": 110
+  },
+  {
+    "Artist": "M\u00fam",
+    "Date": "2025-03-30 00:00:00",
+    "Venue": "Big Ears 2025",
+    "Borough": "Knoxville, TN",
+    "Free_Show": true,
+    "Notes": "Glitchy Iceland band I've known about for years, but seeing them live finally their set was way more doom-inducing and darker than I could have expected, haha. I thought they were more twee than their live show displayed.",
+    "mediaPath": "/media/111/111.jpg",
+    "Year": 2025,
+    "Month": 3,
+    "Day": "Sunday",
+    "Primary Artist": "M\u00fam",
+    "Show_Number": 111
   },
   {
     "Artist": "Carlos Ni\u00f1o",
@@ -1454,12 +1566,12 @@
     "Borough": "Knoxville, TN",
     "Free_Show": true,
     "Notes": "",
-    "mediaPath": "/media/104/104.jpg",
+    "mediaPath": "/media/112/112.jpg",
     "Year": 2025,
     "Month": 3,
     "Day": "Sunday",
     "Primary Artist": "Carlos Ni\u00f1o",
-    "Show_Number": 104
+    "Show_Number": 112
   },
   {
     "Artist": "Kahil El'Zabar",
@@ -1468,12 +1580,26 @@
     "Borough": "Knoxville, TN",
     "Free_Show": true,
     "Notes": "",
-    "mediaPath": "/media/105/105.jpg",
+    "mediaPath": "/media/113/113.jpg",
     "Year": 2025,
     "Month": 3,
     "Day": "Sunday",
     "Primary Artist": "Kahil El'Zabar",
-    "Show_Number": 105
+    "Show_Number": 113
+  },
+  {
+    "Artist": "Idris Ackamoor",
+    "Date": "2025-03-30 00:00:00",
+    "Venue": "Big Ears 2025",
+    "Borough": "Knoxville, TN",
+    "Free_Show": true,
+    "Notes": "Playing with Carlos Ni\u00f1o and Laraaji.",
+    "mediaPath": "/media/114/114.jpg",
+    "Year": 2025,
+    "Month": 3,
+    "Day": "Sunday",
+    "Primary Artist": "Idris Ackamoor",
+    "Show_Number": 114
   },
   {
     "Artist": "Ibellise Guardia Ferragutti",
@@ -1482,12 +1608,12 @@
     "Borough": "Brooklyn",
     "Free_Show": false,
     "Notes": "",
-    "mediaPath": "/media/106/106.jpg",
+    "mediaPath": "/media/115/115.jpg",
     "Year": 2025,
     "Month": 4,
     "Day": "Tuesday",
     "Primary Artist": "Ibellise Guardia Ferragutti",
-    "Show_Number": 106
+    "Show_Number": 115
   },
   {
     "Artist": "Frank Rosaly",
@@ -1496,12 +1622,12 @@
     "Borough": "Brooklyn",
     "Free_Show": false,
     "Notes": "",
-    "mediaPath": "/media/107/107.jpg",
+    "mediaPath": "/media/116/116.jpg",
     "Year": 2025,
     "Month": 4,
     "Day": "Tuesday",
     "Primary Artist": "Frank Rosaly",
-    "Show_Number": 107
+    "Show_Number": 116
   },
   {
     "Artist": "Jeremiah Chu",
@@ -1510,12 +1636,12 @@
     "Borough": "Brooklyn",
     "Free_Show": false,
     "Notes": "",
-    "mediaPath": "/media/108/108.jpg",
+    "mediaPath": "/media/117/117.jpg",
     "Year": 2025,
     "Month": 4,
     "Day": "Tuesday",
     "Primary Artist": "Jeremiah Chu",
-    "Show_Number": 108
+    "Show_Number": 117
   },
   {
     "Artist": "Carlos Ni\u00f1o",
@@ -1524,12 +1650,12 @@
     "Borough": "Brooklyn",
     "Free_Show": false,
     "Notes": "'Featuring Saul Williams. As the set finished Carlos held the silence on stage after the musicians finished playing and slowly opened his eyes and whispered to the crowd \"Ok so (waving to the band on stage) we're done now. \" asked the crowd to maintain the silence instead of applauding for them all. He got up and they all left the stage with the quiet lingering in the air and the band dispersed to mingle with the crowd. Carlos simply sat down on the front of the stage and after a few moments asked the people in the front row \"So do you guys come here alot?\"",
-    "mediaPath": "/media/109/109.jpg",
+    "mediaPath": "/media/118/118.jpg",
     "Year": 2025,
     "Month": 5,
     "Day": "Thursday",
     "Primary Artist": "Carlos Ni\u00f1o",
-    "Show_Number": 109
+    "Show_Number": 118
   },
   {
     "Artist": "Saul Williams",
@@ -1538,12 +1664,40 @@
     "Borough": "Brooklyn",
     "Free_Show": false,
     "Notes": "",
-    "mediaPath": "/media/110/110.jpg",
+    "mediaPath": "/media/119/119.jpg",
     "Year": 2025,
     "Month": 5,
     "Day": "Thursday",
     "Primary Artist": "Saul Williams",
-    "Show_Number": 110
+    "Show_Number": 119
+  },
+  {
+    "Artist": "Xiu Xiu",
+    "Date": "2025-06-22 00:00:00",
+    "Venue": "The Ruins at Knockdown Center",
+    "Borough": "Queens",
+    "Free_Show": false,
+    "Notes": "Finally I got to see Shwee Shwee.",
+    "mediaPath": "/media/120/120.jpg",
+    "Year": 2025,
+    "Month": 6,
+    "Day": "Sunday",
+    "Primary Artist": "Xiu Xiu",
+    "Show_Number": 120
+  },
+  {
+    "Artist": "Chuquimamani-Condori",
+    "Date": "2025-06-22 00:00:00",
+    "Venue": "The Ruins at Knockdown Center",
+    "Borough": "Queens",
+    "Free_Show": false,
+    "Notes": "I'm now a fan for life.",
+    "mediaPath": "/media/121/121.jpg",
+    "Year": 2025,
+    "Month": 6,
+    "Day": "Sunday",
+    "Primary Artist": "Chuquimamani-Condori",
+    "Show_Number": 121
   },
   {
     "Artist": "Chicago Underground Duo",
@@ -1552,7 +1706,7 @@
     "Borough": "Brooklyn",
     "Free_Show": false,
     "Notes": "",
-    "mediaPath": "/media/111/111.jpg",
+    "mediaPath": "/media/122/122.jpg",
     "Year": 2025,
     "Month": 9,
     "Day": "Saturday",
@@ -1561,7 +1715,7 @@
       "Chad Taylor",
       "Chicago Underground Duo"
     ],
-    "Show_Number": 111
+    "Show_Number": 122
   },
   {
     "Artist": "Algernon Cadwallader",
@@ -1570,12 +1724,12 @@
     "Borough": "Manhattan",
     "Free_Show": false,
     "Notes": "",
-    "mediaPath": "/media/112/112.jpg",
+    "mediaPath": "/media/123/123.jpg",
     "Year": 2025,
     "Month": 12,
     "Day": "Thursday",
     "Primary Artist": "Algernon Cadwallader",
-    "Show_Number": 112
+    "Show_Number": 123
   },
   {
     "Artist": "Antarctigo Vespucci",
@@ -1584,7 +1738,7 @@
     "Borough": "Brooklyn",
     "Free_Show": false,
     "Notes": "",
-    "mediaPath": "/media/113/113.jpg",
+    "mediaPath": "/media/124/124.jpg",
     "Year": 2026,
     "Month": 2,
     "Day": "Friday",
@@ -1593,7 +1747,7 @@
       "Chris Farren",
       "Antarctigo Vespucci"
     ],
-    "Show_Number": 113
+    "Show_Number": 124
   },
   {
     "Artist": "Busta Rhymes",
@@ -1602,12 +1756,12 @@
     "Borough": "Manhattan",
     "Free_Show": true,
     "Notes": "Hell yeah. I was disappointed though in Busta for saying that none of the stuff on the stage was AI, when clearly every single animation during his set was AI. Floating de-aged deepfake heads not only of himself but of Mariah Carey, Janet Jackson, and Chris Rock. Does he think his fans are dumb? That dumb?",
-    "mediaPath": "/media/114/114.jpg",
+    "mediaPath": "/media/125/125.jpg",
     "Year": 2026,
     "Month": 5,
     "Day": "Wednesday",
     "Primary Artist": "Busta Rhymes",
-    "Show_Number": 114
+    "Show_Number": 125
   },
   {
     "Artist": "Iron Chic",
@@ -1616,12 +1770,12 @@
     "Borough": "Brooklyn",
     "Free_Show": false,
     "Notes": "",
-    "mediaPath": "/media/115/115.jpg",
+    "mediaPath": "/media/126/126.jpg",
     "Year": 2026,
     "Month": 6,
     "Day": "Friday",
     "Primary Artist": "Iron Chic",
-    "Show_Number": 115
+    "Show_Number": 126
   },
   {
     "Artist": "The Lawrence Arms",
@@ -1630,11 +1784,11 @@
     "Borough": "Brooklyn",
     "Free_Show": false,
     "Notes": "",
-    "mediaPath": "/media/116/116.jpg",
+    "mediaPath": "/media/127/127.jpg",
     "Year": 2026,
     "Month": 6,
     "Day": "Friday",
     "Primary Artist": "The Lawrence Arms",
-    "Show_Number": 116
+    "Show_Number": 127
   }
 ]

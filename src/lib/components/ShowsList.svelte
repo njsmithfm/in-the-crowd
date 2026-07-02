@@ -1,6 +1,6 @@
 <script>
   import shows from "../../../public/data/shows.json";
-
+  const sortedShows = shows.sort((a, b) => b.Show_Number - a.Show_Number);
   // Ensure this name matches the parent's key
   let { onSelect } = $props();
 </script>
@@ -24,7 +24,7 @@
 
   <!-- Scrollable content that sits BELOW the header -->
   <div class="date-shows-scrolling-area">
-    {#each shows as show}
+    {#each sortedShows as show}
       <button
         onclick={() => {
           console.log("Successful New Artist Selection:", show.Artist);

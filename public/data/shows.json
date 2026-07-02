@@ -315,6 +315,19 @@
     "Show_Number": 24
   },
   {
+    "Artist": "Adi Oasis",
+    "Date": "2023-04-20 00:00:00",
+    "Venue": "Brooklyn Made",
+    "Borough": "Brooklyn",
+    "Free_Show": true,
+    "Notes": "I won free tickets to this show through a raffle. (stoked)",
+    "Year": 2023,
+    "Month": 4,
+    "Day": "Thursday",
+    "Primary Artist": "Adi Oasis",
+    "Show_Number": 25
+  },
+  {
     "Artist": "Iron Chic",
     "Date": "2023-04-28 00:00:00",
     "Venue": "Elsewhere",
@@ -325,7 +338,7 @@
     "Month": 4,
     "Day": "Friday",
     "Primary Artist": "Iron Chic",
-    "Show_Number": 25
+    "Show_Number": 26
   },
   {
     "Artist": "Screaming Females",
@@ -338,7 +351,7 @@
     "Month": 4,
     "Day": "Friday",
     "Primary Artist": "Screaming Females",
-    "Show_Number": 26
+    "Show_Number": 27
   },
   {
     "Artist": "Lip Critic",
@@ -351,7 +364,7 @@
     "Month": 4,
     "Day": "Friday",
     "Primary Artist": "Lip Critic",
-    "Show_Number": 27
+    "Show_Number": 28
   },
   {
     "Artist": "Blink-182",
@@ -364,7 +377,7 @@
     "Month": 5,
     "Day": "Wednesday",
     "Primary Artist": "Blink-182",
-    "Show_Number": 28
+    "Show_Number": 29
   },
   {
     "Artist": "Oumou Sangare",
@@ -377,7 +390,7 @@
     "Month": 7,
     "Day": "Friday",
     "Primary Artist": "Oumou Sangare",
-    "Show_Number": 29
+    "Show_Number": 30
   },
   {
     "Artist": "Bouncing Souls",
@@ -390,7 +403,7 @@
     "Month": 7,
     "Day": "Saturday",
     "Primary Artist": "Bouncing Souls",
-    "Show_Number": 30
+    "Show_Number": 31
   },
   {
     "Artist": "Screaming Females",
@@ -403,7 +416,7 @@
     "Month": 7,
     "Day": "Saturday",
     "Primary Artist": "Screaming Females",
-    "Show_Number": 31
+    "Show_Number": 32
   },
   {
     "Artist": "Bayside",
@@ -416,7 +429,7 @@
     "Month": 7,
     "Day": "Saturday",
     "Primary Artist": "Bayside",
-    "Show_Number": 32
+    "Show_Number": 33
   },
   {
     "Artist": "Brandee Younger",
@@ -429,7 +442,7 @@
     "Month": 7,
     "Day": "Sunday",
     "Primary Artist": "Brandee Younger",
-    "Show_Number": 33
+    "Show_Number": 34
   },
   {
     "Artist": "The Comet Is Coming",
@@ -442,7 +455,7 @@
     "Month": 8,
     "Day": "Wednesday",
     "Primary Artist": "The Comet Is Coming",
-    "Show_Number": 34
+    "Show_Number": 35
   },
   {
     "Artist": "Ibeyi",
@@ -455,7 +468,7 @@
     "Month": 8,
     "Day": "Wednesday",
     "Primary Artist": "Ibeyi",
-    "Show_Number": 35
+    "Show_Number": 36
   },
   {
     "Artist": "Aja Monet",
@@ -468,7 +481,7 @@
     "Month": 8,
     "Day": "Wednesday",
     "Primary Artist": "Aja Monet",
-    "Show_Number": 36
+    "Show_Number": 37
   },
   {
     "Artist": "The Smiths Tribute",
@@ -481,7 +494,7 @@
     "Month": 8,
     "Day": "Friday",
     "Primary Artist": "The Smiths Tribute",
-    "Show_Number": 37
+    "Show_Number": 38
   },
   {
     "Artist": "Arthur Verocai",
@@ -494,7 +507,7 @@
     "Month": 8,
     "Day": "Friday",
     "Primary Artist": "Arthur Verocai",
-    "Show_Number": 38
+    "Show_Number": 39
   },
   {
     "Artist": "Fishbone",
@@ -507,7 +520,7 @@
     "Month": 9,
     "Day": "Tuesday",
     "Primary Artist": "Fishbone",
-    "Show_Number": 39
+    "Show_Number": 40
   },
   {
     "Artist": "Parliament-Funkadelic",
@@ -520,7 +533,7 @@
     "Month": 9,
     "Day": "Tuesday",
     "Primary Artist": "Parliament-Funkadelic",
-    "Show_Number": 40
+    "Show_Number": 41
   },
   {
     "Artist": "Common",
@@ -533,7 +546,7 @@
     "Month": 9,
     "Day": "Thursday",
     "Primary Artist": "Common",
-    "Show_Number": 41
+    "Show_Number": 42
   },
   {
     "Artist": "Alabaster DePlume",
@@ -546,7 +559,7 @@
     "Month": 9,
     "Day": "Friday",
     "Primary Artist": "Alabaster DePlume",
-    "Show_Number": 42
+    "Show_Number": 43
   },
   {
     "Artist": "De La Soul",
@@ -559,7 +572,7 @@
     "Month": 9,
     "Day": "Wednesday",
     "Primary Artist": "De La Soul",
-    "Show_Number": 43
+    "Show_Number": 44
   },
   {
     "Artist": "Wu Tang Clan",
@@ -572,7 +585,7 @@
     "Month": 9,
     "Day": "Wednesday",
     "Primary Artist": "Wu Tang Clan",
-    "Show_Number": 44
+    "Show_Number": 45
   },
   {
     "Artist": "Nas",
@@ -585,7 +598,7 @@
     "Month": 9,
     "Day": "Wednesday",
     "Primary Artist": "Nas",
-    "Show_Number": 45
+    "Show_Number": 46
   },
   {
     "Artist": "Vijay Iyer",
@@ -598,7 +611,7 @@
     "Month": 10,
     "Day": "Thursday",
     "Primary Artist": "Vijay Iyer",
-    "Show_Number": 46
+    "Show_Number": 47
   },
   {
     "Artist": "Shazhad Ismaily",
@@ -611,7 +624,7 @@
     "Month": 10,
     "Day": "Thursday",
     "Primary Artist": "Shazhad Ismaily",
-    "Show_Number": 47
+    "Show_Number": 48
   },
   {
     "Artist": "Arooj Aftab",
@@ -624,7 +637,7 @@
     "Month": 10,
     "Day": "Thursday",
     "Primary Artist": "Arooj Aftab",
-    "Show_Number": 48
+    "Show_Number": 49
   },
   {
     "Artist": "Pharoah Sanders Harvest Time Project",
@@ -637,7 +650,7 @@
     "Month": 10,
     "Day": "Saturday",
     "Primary Artist": "Pharoah Sanders Harvest Time Project",
-    "Show_Number": 49
+    "Show_Number": 50
   },
   {
     "Artist": "Daniel Villarreal",
@@ -650,7 +663,7 @@
     "Month": 10,
     "Day": "Wednesday",
     "Primary Artist": "Daniel Villarreal",
-    "Show_Number": 50
+    "Show_Number": 51
   },
   {
     "Artist": "Ben Lamar Gay",
@@ -663,7 +676,7 @@
     "Month": 10,
     "Day": "Sunday",
     "Primary Artist": "Ben Lamar Gay",
-    "Show_Number": 51
+    "Show_Number": 52
   },
   {
     "Artist": "Moor Mother",
@@ -676,7 +689,7 @@
     "Month": 12,
     "Day": "Monday",
     "Primary Artist": "Moor Mother",
-    "Show_Number": 52
+    "Show_Number": 53
   },
   {
     "Artist": "Streetlight Manifesto",
@@ -689,7 +702,7 @@
     "Month": 12,
     "Day": "Saturday",
     "Primary Artist": "Streetlight Manifesto",
-    "Show_Number": 53
+    "Show_Number": 54
   },
   {
     "Artist": "Esperanza Spalding",
@@ -702,7 +715,7 @@
     "Month": 1,
     "Day": "Monday",
     "Primary Artist": "Esperanza Spalding",
-    "Show_Number": 54
+    "Show_Number": 55
   },
   {
     "Artist": "Shabaka Hutchings",
@@ -715,7 +728,7 @@
     "Month": 1,
     "Day": "Monday",
     "Primary Artist": "Shabaka Hutchings",
-    "Show_Number": 55
+    "Show_Number": 56
   },
   {
     "Artist": "Irreversible Entanglements",
@@ -731,7 +744,7 @@
       "Moor Mother",
       "Irreversible Entanglements"
     ],
-    "Show_Number": 56
+    "Show_Number": 57
   },
   {
     "Artist": "James Brandon Lewis",
@@ -744,7 +757,7 @@
     "Month": 1,
     "Day": "Monday",
     "Primary Artist": "James Brandon Lewis",
-    "Show_Number": 57
+    "Show_Number": 58
   },
   {
     "Artist": "Messthetics",
@@ -757,7 +770,7 @@
     "Month": 1,
     "Day": "Monday",
     "Primary Artist": "Messthetics",
-    "Show_Number": 58
+    "Show_Number": 59
   },
   {
     "Artist": "Reverend Kristin Michael Hayter",
@@ -770,7 +783,7 @@
     "Month": 1,
     "Day": "Friday",
     "Primary Artist": "Reverend Kristin Michael Hayter",
-    "Show_Number": 59
+    "Show_Number": 60
   },
   {
     "Artist": "Nicole Mitchell",
@@ -783,7 +796,7 @@
     "Month": 3,
     "Day": "Saturday",
     "Primary Artist": "Nicole Mitchell",
-    "Show_Number": 60
+    "Show_Number": 61
   },
   {
     "Artist": "Vijay Iyer",
@@ -796,7 +809,7 @@
     "Month": 3,
     "Day": "Saturday",
     "Primary Artist": "Vijay Iyer",
-    "Show_Number": 61
+    "Show_Number": 62
   },
   {
     "Artist": "Alkaline Trio",
@@ -809,7 +822,7 @@
     "Month": 3,
     "Day": "Saturday",
     "Primary Artist": "Alkaline Trio",
-    "Show_Number": 62
+    "Show_Number": 63
   },
   {
     "Artist": "Drug Church",
@@ -822,7 +835,7 @@
     "Month": 3,
     "Day": "Saturday",
     "Primary Artist": "Drug Church",
-    "Show_Number": 63
+    "Show_Number": 64
   },
   {
     "Artist": "Worriers",
@@ -835,7 +848,7 @@
     "Month": 3,
     "Day": "Saturday",
     "Primary Artist": "Worriers",
-    "Show_Number": 64
+    "Show_Number": 65
   },
   {
     "Artist": "Kokoroko",
@@ -848,7 +861,7 @@
     "Month": 3,
     "Day": "Wednesday",
     "Primary Artist": "Kokoroko",
-    "Show_Number": 65
+    "Show_Number": 66
   },
   {
     "Artist": "Strung Out",
@@ -861,7 +874,7 @@
     "Month": 3,
     "Day": "Thursday",
     "Primary Artist": "Strung Out",
-    "Show_Number": 66
+    "Show_Number": 67
   },
   {
     "Artist": "Less Than Jake",
@@ -874,7 +887,7 @@
     "Month": 3,
     "Day": "Thursday",
     "Primary Artist": "Less Than Jake",
-    "Show_Number": 67
+    "Show_Number": 68
   },
   {
     "Artist": "Armand Hammer",
@@ -887,7 +900,7 @@
     "Month": 4,
     "Day": "Saturday",
     "Primary Artist": "Armand Hammer",
-    "Show_Number": 68
+    "Show_Number": 69
   },
   {
     "Artist": "Cloud Nothings",
@@ -900,7 +913,7 @@
     "Month": 4,
     "Day": "Saturday",
     "Primary Artist": "Cloud Nothings",
-    "Show_Number": 69
+    "Show_Number": 70
   },
   {
     "Artist": "Fatoumata Diawara",
@@ -913,7 +926,7 @@
     "Month": 4,
     "Day": "Friday",
     "Primary Artist": "Fatoumata Diawara",
-    "Show_Number": 70
+    "Show_Number": 71
   },
   {
     "Artist": "Colin Stetson",
@@ -926,7 +939,7 @@
     "Month": 5,
     "Day": "Saturday",
     "Primary Artist": "Colin Stetson",
-    "Show_Number": 71
+    "Show_Number": 72
   },
   {
     "Artist": "John Zorn",
@@ -939,7 +952,7 @@
     "Month": 5,
     "Day": "Friday",
     "Primary Artist": "John Zorn",
-    "Show_Number": 72
+    "Show_Number": 73
   },
   {
     "Artist": "Los Campesinos!",
@@ -952,7 +965,7 @@
     "Month": 6,
     "Day": "Saturday",
     "Primary Artist": "Los Campesinos!",
-    "Show_Number": 73
+    "Show_Number": 74
   },
   {
     "Artist": "Baaba Maal",
@@ -965,7 +978,7 @@
     "Month": 6,
     "Day": "Thursday",
     "Primary Artist": "Baaba Maal",
-    "Show_Number": 74
+    "Show_Number": 75
   },
   {
     "Artist": "Dana and Alden",
@@ -978,7 +991,7 @@
     "Month": 6,
     "Day": "Saturday",
     "Primary Artist": "Dana and Alden",
-    "Show_Number": 75
+    "Show_Number": 76
   },
   {
     "Artist": "Yussef Dayes",
@@ -991,7 +1004,7 @@
     "Month": 6,
     "Day": "Saturday",
     "Primary Artist": "Yussef Dayes",
-    "Show_Number": 76
+    "Show_Number": 77
   },
   {
     "Artist": "Combo Chimbita",
@@ -1004,7 +1017,7 @@
     "Month": 6,
     "Day": "Tuesday",
     "Primary Artist": "Combo Chimbita",
-    "Show_Number": 77
+    "Show_Number": 78
   },
   {
     "Artist": "Fishbone",
@@ -1017,7 +1030,7 @@
     "Month": 6,
     "Day": "Saturday",
     "Primary Artist": "Fishbone",
-    "Show_Number": 78
+    "Show_Number": 79
   },
   {
     "Artist": "Son Rompe Pera",
@@ -1030,7 +1043,7 @@
     "Month": 6,
     "Day": "Saturday",
     "Primary Artist": "Son Rompe Pera",
-    "Show_Number": 79
+    "Show_Number": 80
   },
   {
     "Artist": "Celeste",
@@ -1043,7 +1056,7 @@
     "Month": 7,
     "Day": "Sunday",
     "Primary Artist": "Celeste",
-    "Show_Number": 80
+    "Show_Number": 81
   },
   {
     "Artist": "Ezra Collective",
@@ -1056,7 +1069,7 @@
     "Month": 7,
     "Day": "Sunday",
     "Primary Artist": "Ezra Collective",
-    "Show_Number": 81
+    "Show_Number": 82
   },
   {
     "Artist": "Juggaknots",
@@ -1069,7 +1082,7 @@
     "Month": 7,
     "Day": "Monday",
     "Primary Artist": "Juggaknots",
-    "Show_Number": 82
+    "Show_Number": 83
   },
   {
     "Artist": "The Pharcyde",
@@ -1082,7 +1095,7 @@
     "Month": 7,
     "Day": "Friday",
     "Primary Artist": "The Pharcyde",
-    "Show_Number": 83
+    "Show_Number": 84
   },
   {
     "Artist": "Common",
@@ -1095,7 +1108,7 @@
     "Month": 7,
     "Day": "Sunday",
     "Primary Artist": "Common",
-    "Show_Number": 84
+    "Show_Number": 85
   },
   {
     "Artist": "Ganavya",
@@ -1108,7 +1121,7 @@
     "Month": 7,
     "Day": "Sunday",
     "Primary Artist": "Ganavya",
-    "Show_Number": 85
+    "Show_Number": 86
   },
   {
     "Artist": "Arooj Aftab",
@@ -1116,12 +1129,12 @@
     "Venue": "Central Park Summerstage",
     "Borough": "Manhattan",
     "Free_Show": true,
-    "Notes": "",
+    "Notes": "She played Mohabbat at this show, after publicly saying earlier in the year she'd be done with it.",
     "Year": 2024,
     "Month": 7,
     "Day": "Wednesday",
     "Primary Artist": "Arooj Aftab",
-    "Show_Number": 86
+    "Show_Number": 87
   },
   {
     "Artist": "TV Moms",
@@ -1134,7 +1147,7 @@
     "Month": 8,
     "Day": "Sunday",
     "Primary Artist": "TV Moms",
-    "Show_Number": 87
+    "Show_Number": 88
   },
   {
     "Artist": "Jeff Rosenstock",
@@ -1147,7 +1160,7 @@
     "Month": 8,
     "Day": "Wednesday",
     "Primary Artist": "Jeff Rosenstock",
-    "Show_Number": 88
+    "Show_Number": 89
   },
   {
     "Artist": "Chris Farren",
@@ -1160,7 +1173,7 @@
     "Month": 8,
     "Day": "Wednesday",
     "Primary Artist": "Chris Farren",
-    "Show_Number": 89
+    "Show_Number": 90
   },
   {
     "Artist": "Santigold",
@@ -1173,7 +1186,7 @@
     "Month": 8,
     "Day": "Friday",
     "Primary Artist": "Santigold",
-    "Show_Number": 90
+    "Show_Number": 91
   },
   {
     "Artist": "Arooj Aftab",
@@ -1186,7 +1199,7 @@
     "Month": 8,
     "Day": "Friday",
     "Primary Artist": "Arooj Aftab",
-    "Show_Number": 91
+    "Show_Number": 92
   },
   {
     "Artist": "Vijay Iyer",
@@ -1199,7 +1212,7 @@
     "Month": 8,
     "Day": "Friday",
     "Primary Artist": "Vijay Iyer",
-    "Show_Number": 92
+    "Show_Number": 93
   },
   {
     "Artist": "Elephant Gym",
@@ -1212,7 +1225,7 @@
     "Month": 9,
     "Day": "Friday",
     "Primary Artist": "Elephant Gym",
-    "Show_Number": 93
+    "Show_Number": 94
   },
   {
     "Artist": "Mass of the Fermenting Dregs",
@@ -1225,7 +1238,7 @@
     "Month": 10,
     "Day": "Sunday",
     "Primary Artist": "Mass of the Fermenting Dregs",
-    "Show_Number": 94
+    "Show_Number": 95
   },
   {
     "Artist": "Berke Can Ozcan",
@@ -1238,7 +1251,7 @@
     "Month": 10,
     "Day": "Tuesday",
     "Primary Artist": "Berke Can Ozcan",
-    "Show_Number": 95
+    "Show_Number": 96
   },
   {
     "Artist": "Atmosphere",
@@ -1251,7 +1264,7 @@
     "Month": 2,
     "Day": "Monday",
     "Primary Artist": "Atmosphere",
-    "Show_Number": 96
+    "Show_Number": 97
   },
   {
     "Artist": "Sage Francis",
@@ -1264,7 +1277,7 @@
     "Month": 2,
     "Day": "Monday",
     "Primary Artist": "Sage Francis",
-    "Show_Number": 97
+    "Show_Number": 98
   },
   {
     "Artist": "Esperanza Spalding",
@@ -1277,7 +1290,7 @@
     "Month": 3,
     "Day": "Friday",
     "Primary Artist": "Esperanza Spalding",
-    "Show_Number": 98
+    "Show_Number": 99
   },
   {
     "Artist": "Anohni",
@@ -1290,7 +1303,7 @@
     "Month": 3,
     "Day": "Friday",
     "Primary Artist": "Anohni",
-    "Show_Number": 99
+    "Show_Number": 100
   },
   {
     "Artist": "Ganavya",
@@ -1303,7 +1316,7 @@
     "Month": 3,
     "Day": "Saturday",
     "Primary Artist": "Ganavya",
-    "Show_Number": 100
+    "Show_Number": 101
   },
   {
     "Artist": "Maruja",
@@ -1316,7 +1329,7 @@
     "Month": 3,
     "Day": "Saturday",
     "Primary Artist": "Maruja",
-    "Show_Number": 101
+    "Show_Number": 102
   },
   {
     "Artist": "Anoushka Shankar",
@@ -1329,7 +1342,7 @@
     "Month": 3,
     "Day": "Sunday",
     "Primary Artist": "Anoushka Shankar",
-    "Show_Number": 102
+    "Show_Number": 103
   },
   {
     "Artist": "Carlos Ni\u00f1o",
@@ -1342,7 +1355,7 @@
     "Month": 3,
     "Day": "Sunday",
     "Primary Artist": "Carlos Ni\u00f1o",
-    "Show_Number": 103
+    "Show_Number": 104
   },
   {
     "Artist": "Kahil El'Zabar",
@@ -1355,7 +1368,7 @@
     "Month": 3,
     "Day": "Sunday",
     "Primary Artist": "Kahil El'Zabar",
-    "Show_Number": 104
+    "Show_Number": 105
   },
   {
     "Artist": "Ibellise Guardia Ferragutti",
@@ -1368,7 +1381,7 @@
     "Month": 4,
     "Day": "Tuesday",
     "Primary Artist": "Ibellise Guardia Ferragutti",
-    "Show_Number": 105
+    "Show_Number": 106
   },
   {
     "Artist": "Frank Rosaly",
@@ -1381,7 +1394,7 @@
     "Month": 4,
     "Day": "Tuesday",
     "Primary Artist": "Frank Rosaly",
-    "Show_Number": 106
+    "Show_Number": 107
   },
   {
     "Artist": "Jeremiah Chu",
@@ -1394,7 +1407,7 @@
     "Month": 4,
     "Day": "Tuesday",
     "Primary Artist": "Jeremiah Chu",
-    "Show_Number": 107
+    "Show_Number": 108
   },
   {
     "Artist": "Carlos Ni\u00f1o",
@@ -1402,12 +1415,12 @@
     "Venue": "Roulette Intermedium",
     "Borough": "Brooklyn",
     "Free_Show": false,
-    "Notes": "",
+    "Notes": "'Featuring Saul Williams. As the set finished Carlos held the silence on stage after the musicians finished playing and slowly opened his eyes and whispered to the crowd \"Ok so (waving to the band on stage) we're done now. \" asked the crowd to maintain the silence instead of applauding for them all. He got up and they all left the stage with the quiet lingering in the air and the band dispersed to mingle with the crowd. Carlos simply sat down on the front of the stage and after a few moments asked the people in the front row \"So do you guys come here alot?\"",
     "Year": 2025,
     "Month": 5,
     "Day": "Thursday",
     "Primary Artist": "Carlos Ni\u00f1o",
-    "Show_Number": 108
+    "Show_Number": 109
   },
   {
     "Artist": "Saul Williams",
@@ -1420,7 +1433,7 @@
     "Month": 5,
     "Day": "Thursday",
     "Primary Artist": "Saul Williams",
-    "Show_Number": 109
+    "Show_Number": 110
   },
   {
     "Artist": "Chicago Underground Duo",
@@ -1437,7 +1450,7 @@
       "Chad Taylor",
       "Chicago Underground Duo"
     ],
-    "Show_Number": 110
+    "Show_Number": 111
   },
   {
     "Artist": "Algernon Cadwallader",
@@ -1450,7 +1463,7 @@
     "Month": 12,
     "Day": "Thursday",
     "Primary Artist": "Algernon Cadwallader",
-    "Show_Number": 111
+    "Show_Number": 112
   },
   {
     "Artist": "Antarctigo Vespucci",
@@ -1467,7 +1480,7 @@
       "Chris Farren",
       "Antarctigo Vespucci"
     ],
-    "Show_Number": 112
+    "Show_Number": 113
   },
   {
     "Artist": "Busta Rhymes",
@@ -1480,7 +1493,7 @@
     "Month": 5,
     "Day": "Wednesday",
     "Primary Artist": "Busta Rhymes",
-    "Show_Number": 113
+    "Show_Number": 114
   },
   {
     "Artist": "Iron Chic",
@@ -1493,7 +1506,7 @@
     "Month": 6,
     "Day": "Friday",
     "Primary Artist": "Iron Chic",
-    "Show_Number": 114
+    "Show_Number": 115
   },
   {
     "Artist": "The Lawrence Arms",
@@ -1506,6 +1519,6 @@
     "Month": 6,
     "Day": "Friday",
     "Primary Artist": "The Lawrence Arms",
-    "Show_Number": 115
+    "Show_Number": 116
   }
 ]

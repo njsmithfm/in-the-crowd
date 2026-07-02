@@ -50,6 +50,7 @@ df = df.reset_index(drop=True)
 
 
 df['Show_Number'] = range(1, len(df) + 1)
+df['mediaPath'] = df['Show_Number'].apply(lambda n: f"/media/{int(n)}/{int(n)}.jpg")
 
 
 df = df.drop(columns=['Free show?'], errors='ignore') 

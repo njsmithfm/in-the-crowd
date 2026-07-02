@@ -17,6 +17,9 @@
     {#if show.Notes}
       <p><strong><i>Notes:</i></strong> {show.Notes}</p>
     {/if}
+    {#if show?.Image_Path}
+      <img src={show.Image_Path} alt={show.Artist} />
+    {/if}
   {:else}
     <p style="color: #EC09C1; font-weight: bold;">
       Select a show to view details

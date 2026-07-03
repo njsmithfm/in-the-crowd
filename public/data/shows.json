@@ -810,7 +810,11 @@
     "Primary Artist": "Daniel Villarreal",
     "Bill_ID": "2023-10-18|Public Records",
     "Show_Number": 54,
-    "media": null
+    "media": {
+      "images": [
+        "/media/54/54.jpg"
+      ]
+    }
   },
   {
     "Artist": "Ben Lamar Gay",

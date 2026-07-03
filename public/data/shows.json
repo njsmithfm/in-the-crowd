@@ -310,10 +310,7 @@
     "Year": 2023,
     "Month": 1,
     "Day": "Saturday",
-    "Primary Artist": [
-      "Moor Mother",
-      "Irreversible Entanglements"
-    ],
+    "Primary Artist": ["Moor Mother", "Irreversible Entanglements"],
     "Bill_ID": "2023-01-14|Superior Ingredients",
     "Show_Number": 21
   },
@@ -898,10 +895,7 @@
     "Year": 2024,
     "Month": 1,
     "Day": "Monday",
-    "Primary Artist": [
-      "Moor Mother",
-      "Irreversible Entanglements"
-    ],
+    "Primary Artist": ["Moor Mother", "Irreversible Entanglements"],
     "Bill_ID": "2024-01-15|Le Poisson Rouge",
     "Show_Number": 60
   },
@@ -1846,11 +1840,7 @@
     "Year": 2025,
     "Month": 9,
     "Day": "Saturday",
-    "Primary Artist": [
-      "Rob Mazurek",
-      "Chad Taylor",
-      "Chicago Underground Duo"
-    ],
+    "Primary Artist": ["Rob Mazurek", "Chad Taylor", "Chicago Underground Duo"],
     "Bill_ID": "2025-09-13|Public Records",
     "Show_Number": 123
   },

@@ -17,8 +17,12 @@
     {#if show?.Notes}
       <p><strong><i>Notes:</i></strong> {show.Notes}</p>
     {/if}
-    {#if show?.Image_Path}
-      <img src={show.Image_Path} alt={show.Artist} />
+    {#if show?.mediaPath}
+      <img
+        src={show.mediaPath}
+        alt={show.Artist}
+        style="max-width: 100%; height: auto;"
+      />
     {/if}
   {:else}
     <p style="color: #EC09C1; font-weight: bold;">

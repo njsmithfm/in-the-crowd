@@ -49,13 +49,36 @@ df = df.sort_values(['Date', 'Venue'], ascending=[True, True])
 df = df.reset_index(drop=True)
 df['Bill_ID'] = df['Date'].astype(str) + '|' + df['Venue']
 df['Show_Number'] = range(1, len(df) + 1)
-df['mediaPath'] = df['Show_Number'].apply(lambda n: f"/media/{int(n)}/{int(n)}.jpg")
+
+def get_media_for_show(show_number):
+    """Scan the media directory for video and image files for a given show."""
+    media_dir = Path("static/media") / str(int(show_number)) 
+    media = {}
+    
+    if media_dir.exists():
+        # Look for video file
+        video_file = media_dir / f"{int(show_number)}.mp4"
+        if video_file.exists():
+            media['video'] = f"/media/{int(show_number)}/{int(show_number)}.mp4"
+        
+        # Look for all jpg images
+        image_files = sorted(media_dir.glob("*.jpg"))
+        if image_files:
+            media['images'] = [f"/media/{int(show_number)}/{img.name}" for img in image_files]
+    
+    return media if media else None
+
+df['media'] = df['Show_Number'].apply(get_media_for_show)
+
 
 
 
 df = df.drop(columns=['Free show?'], errors='ignore') 
 
 records = df.to_dict(orient='records')
+for record in records:
+    if 'mediaPath' in record:
+        del record['mediaPath']
 
 with open(OUTPUT_JSON, 'w', encoding='utf-8') as f:
     json.dump(records, f, indent=2, default=str)

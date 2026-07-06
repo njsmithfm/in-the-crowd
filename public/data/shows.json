@@ -1408,11 +1408,7 @@
     "Primary Artist": "Aneesa Strings",
     "Bill_ID": "2024-06-22|Central Park Summerstage",
     "Show_Number": 87,
-    "media": {
-      "images": [
-        "/media/f6135035/84.jpg"
-      ]
-    }
+    "media": null
   },
   {
     "Artist": "Combo Chimbita",
@@ -1428,7 +1424,11 @@
     "Primary Artist": "Combo Chimbita",
     "Bill_ID": "2024-06-25|Rockefeller Center",
     "Show_Number": 88,
-    "media": null
+    "media": {
+      "images": [
+        "/media/72e1a794/84.jpg"
+      ]
+    }
   },
   {
     "Artist": "Fishbone",

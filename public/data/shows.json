@@ -456,7 +456,7 @@
     "Venue": "Elsewhere",
     "Borough": "Brooklyn",
     "Free_Show": false,
-    "Notes": "",
+    "Notes": "I guess these guys are kinda big. Opener for Iron Chic and Screaming Females. No idea who they were at the time. No photos.",
     "Record_ID": "37458e85",
     "Year": 2023,
     "Month": 4,
@@ -600,7 +600,7 @@
     "Venue": "The Stone Pony",
     "Borough": "New Jersey",
     "Free_Show": false,
-    "Notes": "Stoked for the Summer! Fest",
+    "Notes": "Stoked for the Summer! Fest at Asbury Park in New Jersey. This would be the last time I'd see Screamales before they abruptly disbanded. The first time I ever saw them was in 2011 opening for Against Me! at First Avenue in Minneapolis when I was 19 with my younger brother",
     "Record_ID": "bae4be53",
     "Year": 2023,
     "Month": 7,
@@ -2115,6 +2115,22 @@
     "media": null
   },
   {
+    "Artist": "Nduduzo Makhathini",
+    "Date": "2025-10-25 00:00:00",
+    "Venue": "Jazz at Lincoln Center",
+    "Borough": "Manhattan",
+    "Free_Show": false,
+    "Notes": "Went to this when my mom and brother were in town.",
+    "Record_ID": "e9bf934d",
+    "Year": 2025,
+    "Month": 10,
+    "Day": "Saturday",
+    "Primary Artist": "Nduduzo Makhathini",
+    "Bill_ID": "2025-10-25|Jazz at Lincoln Center",
+    "Show_Number": 131,
+    "media": null
+  },
+  {
     "Artist": "Algernon Cadwallader",
     "Date": "2025-12-04 00:00:00",
     "Venue": "Racket",
@@ -2127,7 +2143,7 @@
     "Day": "Thursday",
     "Primary Artist": "Algernon Cadwallader",
     "Bill_ID": "2025-12-04|Racket",
-    "Show_Number": 131,
+    "Show_Number": 132,
     "media": null
   },
   {
@@ -2147,7 +2163,7 @@
       "Antarctigo Vespucci"
     ],
     "Bill_ID": "2026-02-06|Warsaw",
-    "Show_Number": 132,
+    "Show_Number": 133,
     "media": null
   },
   {
@@ -2163,7 +2179,7 @@
     "Day": "Wednesday",
     "Primary Artist": "Busta Rhymes",
     "Bill_ID": "2026-05-27|Hudson Yards",
-    "Show_Number": 133,
+    "Show_Number": 134,
     "media": {
       "images": [
         "/media/f4322611/129.jpg"
@@ -2183,7 +2199,7 @@
     "Day": "Friday",
     "Primary Artist": "Iron Chic",
     "Bill_ID": "2026-06-26|Brooklyn Monarch",
-    "Show_Number": 134,
+    "Show_Number": 135,
     "media": null
   },
   {
@@ -2199,7 +2215,7 @@
     "Day": "Friday",
     "Primary Artist": "The Lawrence Arms",
     "Bill_ID": "2026-06-26|Brooklyn Monarch",
-    "Show_Number": 135,
+    "Show_Number": 136,
     "media": null
   }
 ]

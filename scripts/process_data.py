@@ -17,9 +17,6 @@ df['Year'] = df['Date'].dt.year.astype('Int64')
 df['Month'] = df['Date'].dt.month.astype('Int64')
 df['Day'] = df['Date'].dt.day_name()
 
-# Boolean normalization
-true_values = {'TRUE', 'YES', 'VERDADERO'}
-df['Free_Show'] = df['Free_Show'].astype(str).str.upper().apply(lambda x: x.strip() in true_values)
 df['Notes'] = df['Notes'].fillna('')
 
 # Artist cleanup
@@ -37,6 +34,7 @@ def get_primary_artist(artist):
         return ['Rob Mazurek','Chad Taylor','Chicago Underground Duo']
     if 'pharoah sanders' in artist_lower:
         return ['James Brandon Lewis','Joshua Abrams','Chad Taylor','Jeff Parker']
+    
     return artist
 
 df['Primary Artist'] = df['Artist'].apply(get_primary_artist)

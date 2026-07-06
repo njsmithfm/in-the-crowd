@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# scripts/setup_new_records.py
-
 import uuid
 import pandas as pd
 from pathlib import Path

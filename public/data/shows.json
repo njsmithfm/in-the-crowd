@@ -32,7 +32,7 @@
     "media": null
   },
   {
-    "Artist": "Antonio Lizano",
+    "Artist": "Antonio Lizana",
     "Date": "2022-05-07 00:00:00",
     "Venue": "Terraza 7",
     "Borough": "Queens",
@@ -42,7 +42,7 @@
     "Year": 2022,
     "Month": 5,
     "Day": "Saturday",
-    "Primary Artist": "Antonio Lizano",
+    "Primary Artist": "Antonio Lizana",
     "Bill_ID": "2022-05-07|Terraza 7",
     "Show_Number": 3,
     "media": null
@@ -1426,7 +1426,9 @@
     "Show_Number": 88,
     "media": {
       "images": [
-        "/media/72e1a794/84.jpg"
+        "/media/72e1a794/84.jpg",
+        "/media/72e1a794/combochimbita.jpg",
+        "/media/72e1a794/comboChimbita1.jpg"
       ]
     }
   },
@@ -1916,7 +1918,7 @@
     "Venue": "Big Ears 2025",
     "Borough": "Knoxville, TN",
     "Free_Show": true,
-    "Notes": "",
+    "Notes": "\"\"\"",
     "Record_ID": "a8cd658f",
     "Year": 2025,
     "Month": 3,
@@ -1932,7 +1934,7 @@
     "Venue": "Big Ears 2025",
     "Borough": "Knoxville, TN",
     "Free_Show": true,
-    "Notes": "Glitchy Iceland band I've known about for years, but seeing them live finally their set was way more doom-inducing and darker than I could have expected, haha. I thought they were more twee than their live show displayed.",
+    "Notes": "\"Glitchy Iceland band I've known about for years, but seeing them live finally their set was way more doom-inducing and darker than I could have expected, haha. I thought they were more twee than their live show displayed.\"",
     "Record_ID": "6d5663a3",
     "Year": 2025,
     "Month": 3,
@@ -2056,7 +2058,7 @@
     "Venue": "Roulette Intermedium",
     "Borough": "Brooklyn",
     "Free_Show": false,
-    "Notes": "'Featuring Saul Williams. As the set finished Carlos held the silence on stage after the musicians finished playing and slowly opened his eyes and whispered to the crowd \"Ok so (waving to the band on stage) we're done now. \" asked the crowd to maintain the silence instead of applauding for them all. He got up and they all left the stage with the quiet lingering in the air and the band dispersed to mingle with the crowd. Carlos simply sat down on the front of the stage and after a few moments asked the people in the front row \"So do you guys come here alot?\"",
+    "Notes": "Featuring Saul Williams. As the set finished Carlos held the silence on stage after the musicians finished playing, and slowly opened his eyes and whispered to the crowd, 'Ok so (waving to the band on stage) we're done now.' He asked the crowd to maintain the silence instead of applauding for them all, and then after a moment got up and they all left the stage with the quiet lingering in the air and the band dispersed to mingle with the crowd. Carlos simply sat down on the front of the stage and after a pause, asked the people in the front row, 'So do you guys come here alot?'",
     "Record_ID": "7e314fa0",
     "Year": 2025,
     "Month": 5,
@@ -2172,7 +2174,7 @@
     "Venue": "Hudson Yards",
     "Borough": "Manhattan",
     "Free_Show": true,
-    "Notes": "Hell yeah. I was disappointed though in Busta for saying that none of the stuff on the stage was AI, when clearly every single animation during his set was AI. Floating de-aged deepfake heads not only of himself but of Mariah Carey, Janet Jackson, and Chris Rock. Does he think his fans are dumb? That dumb?",
+    "Notes": "Hell yeah. I was disappointed though in Busta for saying that none of the stuff on the stage was AI when clearly every single animation during his set was AI. Floating de-aged deepfake heads not only of himself but of Mariah Carey, Janet Jackson, and Chris Rock. Does he think his fans are dumb? That dumb?",
     "Record_ID": "f4322611",
     "Year": 2026,
     "Month": 5,

@@ -9,7 +9,7 @@
     href="/"
     target="_self"
     style:text-decoration={isArchive
-      ? " rgba(236, 9, 193,0.50) underline "
+      ? " rgba(255, 0, 212,0.50) underline "
       : "none"}
     style:color="black">Archive</a
   >
@@ -18,7 +18,7 @@
     href="./analysis"
     target="_self"
     style:text-decoration={isAnalysis
-      ? "rgba(236, 9, 193,0.50) underline"
+      ? "rgba(255, 0, 212,0.50) underline"
       : "none"}
     style:color="black">Analysis</a
   >

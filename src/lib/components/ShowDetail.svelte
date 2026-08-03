@@ -3,7 +3,7 @@
   let selectedImageIndex = $state(0);
 </script>
 
-<div style="border: 5px solid #EC09C1; padding: 20px; background: white;">
+<div style="border: 5px solid #ff00d4; padding: 20px; background: white;">
   {#if show}
     <h1>{show.Artist}</h1>
     <p>{show.Venue} in {show.Borough}</p>
@@ -48,10 +48,10 @@
                   onclick={() => (selectedImageIndex = index)}
                   style="padding: 5px 10px; background: {index ===
                   selectedImageIndex
-                    ? '#EC09C1'
+                    ? '#ff00d4'
                     : '#f0f0f0'}; color: {index === selectedImageIndex
                     ? '#fff'
-                    : '#000'}; border: 1px solid #EC09C1; cursor: pointer;"
+                    : '#000'}; border: 1px solid #ff00d4; cursor: pointer;"
                 >
                   {index + 1}
                 </button>
@@ -71,7 +71,7 @@
       {/if}
     </div>
   {:else}
-    <p style="color: #EC09C1; font-weight: bold;">
+    <p style="color: #ff00d4; font-weight: bold;">
       Select a show to view details
     </p>
   {/if}

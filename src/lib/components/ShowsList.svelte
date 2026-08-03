@@ -84,21 +84,21 @@
     text-align: left;
     width: 100%;
     background: #fff;
-    border-top: 0.5px solid rgb(236, 9, 193, 0.25);
-    border-bottom: 0.5px solid rgb(236, 9, 193, 0.25);
+    border-top: 0.5px solid rgba(255, 0, 212, 0.25);
+    border-bottom: 0.5px solid rgba(255, 0, 212, 0.25);
     cursor: pointer;
     margin: 0;
     padding: 3px;
   }
   button:hover {
-    border-top: 0.5px solid #ec09c1;
-    border-bottom: 0.5px solid #ec09c1;
+    border-top: 0.5px solid rgb(255, 0, 212);
+    border-bottom: 0.5px solid #ff00d4;
   }
 
   .free-show {
     display: inline-block;
     border: 1px solid #000;
-    color: #ec09c1;
+    color: rgb(255, 0, 212);
     font-size: 0.7rem;
     padding: 1.5px 2px;
     margin-left: 5px;

@@ -1,4 +1,6 @@
 <script>
+  import { page } from "$app/stores";
+  import PageHeader from "$lib/components/PageHeader.svelte";
   import ShowsList from "$lib/components/ShowsList.svelte";
   import ShowDetail from "$lib/components/ShowDetail.svelte";
 
@@ -11,17 +13,7 @@
 </script>
 
 <div style="display: flex;  padding: 1rem; border-bottom: 1px solid #000;">
-  <h1>
-    <a href="/" target="_self" style="text-decoration: none; color: black; ;"
-      >Archive</a
-    >
-    &
-    <a
-      href="./analysis"
-      target="_self"
-      style="text-decoration: none; color: black;">Analysis</a
-    >
-  </h1>
+  <PageHeader />
 </div>
 
 <div style="display: flex; height: 100vh;">

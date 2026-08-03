@@ -10,6 +10,20 @@
   };
 </script>
 
+<div style="display: flex;  padding: 1rem; border-bottom: 1px solid #000;">
+  <h1>
+    <a href="/" target="_self" style="text-decoration: none; color: black; ;"
+      >Archive</a
+    >
+    &
+    <a
+      href="./analysis"
+      target="_self"
+      style="text-decoration: none; color: black;">Analysis</a
+    >
+  </h1>
+</div>
+
 <div style="display: flex; height: 100vh;">
   <div style="flex: 65%; border-right: 1px solid #000; padding: 1rem;">
     <!-- Explicitly pass the function -->

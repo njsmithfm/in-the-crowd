@@ -17,7 +17,7 @@
 <div class="shows-list-container">
   <!-- Fixed header that doesn't move -->
   <div class="fixed-header">
-    <h2>Shows by Date</h2>
+    <h3>Shows by Date</h3>
 
     <div
       class="column-header-row"

@@ -71,9 +71,7 @@
       {/if}
     </div>
   {:else}
-    <p style="color: #ff00d4; font-weight: bold;">
-      Select a show to view details
-    </p>
+    <p style="color: #ff00d4; font-weight: bold;">Select a show from left!</p>
   {/if}
 
   <button onclick={onClose}>Close</button>

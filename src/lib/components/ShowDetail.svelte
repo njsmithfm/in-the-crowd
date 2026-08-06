@@ -14,9 +14,6 @@
         year: "numeric",
       })}
     </p>
-    {#if show?.Notes}
-      <p><strong><i>Notes:</i></strong> {show.Notes}</p>
-    {/if}
 
     <!-- Media Display -->
     <div style="margin: 20px 0;">
@@ -60,7 +57,10 @@
           {/if}
         </div>
       {/if}
-
+      {#if show?.Notes}
+        <p style="margin:0; "><i>Notes:</i></p>
+        <div class="show-notes">{show.Notes}</div>
+      {/if}
       <!-- Fallback for old single mediaPath format (backwards compat) -->
       {#if !show.media && show.media}
         <img
@@ -76,3 +76,9 @@
 
   <button onclick={onClose}>Close</button>
 </div>
+
+<style>
+  .show-notes {
+    margin: 0.75rem;
+  }
+</style>

@@ -9,9 +9,9 @@
   style="display: flex; flex-direction: row; border-bottom: 2px solid #000; justify-content: space-between;"
 >
   <div class="title" style="display: flex; flex-direction: column;">
-    <h1 style="margin: 1.25rem; ">In the Crowd</h1>
+    <h1 style="margin: 1.25rem 0 0 1.25rem; ">In the Crowd</h1>
 
-    <h2 style="margin: 1.25rem; ">
+    <h2 style="margin: 1rem 0 0.75rem 1.25rem; ">
       <a
         href="?view=archive"
         onclick={(e) => {

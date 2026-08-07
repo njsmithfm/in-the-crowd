@@ -73,10 +73,10 @@
     <SummaryCards {...stats} />
 
     <div class="dashboard-grid">
-      <TimelineChart data={timelineData} />
-      <BoroughBarChart data={boroughData} />
-      <TopVenuesChart data={venueData} />
-      <FreeShowsChart data={freeShowData} />
+      <div><TimelineChart data={timelineData} /></div>
+      <div><BoroughBarChart data={boroughData} /></div>
+      <div><TopVenuesChart data={venueData} /></div>
+      <div><FreeShowsChart data={freeShowData} /></div>
     </div>
   </section>
   <!-- Explicitly pass the function -->
@@ -85,5 +85,9 @@
 <style>
   .analysis-dashboard {
     margin: 2.5rem;
+  }
+
+  .dashboard-grid {
+    display: grid;
   }
 </style>

@@ -61,14 +61,6 @@
         <p style="margin:0; "><i>Notes:</i></p>
         <div class="show-notes">{show.Notes}</div>
       {/if}
-      <!-- Fallback for old single mediaPath format (backwards compat) -->
-      {#if !show.media && show.media}
-        <img
-          src={show.mediaPath}
-          alt={show.Artist}
-          style="max-width: 100%; height: auto;"
-        />
-      {/if}
     </div>
   {:else}
     <p style="color: #ff00d4; font-weight: bold;">Select a show from left!</p>

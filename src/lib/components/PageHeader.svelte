@@ -21,8 +21,7 @@
         style:text-decoration={viewMode === "archive"
           ? "rgba(255, 0, 212,0.50) underline"
           : "none"}
-        style:color="black"
-        Archive>Archive</a
+        style:color="black">Archive</a
       >
       &
       <a

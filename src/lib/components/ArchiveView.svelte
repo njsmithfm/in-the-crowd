@@ -4,8 +4,6 @@
 
   let selectedShow = $state(null);
 
-  let { data } = $props();
-
   const handleSelection = (showData) => {
     selectedShow = showData;
   };

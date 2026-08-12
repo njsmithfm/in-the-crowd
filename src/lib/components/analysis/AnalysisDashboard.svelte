@@ -51,9 +51,6 @@
 
   const totalShows = sortedShows.length;
   const freeShows = sortedShows.filter((show) => show.Free_Show).length;
-  const showsWithNotes = sortedShows.filter(
-    (show) => show.Notes && show.Notes.trim(),
-  ).length;
 
   const yearsCovered = new Set(sortedShows.map((show) => show.Year)).size;
   const topBorough = boroughData[0]?.label ?? "N/A";
@@ -61,7 +58,6 @@
   const stats = {
     totalShows,
     freeShows,
-    showsWithNotes,
     yearsCovered,
     topBorough,
     topVenue,
@@ -70,9 +66,8 @@
 
 <div style="display: flex; height: 100vh;">
   <section class="analysis-dashboard">
-    <SummaryCards {...stats} />
-
     <div class="dashboard-grid">
+      <div><SummaryCards {...stats} /></div>
       <div><TimelineChart data={timelineData} /></div>
       <div><BoroughBarChart data={boroughData} /></div>
       <div><TopVenuesChart data={venueData} /></div>
@@ -89,5 +84,11 @@
 
   .dashboard-grid {
     display: grid;
+    min-width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+  }
+  .dashboard-grid div {
+    margin: 1.5rem;
   }
 </style>

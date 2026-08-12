@@ -3,7 +3,7 @@ const quotes = [
   "I wanna smash my face into the goddamn radio",
   "chocolate makes you happy",
   "bring me the head of whoever said play fair",
-  "got you all in check",
+  "WOO-HAH!!",
   "I've come to my senses that I've become senseless",
   "mirror in the bathroom please talk free",
   "every day is like Sunday",

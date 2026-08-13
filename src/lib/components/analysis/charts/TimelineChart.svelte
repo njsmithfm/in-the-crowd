@@ -9,8 +9,8 @@
 
   onMount(() => {
     const width = 640;
-    const height = 200;
-    const radius = 5;
+    const height = 300;
+    const radius = 6.5;
     const margin = 40;
 
     const parser = d3.timeParse("%Y-%m-%d %H:%M:%S");
@@ -25,29 +25,44 @@
     const colorScale = d3
       .scaleOrdinal()
       .domain(yValues)
-      .range(["#ff7f0e", "#1f77b4", "#2ca02c"]);
+      .range(["#16FF00", "#008BFF", "#5B23FF", "#000000", "#FF0B55"]);
 
+    // Group by date and assign fixed X positions
+    const byDate = d3.group(data, (d) => d.date.getTime());
+
+    byDate.forEach((items, timestamp) => {
+      const targetX = xScale(items[0].date);
+      items.forEach((item) => {
+        item.x = targetX; // Fixed X for this date
+        item.targetX = targetX; // Store target for strong force
+        item.y = height / 2; // Start at center
+      });
+    });
+
+    // Beeswarm simulation: strong X constraint + collision
     const simulation = d3
       .forceSimulation(data)
-      .force("x", d3.forceX((d) => xScale(d.date)).strength(0.1))
-      .force("y", d3.forceY(height / 2).strength(0.02))
-      .force("collide", d3.forceCollide(radius + 0.5))
+      .force("x", d3.forceX((d) => d.targetX).strength(1.5)) // Very strong X lock
+      .force("y", d3.forceY(height / 2).strength(0.15)) // Minimal Y influence
+      .force("collide", d3.forceCollide(radius)) // Tight collision
       .alpha(1)
       .restart();
 
-    while (simulation.alpha() > 0.005) simulation.tick();
+    // Iterate to settle
+    for (let i = 0; i < 500; i++) simulation.tick();
     simulation.stop();
+
     tooltip = d3
       .select("body")
       .append("div")
       .style("position", "absolute")
-      .style("background", "#333")
-      .style("color", "#fff")
+      .style("background", "rgba(255, 255, 255, 0.975)")
+      .style("border", "3px solid #ff00d4")
+      .style("color", "#000000")
       .style("padding", "4px 8px")
       .style("border-radius", "4px")
-      .style("font-size", "12px")
-      .style("pointer-events", "none")
-      .style("opacity", 0);
+      .style("font-size", "14px")
+      .style("pointer-events", "none");
 
     d3.select(svgElement)
       .append("g")
@@ -68,7 +83,7 @@
         tooltip
           .style("opacity", 1)
           .html(
-            `<strong>${d.Artist}</strong><br/>${d.Venue}<br/>${d.date.toDateString()}<br/>${d.Borough}`,
+            `<strong>${d.Artist}</strong><br/>${d.Venue}<br/>${d.date.toLocaleDateString("en-gb", { day: "numeric", month: "long", year: "numeric" })}<br/>${d.Borough}`,
           )
           .style("left", e.pageX + 10 + "px")
           .style("top", e.pageY - 10 + "px");
@@ -77,7 +92,7 @@
   });
 </script>
 
-<BaseChartPanel title="Timeline" subtitle="(I rock through time)">
+<BaseChartPanel title="Timeline">
   <div class="chart-svg">
     <svg bind:this={svgElement} width="640" height="320"></svg>
   </div>

@@ -32,29 +32,12 @@
     return counts;
   }, {});
 
-  const boroughData = Object.entries(boroughCounts)
-    .map(([label, value]) => ({ label, value }))
-    .sort((a, b) => b.value - a.value);
-
-  const venueData = Object.entries(venueCounts)
-    .map(([label, value]) => ({ label, value }))
-    .sort((a, b) => b.value - a.value)
-    .slice(0, 5);
-
-  const timelineData = Object.entries(yearCounts)
-    .map(([label, value]) => ({ label, value }))
-    .sort((a, b) => Number(a.label) - Number(b.label));
-
-  const freeShowData = Object.entries(freeShowsByYear)
-    .map(([label, value]) => ({ label, value }))
-    .sort((a, b) => Number(a.label) - Number(b.label));
-
   const totalShows = sortedShows.length;
   const freeShows = sortedShows.filter((show) => show.Free_Show).length;
 
   const yearsCovered = new Set(sortedShows.map((show) => show.Year)).size;
-  const topBorough = boroughData[0]?.label ?? "N/A";
-  const topVenue = venueData[0]?.label ?? "N/A";
+  const topBorough = boroughCounts[0]?.label ?? "N/A";
+  const topVenue = venueCounts[0]?.label ?? "N/A";
   const stats = {
     totalShows,
     freeShows,
@@ -68,10 +51,11 @@
   <section class="analysis-dashboard">
     <div class="dashboard-grid">
       <div><SummaryCards {...stats} /></div>
-      <div><TimelineChart data={timelineData} /></div>
-      <div><BoroughBarChart data={boroughData} /></div>
-      <div><TopVenuesChart data={venueData} /></div>
-      <div><FreeShowsChart data={freeShowData} /></div>
+      <!-- <div><BoroughBarChart /></div>
+      <div><TopVenuesChart /></div>
+      <div><FreeShowsChart /></div> -->
+
+      <div><TimelineChart /></div>
     </div>
   </section>
   <!-- Explicitly pass the function -->

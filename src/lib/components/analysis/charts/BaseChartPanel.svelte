@@ -1,5 +1,5 @@
 <script>
-  let { title, subtitle } = $props();
+  let { title, subtitle, children } = $props();
 </script>
 
 <section class="chart-panel">
@@ -11,6 +11,6 @@
   </header>
 
   <div class="chart-panel-body">
-    <slot />
+    {@render children?.()}
   </div>
 </section>

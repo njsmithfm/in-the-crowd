@@ -3,7 +3,7 @@
   import * as d3 from "d3";
   import BaseChartPanel from "$lib/components/analysis/charts/BaseChartPanel.svelte";
 
-  let { data = [] } = $props();
+  import shows from "../../../../../public/data/shows.json";
   let svg;
 
   onMount(() => {
@@ -16,13 +16,13 @@
 
     const x = d3
       .scaleBand()
-      .domain(data.map((d) => d.label))
+      .domain(shows.map((d) => d.label))
       .range([0, innerWidth])
       .padding(0.2);
 
     const y = d3
       .scaleLinear()
-      .domain([0, d3.max(data, (d) => d.value) ?? 0])
+      .domain([0, d3.max(shows, (d) => d.value) ?? 0])
       .nice()
       .range([innerHeight, 0]);
 
@@ -35,7 +35,7 @@
       .attr("transform", `translate(${margin.left},${margin.top})`);
 
     g.selectAll("rect")
-      .data(data)
+      .data(shows)
       .join("rect")
       .attr("x", (d) => x(d.label))
       .attr("y", (d) => y(d.value))

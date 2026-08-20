@@ -14,15 +14,24 @@
     const innerWidth = width - margin.left - margin.right;
     const innerHeight = height - margin.top - margin.bottom;
 
+    const counts = Array.from(
+      d3.rollup(
+        shows.filter((show) => show.Free_Show),
+        (items) => items.length,
+        (show) => show.Year,
+      ),
+      ([label, value]) => ({ label: String(label), value }),
+    ).sort((a, b) => d3.ascending(a.label, b.label));
+
     const x = d3
       .scaleBand()
-      .domain(shows.map((d) => d.label))
+      .domain(counts.map((d) => d.label))
       .range([0, innerWidth])
       .padding(0.2);
 
     const y = d3
       .scaleLinear()
-      .domain([0, d3.max(shows, (d) => d.value) ?? 0])
+      .domain([0, d3.max(counts, (d) => d.value) ?? 0])
       .nice()
       .range([innerHeight, 0]);
 
@@ -34,8 +43,14 @@
       .append("g")
       .attr("transform", `translate(${margin.left},${margin.top})`);
 
+    g.append("g")
+      .attr("transform", `translate(0,${innerHeight})`)
+      .call(d3.axisBottom(x));
+
+    g.append("g").call(d3.axisLeft(y).ticks(4));
+
     g.selectAll("rect")
-      .data(shows)
+      .data(counts)
       .join("rect")
       .attr("x", (d) => x(d.label))
       .attr("y", (d) => y(d.value))

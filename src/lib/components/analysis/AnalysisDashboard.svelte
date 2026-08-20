@@ -51,9 +51,9 @@
   <section class="analysis-dashboard">
     <div class="dashboard-grid">
       <div><SummaryCards {...stats} /></div>
-      <!-- <div><BoroughBarChart /></div>
+      <div><BoroughBarChart /></div>
       <div><TopVenuesChart /></div>
-      <div><FreeShowsChart /></div> -->
+      <div><FreeShowsChart /></div>
 
       <div><TimelineChart /></div>
     </div>

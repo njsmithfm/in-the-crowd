@@ -62,36 +62,32 @@
 
   <!-- Scrollable content that sits BELOW the header -->
   <div class="date-shows-scrolling-area">
-    {#if visibleGroupedShows().length > 0}
-      {#each visibleGroupedShows() as billShows}
-        <div class="bill-group">
-          {#each billShows as show}
-            <button onclick={() => onSelect?.(show)}>
-              <div class="show-data-row">
-                <span class="col-gig">{show.Show_Number}</span>
-                <span class="col-date"
-                  >{new Date(show.Date).toLocaleDateString("en-gb", {
-                    day: "numeric",
-                    month: "long",
-                    year: "numeric",
-                  })}</span
+    {#each visibleGroupedShows() as billShows}
+      <div class="bill-group">
+        {#each billShows as show}
+          <button onclick={() => onSelect?.(show)}>
+            <div class="show-data-row">
+              <span class="col-gig">{show.Show_Number}</span>
+              <span class="col-date"
+                >{new Date(show.Date).toLocaleDateString("en-gb", {
+                  day: "numeric",
+                  month: "long",
+                  year: "numeric",
+                })}</span
+              >
+              <span class="col-artist"><strong>{show.Artist}</strong></span>
+              <span class="col-venue">{show.Venue}</span>
+              <span class="col-borough">{show.Borough}</span>
+              {#if show.Free_Show}
+                <span class="col-free-show"
+                  ><div class="free-show">FREE</div></span
                 >
-                <span class="col-artist"><strong>{show.Artist}</strong></span>
-                <span class="col-venue">{show.Venue}</span>
-                <span class="col-borough">{show.Borough}</span>
-                {#if show.Free_Show}
-                  <span class="col-free-show"
-                    ><div class="free-show">FREE</div></span
-                  >
-                {/if}
-              </div>
-            </button>
-          {/each}
-        </div>
-      {/each}
-    {:else}
-      <p class="empty-state">No shows match that artist search.</p>
-    {/if}
+              {/if}
+            </div>
+          </button>
+        {/each}
+      </div>
+    {/each}
   </div>
 </div>
 
@@ -115,20 +111,15 @@
     margin-bottom: 0.75rem;
   }
 
-  .search-bar span {
-    font-size: 0.8rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
-  }
-
   .search-bar input {
     width: 100%;
-    border: 1px solid #000;
-    border-radius: 0;
+    border: 3px solid rgba(255, 0, 212, 0.5);
     padding: 0.55rem 0.75rem;
-    font: inherit;
     background: #fff;
+  }
+  .search-bar input:focus {
+    border: 3px solid rgb(255, 0, 212);
+    outline: none;
   }
 
   .date-shows-scrolling-area {
@@ -161,11 +152,5 @@
     padding: 1.5px 2px;
     margin-left: 5px;
     border-radius: 3px;
-  }
-
-  .empty-state {
-    margin: 1rem 0;
-    padding: 0.75rem 0.5rem;
-    font-style: italic;
   }
 </style>

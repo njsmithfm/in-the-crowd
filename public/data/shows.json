@@ -1974,11 +1974,7 @@
     "Primary Artist": "Kahil El'Zabar",
     "Bill_ID": "2025-03-30|Big Ears 2025",
     "Show_Number": 122,
-    "media": {
-      "images": [
-        "/media/edd54967/118.jpg"
-      ]
-    }
+    "media": null
   },
   {
     "Artist": "Idris Ackamoor",
@@ -2026,14 +2022,10 @@
     "Primary Artist": "Frank Rosaly",
     "Bill_ID": "2025-04-01|Public Records",
     "Show_Number": 125,
-    "media": {
-      "images": [
-        "/media/96aaa9c2/121.jpg"
-      ]
-    }
+    "media": null
   },
   {
-    "Artist": "Jeremiah Chu",
+    "Artist": "Jeremiah Chiu",
     "Date": "2025-04-01 00:00:00",
     "Venue": "Public Records",
     "Borough": "Brooklyn",
@@ -2043,12 +2035,12 @@
     "Year": 2025,
     "Month": 4,
     "Day": "Tuesday",
-    "Primary Artist": "Jeremiah Chu",
+    "Primary Artist": "Jeremiah Chiu",
     "Bill_ID": "2025-04-01|Public Records",
     "Show_Number": 126,
     "media": {
       "images": [
-        "/media/a383775c/122.jpg"
+        "/media/a383775c/118.jpg"
       ]
     }
   },
@@ -2098,7 +2090,11 @@
     "Primary Artist": "Xiu Xiu",
     "Bill_ID": "2025-06-22|The Ruins at Knockdown Center",
     "Show_Number": 129,
-    "media": null
+    "media": {
+      "images": [
+        "/media/0942c729/121.jpg"
+      ]
+    }
   },
   {
     "Artist": "Chuquimamani-Condori",
@@ -2114,7 +2110,11 @@
     "Primary Artist": "Chuquimamani-Condori",
     "Bill_ID": "2025-06-22|The Ruins at Knockdown Center",
     "Show_Number": 130,
-    "media": null
+    "media": {
+      "images": [
+        "/media/3f9c4ca2/122.jpg"
+      ]
+    }
   },
   {
     "Artist": "Nduduzo Makhathini",

@@ -62,6 +62,7 @@
   });
 </script>
 
-<main title="Boroughs" subtitle="Where in New York I've been going">
+<main>
+  <h3>Locations</h3>
   <svg bind:this={svg} class="chart-svg"></svg>
 </main>

@@ -103,5 +103,9 @@
 </script>
 
 <main>
+  <h3>Timeline of Shows</h3>
   <svg bind:this={svgElement} {width} {height}></svg>
 </main>
+
+<style>
+</style>

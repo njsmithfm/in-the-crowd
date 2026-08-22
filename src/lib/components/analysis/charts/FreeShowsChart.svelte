@@ -59,6 +59,7 @@
   });
 </script>
 
-<main title="Free Shows" subtitle="Free shows!">
+<main>
+  <h3>Free Shows</h3>
   <svg bind:this={svg} class="chart-svg"></svg>
 </main>

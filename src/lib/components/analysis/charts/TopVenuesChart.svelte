@@ -7,8 +7,8 @@
 
   onMount(() => {
     const width = 640;
-    const height = 320;
-    const margin = { top: 20, right: 20, bottom: 40, left: 40 };
+    const height = 500;
+    const margin = { top: 20, right: 20, bottom: 100, left: 40 };
 
     const innerWidth = width - margin.left - margin.right;
     const innerHeight = height - margin.top - margin.bottom;
@@ -64,6 +64,7 @@
   });
 </script>
 
-<main title="Venues" subtitle="Venues I've been to the most">
+<main>
+  <h3>Venues</h3>
   <svg bind:this={svg} class="chart-svg"></svg>
 </main>

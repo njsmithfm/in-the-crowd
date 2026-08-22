@@ -1,5 +1,4 @@
 <script>
-  import BaseChartPanel from "$lib/components/analysis/charts/BaseChartPanel.svelte";
   import { onMount, onDestroy } from "svelte";
   import * as d3 from "d3";
   import shows from "../../../../../public/data/shows.json";
@@ -7,7 +6,6 @@
   let svgElement;
   let circles;
 
-  // 🟢 Reactive scale only
   const colorScale = $derived(
     d3
       .scaleOrdinal()
@@ -47,7 +45,7 @@
     Object.assign(tooltipDiv.style, {
       position: "absolute",
       background: "rgba(255, 255, 255, 0.975)",
-      border: "3px solid #ff00d4",
+      border: "3px solid",
       padding: "4px 8px",
       borderRadius: "4px",
       fontSize: "14px",
@@ -91,6 +89,7 @@
           left: e.pageX + 10 + "px",
           top: e.pageY - 10 + "px",
         });
+        tooltipDiv.style.borderColor = colorScale(d.Borough);
       })
       .on("mouseout", () => {
         tooltipDiv.style.display = "none";
@@ -101,16 +100,8 @@
       tooltipDiv.remove(); // Clean up
     };
   });
-
-  $effect(() => {
-    if (data.length && circles) {
-      circles.data(data);
-      simulation.nodes(data);
-      simulation.alpha(1).restart();
-    }
-  });
 </script>
 
-<BaseChartPanel title="Timeline">
+<main>
   <svg bind:this={svgElement} {width} {height}></svg>
-</BaseChartPanel>
+</main>

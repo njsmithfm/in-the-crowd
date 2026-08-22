@@ -55,7 +55,7 @@
       <span>Artist</span>
       <span>Venue</span>
       <span>Location</span>
-      <span>¿Gratis?</span>
+      <span></span>
       <span></span>
     </div>
   </div>

@@ -1,7 +1,6 @@
 <script>
   import { onMount } from "svelte";
   import * as d3 from "d3";
-  import BaseChartPanel from "$lib/components/analysis/charts/BaseChartPanel.svelte";
 
   import shows from "../../../../../public/data/shows.json";
   let svg;
@@ -63,6 +62,6 @@
   });
 </script>
 
-<BaseChartPanel title="Boroughs" subtitle="Where in New York I've been going">
+<main title="Boroughs" subtitle="Where in New York I've been going">
   <svg bind:this={svg} class="chart-svg"></svg>
-</BaseChartPanel>
+</main>

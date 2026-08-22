@@ -1,7 +1,6 @@
 <script>
   import { onMount } from "svelte";
   import * as d3 from "d3";
-  import BaseChartPanel from "$lib/components/analysis/charts/BaseChartPanel.svelte";
   import shows from "../../../../../public/data/shows.json";
 
   let svg;
@@ -60,6 +59,6 @@
   });
 </script>
 
-<BaseChartPanel title="Free Shows" subtitle="Free shows!">
+<main title="Free Shows" subtitle="Free shows!">
   <svg bind:this={svg} class="chart-svg"></svg>
-</BaseChartPanel>
+</main>

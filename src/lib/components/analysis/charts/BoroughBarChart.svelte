@@ -2,7 +2,7 @@
   import { onMount } from "svelte";
   import * as d3 from "d3";
   import ChartWrapper from "../ChartWrapper.svelte";
-
+  import { boroughColors } from "../boroughColors.js";
   import shows from "../../../../../public/data/shows.json";
   let svg;
 
@@ -59,7 +59,7 @@
       .attr("y", (d) => y(d.value))
       .attr("width", x.bandwidth())
       .attr("height", (d) => innerHeight - y(d.value))
-      .attr("fill", "#111");
+      .attr("fill", (d) => boroughColors[d.label] || "#111");
   });
 </script>
 

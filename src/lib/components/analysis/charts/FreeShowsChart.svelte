@@ -3,7 +3,6 @@
   import * as d3 from "d3";
   import shows from "../../../../../public/data/shows.json";
   import ChartWrapper from "../ChartWrapper.svelte";
-
   let svg;
 
   onMount(() => {

@@ -3,5 +3,6 @@ export const boroughColors = {
   Brooklyn: "#16FF00",
   Queens: "#008BFF",
   Bronx: "#5B23FF",
-  "Staten Island": "#000000",
+  "New Jersey": "#000000",
+  "Knoxville, TN": "#6a00e2",
 };

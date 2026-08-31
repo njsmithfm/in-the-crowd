@@ -89,7 +89,7 @@
           <!-- tick mark -->
           <line y2={5} stroke="#333" stroke-width={1} />
           <!-- label -->
-          <text y={18} text-anchor="middle" font-size={14} fill="#333">
+          <text y={18} text-anchor="middle" font-size={16} fill="#333">
             {d3.timeFormat("%Y")(year)}
           </text>
         </g>

@@ -1,6 +1,7 @@
 <script>
   import { onMount } from "svelte";
   import * as d3 from "d3";
+  import ChartWrapper from "../ChartWrapper.svelte";
 
   import shows from "../../../../../public/data/shows.json";
   let svg;
@@ -62,7 +63,6 @@
   });
 </script>
 
-<main>
-  <h3>Locations</h3>
+<ChartWrapper title="Shows by Borough">
   <svg bind:this={svg} class="chart-svg"></svg>
-</main>
+</ChartWrapper>

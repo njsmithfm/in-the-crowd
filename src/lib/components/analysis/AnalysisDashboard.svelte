@@ -47,23 +47,22 @@
   };
 </script>
 
-<div style="display: flex; height: 100vh;">
-  <section class="analysis-dashboard">
-    <div class="dashboard-grid">
-      <div><SummaryCards {...stats} /></div>
-      <div><BoroughBarChart /></div>
-      <div><TopVenuesChart /></div>
-      <div><FreeShowsChart /></div>
+<section class="analysis-dashboard">
+  <div class="dashboard-grid">
+    <div><SummaryCards {...stats} /></div>
+    <div><BoroughBarChart /></div>
+    <div><TopVenuesChart /></div>
+    <div><FreeShowsChart /></div>
 
-      <div><TimelineChart /></div>
-    </div>
-  </section>
-  <!-- Explicitly pass the function -->
-</div>
+    <div><TimelineChart /></div>
+  </div>
+</section>
 
 <style>
   .analysis-dashboard {
     margin: 2.5rem;
+    width: calc(100% - 5rem); /* account for margins */
+    height: calc(100vh - 5rem);
   }
 
   .dashboard-grid {
@@ -72,6 +71,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 2fr;
   }
+
   .dashboard-grid div {
     margin: 1.5rem;
   }

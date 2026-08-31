@@ -2,6 +2,7 @@
   import { onMount } from "svelte";
   import * as d3 from "d3";
   import shows from "../../../../../public/data/shows.json";
+  import ChartWrapper from "../ChartWrapper.svelte";
 
   let svg;
 
@@ -59,7 +60,6 @@
   });
 </script>
 
-<main>
-  <h3>Free Shows</h3>
+<ChartWrapper title="Free Shows by Year">
   <svg bind:this={svg} class="chart-svg"></svg>
-</main>
+</ChartWrapper>

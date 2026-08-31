@@ -1,70 +1,51 @@
 <script>
-  import { onMount } from "svelte";
-  import * as d3 from "d3";
-
+  import ChartWrapper from "../ChartWrapper.svelte";
   import shows from "../../../../../public/data/shows.json";
-  let svg;
 
-  onMount(() => {
-    const width = 640;
-    const height = 500;
-    const margin = { top: 20, right: 20, bottom: 100, left: 40 };
+  // Step 1: Count shows at each venue
+  let venueCounts = {};
+  for (let show of shows) {
+    if (!venueCounts[show.Venue]) {
+      venueCounts[show.Venue] = 0;
+    }
+    venueCounts[show.Venue] += 1;
+  }
 
-    const innerWidth = width - margin.left - margin.right;
-    const innerHeight = height - margin.top - margin.bottom;
+  // Step 2: Convert to array format [venueName, count]
+  let venueEntries = [];
+  for (let venue in venueCounts) {
+    venueEntries.push([venue, venueCounts[venue]]);
+  }
 
-    const counts = Array.from(
-      d3.rollup(
-        shows,
-        (items) => items.length,
-        (show) => show.Venue,
-      ),
-      ([label, value]) => ({ label, value }),
-    )
-      .sort((a, b) => d3.descending(a.value, b.value))
-      .slice(0, 12);
+  // Step 3: Sort by highest count first
+  venueEntries.sort((a, b) => b[1] - a[1]);
 
-    const x = d3
-      .scaleBand()
-      .domain(counts.map((d) => d.label))
-      .range([0, innerWidth])
-      .padding(0.2);
+  // Step 4: Take top 12 only
+  let topVenues = venueEntries.slice(0, 12);
 
-    const y = d3
-      .scaleLinear()
-      .domain([0, d3.max(counts, (d) => d.value) ?? 0])
-      .nice()
-      .range([innerHeight, 0]);
+  // Step 5: Format as {label, value} for easier use
+  let counts = [];
+  for (let [venue, count] of topVenues) {
+    counts.push({ label: venue, value: count });
+  }
 
-    const root = d3.select(svg);
-    root.selectAll("*").remove();
-
-    const g = root
-      .attr("viewBox", `0 0 ${width} ${height}`)
-      .append("g")
-      .attr("transform", `translate(${margin.left},${margin.top})`);
-
-    g.append("g")
-      .attr("transform", `translate(0,${innerHeight})`)
-      .call(d3.axisBottom(x))
-      .selectAll("text")
-      .attr("transform", "rotate(-25)")
-      .style("text-anchor", "end");
-
-    g.append("g").call(d3.axisLeft(y).ticks(4));
-
-    g.selectAll("rect")
-      .data(counts)
-      .join("rect")
-      .attr("x", (d) => x(d.label))
-      .attr("y", (d) => y(d.value))
-      .attr("width", x.bandwidth())
-      .attr("height", (d) => innerHeight - y(d.value))
-      .attr("fill", "#111");
-  });
+  const barHeight = 40;
 </script>
 
-<main>
-  <h3>Venues</h3>
-  <svg bind:this={svg} class="chart-svg"></svg>
-</main>
+<ChartWrapper title="Top Venues">
+  <svg viewBox="0 0 700 500">
+    {#each counts as { label, value }, i}
+      <rect
+        x={20 + i * 50}
+        y={30 + i * barHeight}
+        width={40}
+        height={barHeight - 5}
+        fill="#6d4aff"
+      />
+      <text x={40 + i * 50} y={30 + i * barHeight + barHeight} font-size="10"
+        >{label}</text
+      >
+      <text x={40 + i * 50} y={25 + i * barHeight} font-size="10">{value}</text>
+    {/each}
+  </svg>
+</ChartWrapper>

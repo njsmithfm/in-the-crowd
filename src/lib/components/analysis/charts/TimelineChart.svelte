@@ -1,111 +1,112 @@
 <script>
-  import { onMount, onDestroy } from "svelte";
+  import ChartWrapper from "../ChartWrapper.svelte";
   import * as d3 from "d3";
+  import { boroughColors } from "../boroughColors.js";
   import shows from "../../../../../public/data/shows.json";
-
-  let svgElement;
-  let circles;
-
-  const colorScale = $derived(
-    d3
-      .scaleOrdinal()
-      .domain([...new Set(shows.map((d) => d.Borough))])
-      .range(["#16FF00", "#008BFF", "#5B23FF", "#000000", "#FF0B55"]),
-  );
-
-  const parser = d3.timeParse("%Y-%m-%d %H:%M:%S");
-  const data = shows.map((d) => ({ ...d, date: parser(d.Date) }));
 
   const width = 640;
   const height = 300;
   const radius = 6.5;
   const margin = 40;
 
+  const parser = d3.timeParse("%Y-%m-%d %H:%M:%S");
+  const data = shows.map((show) => ({ ...show, date: new Date(show.Date) }));
+
   const xScale = d3
     .scaleTime()
-    .domain(d3.extent(data, (d) => d.date))
+    .domain(d3.extent(data, (show) => show.date))
     .range([margin, width - margin]);
 
-  const byDate = d3.group(data, (d) => d.date.getTime());
-  byDate.forEach((items) => {
-    const targetX = xScale(items[0].date);
-    items.forEach((item) => {
-      item.x = targetX;
-      item.targetX = targetX;
-      item.y = height / 2;
+  // Pre-compute positions once (run simulation, then freeze)
+  let processedData = $state([]);
+
+  function computePositions() {
+    data.forEach((show) => {
+      show.targetX = xScale(show.date);
+      show.x = show.targetX;
+      show.y = height / 2;
     });
-  });
 
-  let simulation;
-  let tooltipDiv; // 🔴 Add this ref instead of creating DOM inside onMount
-
-  onMount(() => {
-    // Create tooltip div once at mount
-    tooltipDiv = document.createElement("div");
-    Object.assign(tooltipDiv.style, {
-      position: "absolute",
-      background: "rgba(255, 255, 255, 0.975)",
-      border: "3px solid",
-      padding: "4px 8px",
-      borderRadius: "4px",
-      fontSize: "14px",
-      pointerEvents: "none",
-      display: "none",
-      zIndex: "100",
-    });
-    document.body.appendChild(tooltipDiv);
-
-    simulation = d3
+    const simulation = d3
       .forceSimulation(data)
       .force("x", d3.forceX((d) => d.targetX).strength(1.5))
       .force("y", d3.forceY(height / 2).strength(0.15))
-      .force("collide", d3.forceCollide(radius))
+      .force("collide", d3.forceCollide(radius + 0.5))
       .alpha(1)
       .restart();
 
-    for (let i = 0; i < 500; i++) simulation.tick();
+    // Run for fixed iterations until stable
+    for (let i = 0; i < 100; i++) simulation.tick();
     simulation.stop();
 
-    d3.select(svgElement)
-      .append("g")
-      .attr("transform", `translate(0,${height - margin})`)
-      .call(d3.axisBottom(xScale).ticks(6));
+    processedData = data;
+  }
 
-    circles = d3
-      .select(svgElement)
-      .append("g")
-      .selectAll("circle")
-      .data(data)
-      .join("circle")
-      .attr("r", radius)
-      .attr("cx", (d) => d.x)
-      .attr("cy", (d) => d.y)
-      .attr("fill", (d) => colorScale(d.Borough))
-      .attr("stroke", "#fff")
-      .on("mouseover", (e, d) => {
-        tooltipDiv.innerHTML = `<strong>${d.Artist}</strong><br/>${d.Venue}<br/>${d.date.toLocaleDateString("en-gb")}<br/>${d.Borough}`;
-        Object.assign(tooltipDiv.style, {
-          display: "block",
-          left: e.pageX + 10 + "px",
-          top: e.pageY - 10 + "px",
-        });
-        tooltipDiv.style.borderColor = colorScale(d.Borough);
-      })
-      .on("mouseout", () => {
-        tooltipDiv.style.display = "none";
-      });
+  // Compute on init
+  computePositions();
 
-    return () => {
-      simulation.stop();
-      tooltipDiv.remove(); // Clean up
-    };
+  // Svelte state for tooltip
+  let tooltipState = $state({
+    visible: false,
+    x: 0,
+    y: 0,
+    content: "",
+    borderColor: "#333",
   });
+
+  function showTooltip(e, content, borderColor = "#333") {
+    tooltipState = {
+      visible: true,
+      x: e.clientX,
+      y: e.clientY,
+      content,
+      borderColor,
+    };
+  }
+  function hideTooltip() {
+    tooltipState.visible = false;
+  }
 </script>
 
-<main>
-  <h3>Timeline of Shows</h3>
-  <svg bind:this={svgElement} {width} {height}></svg>
-</main>
+<ChartWrapper title="Timeline of Shows">
+  {#snippet children(showTooltip, hideTooltip)}
+    <svg viewBox={`0 0 ${width} ${height}`}>
+      <line
+        x1={margin}
+        x2={width - margin}
+        y1={height - margin}
+        y2={height - margin}
+        stroke="#333"
+      />
 
-<style>
-</style>
+      {#each d3.timeYears(xScale.domain()[0], xScale.domain()[1]) as year}
+        <g transform={`translate(${xScale(year)}, ${height - margin})`}>
+          <!-- tick mark -->
+          <line y2={5} stroke="#333" stroke-width={1} />
+          <!-- label -->
+          <text y={18} text-anchor="middle" font-size={12} fill="#333">
+            {d3.timeFormat("%Y")(year)}
+          </text>
+        </g>
+      {/each}
+
+      {#each processedData as item}
+        <!-- svelte-ignore a11y_no_static_element_interactions -->
+        <circle
+          cx={item.x}
+          cy={item.y}
+          r={radius}
+          fill={boroughColors[item.Borough] || "#000"}
+          stroke="#fff"
+          onmouseenter={(e) =>
+            showTooltip(
+              e,
+              `<strong>${item.Artist}</strong><br/>${item.Venue}<br/>${item.date.toLocaleDateString("en-gb", { year: "numeric", month: "long", day: "numeric" })}<br/>${item.Borough}`,
+              boroughColors[item.Borough],
+            )}
+          onmouseleave={hideTooltip}
+        />
+      {/each}
+    </svg>
+  {/snippet}
+</ChartWrapper>

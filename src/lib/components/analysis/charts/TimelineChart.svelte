@@ -17,6 +17,11 @@
     .domain(d3.extent(data, (show) => show.date))
     .range([margin, width - margin]);
 
+  // x-axis
+  const ticks = [
+    xScale.domain()[0],
+    ...d3.timeYears(xScale.domain()[0], xScale.domain()[1]),
+  ];
   // Pre-compute positions once (run simulation, then freeze)
   let processedData = $state([]);
 
@@ -79,12 +84,12 @@
         stroke="#333"
       />
 
-      {#each d3.timeYears(xScale.domain()[0], xScale.domain()[1]) as year}
+      {#each ticks as year}
         <g transform={`translate(${xScale(year)}, ${height - margin})`}>
           <!-- tick mark -->
           <line y2={5} stroke="#333" stroke-width={1} />
           <!-- label -->
-          <text y={18} text-anchor="middle" font-size={12} fill="#333">
+          <text y={18} text-anchor="middle" font-size={14} fill="#333">
             {d3.timeFormat("%Y")(year)}
           </text>
         </g>

@@ -63,6 +63,6 @@
   });
 </script>
 
-<ChartWrapper title="Shows by Borough">
-  <svg bind:this={svg} class="chart-svg"></svg>
+<ChartWrapper title="Shows by Location">
+  <svg bind:this={svg}></svg>
 </ChartWrapper>

@@ -12,10 +12,17 @@
     }
     dayCounts[day].count += 1;
   }
-  console.log(dayCounts);
-
+  let daysArray = [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday",
+  ];
   let xScale = d3.scaleLinear().domain([0, 50]).range([0, 250]);
-  let yScale = d3.scaleBand().domain(Object.keys(dayCounts)).range([0, 150]);
+  let yScale = d3.scaleBand().domain(daysArray).range([0, 150]);
 
   let svg;
 
@@ -32,12 +39,11 @@
       .attr("fill", "#ff00d440")
       .attr("stroke", "black")
       .attr("width", function (d) {
-        console.log(d);
         return xScale(d[1].count); // widthScale is an array and count is the key needed in the dayCounts object to return the counted values
       });
   });
 </script>
 
 <ChartWrapper title="Days of the Week">
-  <svg bind:this={svg} class="chart-svg"> </svg>
+  <svg bind:this={svg}> </svg>
 </ChartWrapper>

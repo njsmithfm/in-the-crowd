@@ -61,5 +61,5 @@
 </script>
 
 <ChartWrapper title="Free Shows by Year">
-  <svg bind:this={svg} class="chart-svg"></svg>
+  <svg bind:this={svg}></svg>
 </ChartWrapper>

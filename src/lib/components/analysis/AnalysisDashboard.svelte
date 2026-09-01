@@ -4,6 +4,7 @@
   import FreeShowsChart from "$lib/components/analysis/charts/FreeShowsChart.svelte";
   import TopVenuesChart from "$lib/components/analysis/charts/TopVenuesChart.svelte";
   import TimelineChart from "$lib/components/analysis/charts/TimelineChart.svelte";
+  import DayOfWeek from "$lib/components/analysis/charts/DayOfWeek.svelte";
 
   import shows from "../../../../public/data/shows.json";
 
@@ -53,8 +54,8 @@
     <div><BoroughBarChart /></div>
     <div><TopVenuesChart /></div>
     <div><FreeShowsChart /></div>
-
     <div><TimelineChart /></div>
+    <div><DayOfWeek /></div>
   </div>
 </section>
 

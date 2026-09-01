@@ -55,7 +55,8 @@
       .attr("y", (d) => y(d.value))
       .attr("width", x.bandwidth())
       .attr("height", (d) => innerHeight - y(d.value))
-      .attr("fill", "#111");
+      .attr("fill", "#ff00d440")
+      .attr("stroke", "black");
   });
 </script>
 

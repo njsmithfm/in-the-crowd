@@ -2,7 +2,6 @@
   import ChartWrapper from "../ChartWrapper.svelte";
   import { onMount } from "svelte";
   import shows from "../../../../../public/data/shows.json";
-  import { boroughColors } from "../boroughColors.js";
   import * as d3 from "d3";
 
   let dayCounts = {};
@@ -15,22 +14,26 @@
   }
   console.log(dayCounts);
 
-  let widthScale = d3.scaleLinear().domain([0, 50]).range([0, 500]);
+  let xScale = d3.scaleLinear().domain([0, 50]).range([0, 250]);
+  let yScale = d3.scaleBand().domain(Object.keys(dayCounts)).range([0, 150]);
 
   let svg;
 
   onMount(() => {
     d3.select(svg)
       .selectAll("rect")
-      .data(Object.entries(dayCounts))
+      .data(Object.entries(dayCounts)) // bind the data
       .enter()
       .append("rect")
-      .attr("height", 20)
-      .attr("y", (d, i) => i * 25)
-      .attr("fill", "blue")
+      .attr("height", 15)
+      .attr("y", function (d) {
+        return yScale(d[0]);
+      })
+      .attr("fill", "#ff00d440")
+      .attr("stroke", "black")
       .attr("width", function (d) {
         console.log(d);
-        return widthScale(d[1].count); // Count is the key needed in the dayCounts object to return the counted values
+        return xScale(d[1].count); // widthScale is an array and count is the key needed in the dayCounts object to return the counted values
       });
   });
 </script>

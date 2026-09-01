@@ -22,7 +22,7 @@
     "Sunday",
   ];
   let xScale = d3.scaleLinear().domain([0, 50]).range([0, 250]);
-  let yScale = d3.scaleBand().domain(daysArray).range([0, 150]);
+  let yScale = d3.scaleBand().domain(daysArray).range([0, 150]).padding(1);
 
   let svg;
 
@@ -32,10 +32,12 @@
       .data(Object.entries(dayCounts)) // bind the data
       .enter()
       .append("rect")
-      .attr("height", 15)
       .attr("width", function (d) {
         return xScale(d[1].count); // widthScale is an array and count is the key needed in the dayCounts object to return the counted values
       })
+      .attr("height", 15)
+
+      .attr("x", 0)
       .attr("y", function (d) {
         return yScale(d[0]);
       })

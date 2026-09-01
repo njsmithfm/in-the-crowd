@@ -33,14 +33,14 @@
       .enter()
       .append("rect")
       .attr("height", 15)
+      .attr("width", function (d) {
+        return xScale(d[1].count); // widthScale is an array and count is the key needed in the dayCounts object to return the counted values
+      })
       .attr("y", function (d) {
         return yScale(d[0]);
       })
       .attr("fill", "#ff00d440")
-      .attr("stroke", "black")
-      .attr("width", function (d) {
-        return xScale(d[1].count); // widthScale is an array and count is the key needed in the dayCounts object to return the counted values
-      });
+      .attr("stroke", "black");
   });
 </script>
 

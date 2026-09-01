@@ -22,7 +22,6 @@
       ),
       ([label, value]) => ({ label, value }),
     ).sort((a, b) => d3.descending(a.value, b.value));
-
     const x = d3
       .scaleBand()
       .domain(counts.map((d) => d.label))

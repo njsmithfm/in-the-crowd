@@ -37,7 +37,7 @@
   const freeShows = sortedShows.filter((show) => show.Free_Show).length;
 
   const yearsCovered = new Set(sortedShows.map((show) => show.Year)).size;
-  const topBorough = boroughCounts[0]?.label ?? "N/A";
+  const topBorough = boroughCounts[0] ?? "N/A";
   const topVenue = venueCounts[0]?.label ?? "N/A";
   const stats = {
     totalShows,

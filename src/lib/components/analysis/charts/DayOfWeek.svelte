@@ -30,7 +30,7 @@
       .attr("fill", "blue")
       .attr("width", function (d) {
         console.log(d);
-        return widthScale(d[1].count);
+        return widthScale(d[1].count); // Count is the key needed in the dayCounts object to return the counted values
       });
   });
 </script>

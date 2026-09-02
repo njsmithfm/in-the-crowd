@@ -25,9 +25,12 @@
   let yScale = d3.scaleBand().domain(daysArray).range([0, 150]).padding(1);
 
   let svg;
+  let height = 150;
 
   onMount(() => {
-    d3.select(svg)
+    const chart = d3.select(svg);
+
+    chart
       .selectAll("rect")
       .data(Object.entries(dayCounts)) // bind the data
       .enter()
@@ -36,13 +39,22 @@
         return xScale(d[1].count); // widthScale is an array and count is the key needed in the dayCounts object to return the counted values
       })
       .attr("height", 15)
-
       .attr("x", 0)
       .attr("y", function (d) {
         return yScale(d[0]);
       })
       .attr("fill", "#ff00d440")
       .attr("stroke", "black");
+
+    let yAxis = d3.axisLeft(yScale);
+    chart.append("g").attr("class", "axis y-axis").call(yAxis);
+
+    let xAxis = d3.axisBottom(xScale);
+    chart
+      .append("g")
+      .attr("class", "axis x-axis")
+      .attr("transform", "translate(0," + height + ")")
+      .call(xAxis);
   });
 </script>
 

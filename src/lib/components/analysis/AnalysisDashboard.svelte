@@ -68,9 +68,7 @@
 
   .dashboard-grid {
     display: grid;
-    min-width: 100%;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 2fr;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .dashboard-grid div {

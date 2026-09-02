@@ -25,11 +25,11 @@
   let yScale = d3.scaleBand().domain(daysArray).range([0, 150]).padding(1);
 
   let svg;
-  let height = 150;
+  let width = 640;
+  let height = 200;
 
   onMount(() => {
-    const chart = d3.select(svg);
-
+    const chart = d3.select(svg).attr("width", "100%").attr("height", "100%");
     chart
       .selectAll("rect")
       .data(Object.entries(dayCounts)) // bind the data
@@ -47,17 +47,22 @@
       .attr("stroke", "black");
 
     let yAxis = d3.axisLeft(yScale);
-    chart.append("g").attr("class", "axis y-axis").call(yAxis);
+    chart.append("g").call(yAxis);
 
     let xAxis = d3.axisBottom(xScale);
     chart
       .append("g")
-      .attr("class", "axis x-axis")
       .attr("transform", "translate(0," + height + ")")
       .call(xAxis);
   });
 </script>
 
-<ChartWrapper title="Days of the Week">
-  <svg bind:this={svg}> </svg>
+<ChartWrapper title="Days of the Week" subtitle="counts of days">
+  <svg
+    bind:this={svg}
+    viewBox={`-100 0 ${width + 20} ${height + 30}`}
+    width="100%"
+    height="100%"
+  >
+  </svg>
 </ChartWrapper>

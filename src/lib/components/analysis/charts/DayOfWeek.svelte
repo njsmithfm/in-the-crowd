@@ -50,8 +50,7 @@
 
     g.selectAll("rect")
       .data(data)
-      .enter()
-      .append("rect")
+      .join("rect")
       .attr("x", 0)
       .attr("y", (d) => yScale(d.day))
       .attr("width", (d) => xScale(d.count))

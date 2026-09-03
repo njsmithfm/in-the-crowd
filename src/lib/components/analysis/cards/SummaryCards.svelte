@@ -2,29 +2,22 @@
   let { totalShows, freeShows, yearsCovered, topBorough, topVenue } = $props();
 </script>
 
-<section class="summary-cards">
-  <div class="summary-card">
-    <span class="label">Total shows</span>
-    <strong>{totalShows}</strong>
-  </div>
+<div class="summary-card">
+  <span class="label"> <strong>{totalShows}</strong> total shows</span>
+</div>
 
-  <div class="summary-card">
-    <span class="label">Free shows</span>
-    <strong>{freeShows}</strong>
-  </div>
+<div class="summary-card">
+  <span class="label"><strong>{freeShows}</strong> free shows</span>
+</div>
 
-  <div class="summary-card">
-    <span class="label">Years covered</span>
-    <strong>{yearsCovered}</strong>
-  </div>
+<div class="summary-card">
+  <span class="label"><strong>{yearsCovered}</strong> years of data</span>
+</div>
 
-  <div class="summary-card">
-    <span class="label">Top borough</span>
-    <strong>{topBorough}</strong>
-  </div>
+<div class="summary-card">
+  <span class="label"><strong>{topBorough}</strong> rocks the hardest</span>
+</div>
 
-  <div class="summary-card">
-    <span class="label">Top venue</span>
-    <strong>{topVenue}</strong>
-  </div>
-</section>
+<div class="summary-card">
+  <span class="label"><strong>{topVenue}</strong> was the top venue</span>
+</div>

@@ -74,7 +74,7 @@
   });
 </script>
 
-<ChartWrapper title="Shows by Location">
+<ChartWrapper title="Locations" subtitle="(mostly boroughs)">
   {#snippet children(show, hide)}
     {@const _ = ((tooltip.show = show), (tooltip.hide = hide))}
     <svg bind:this={svgEl}></svg>

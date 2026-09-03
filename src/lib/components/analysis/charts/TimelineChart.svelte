@@ -73,7 +73,7 @@
   }
 </script>
 
-<ChartWrapper title="Timeline of Shows">
+<ChartWrapper title="Timeline">
   {#snippet children(showTooltip, hideTooltip)}
     <svg viewBox={`0 0 ${width} ${height}`}>
       <line

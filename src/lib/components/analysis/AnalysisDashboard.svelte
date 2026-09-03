@@ -29,16 +29,19 @@
     if (show.Free_Show) {
       counts[show.Year] = (counts[show.Year] ?? 0) + 1;
     }
-
     return counts;
   }, {});
 
   const totalShows = sortedShows.length;
   const freeShows = sortedShows.filter((show) => show.Free_Show).length;
-
   const yearsCovered = new Set(sortedShows.map((show) => show.Year)).size;
-  const topBorough = boroughCounts[0] ?? "N/A";
-  const topVenue = venueCounts[0]?.label ?? "N/A";
+  console.log(boroughCounts);
+  const topBorough = Object.keys(boroughCounts).reduce((a, b) =>
+    boroughCounts[a] > boroughCounts[b] ? a : b,
+  );
+  const topVenue = Object.keys(venueCounts).reduce((a, b) =>
+    venueCounts[a] > venueCounts[b] ? a : b,
+  );
   const stats = {
     totalShows,
     freeShows,
@@ -50,7 +53,10 @@
 
 <section class="analysis-dashboard">
   <div class="dashboard-grid">
-    <div><SummaryCards {...stats} /></div>
+    <div>
+      <h2>Quick Stats</h2>
+      <SummaryCards {...stats} />
+    </div>
     <div><BoroughBarChart /></div>
     <div><TopVenuesChart /></div>
     <div><FreeShowsChart /></div>
@@ -68,10 +74,15 @@
 
   .dashboard-grid {
     display: grid;
+
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .dashboard-grid div {
     margin: 1.5rem;
+    padding: 1rem;
+    border: solid 2px;
+    border-radius: 5px;
+    border-color: #ff00d4;
   }
 </style>

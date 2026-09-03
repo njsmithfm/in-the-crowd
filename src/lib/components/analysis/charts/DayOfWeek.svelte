@@ -4,14 +4,6 @@
   import shows from "../../../../../public/data/shows.json";
   import * as d3 from "d3";
 
-  let dayCounts = {};
-  for (let show of shows) {
-    const day = show.Day;
-    if (!dayCounts[day]) {
-      dayCounts[day] = { count: 0 };
-    }
-    dayCounts[day].count += 1;
-  }
   let daysArray = [
     "Monday",
     "Tuesday",
@@ -21,48 +13,70 @@
     "Saturday",
     "Sunday",
   ];
-  let xScale = d3.scaleLinear().domain([0, 50]).range([0, 250]);
-  let yScale = d3.scaleBand().domain(daysArray).range([0, 150]).padding(1);
 
-  let svg;
-  let width = 640;
-  let height = 200;
+  // count shows per day, then map to daysArray order (fixes the ordering bug)
+  let dayCountsRaw = {};
+  for (let show of shows) {
+    dayCountsRaw[show.Day] = (dayCountsRaw[show.Day] ?? 0) + 1;
+  }
+  let data = daysArray.map((day) => ({
+    day,
+    count: dayCountsRaw[day] ?? 0,
+  }));
+
+  // margin convention
+  const margin = { top: 10, right: 20, bottom: 30, left: 80 };
+  const innerWidth = 250;
+  const innerHeight = 150;
+  const width = innerWidth + margin.left + margin.right;
+  const height = innerHeight + margin.top + margin.bottom;
+
+  let xScale = d3.scaleLinear().domain([0, 50]).range([0, innerWidth]);
+  let yScale = d3
+    .scaleBand()
+    .domain(daysArray)
+    .range([0, innerHeight])
+    .padding(1);
+
+  let svgEl;
+  let tooltip = {};
 
   onMount(() => {
-    const chart = d3.select(svg).attr("width", "100%").attr("height", "100%");
-    chart
-      .selectAll("rect")
-      .data(Object.entries(dayCounts)) // bind the data
+    const svg = d3.select(svgEl).attr("width", width).attr("height", height);
+
+    const g = svg
+      .append("g")
+      .attr("transform", `translate(${margin.left},${margin.top})`);
+
+    g.selectAll("rect")
+      .data(data)
       .enter()
       .append("rect")
-      .attr("width", function (d) {
-        return xScale(d[1].count); // widthScale is an array and count is the key needed in the dayCounts object to return the counted values
-      })
-      .attr("height", 15)
       .attr("x", 0)
-      .attr("y", function (d) {
-        return yScale(d[0]);
-      })
+      .attr("y", (d) => yScale(d.day))
+      .attr("width", (d) => xScale(d.count))
+      .attr("height", 15)
       .attr("fill", "#ff00d440")
-      .attr("stroke", "black");
+      .attr("stroke", "black")
+      .on("mouseenter", (event, d) =>
+        tooltip.show(
+          event,
+          `<strong>${d.day + "s"}</strong><br/>${d.count} shows`,
+          "#ff00d4",
+        ),
+      )
+      .on("mouseleave", () => tooltip.hide());
+    g.append("g").call(d3.axisLeft(yScale));
 
-    let yAxis = d3.axisLeft(yScale);
-    chart.append("g").call(yAxis);
-
-    let xAxis = d3.axisBottom(xScale);
-    chart
-      .append("g")
-      .attr("transform", "translate(0," + height + ")")
-      .call(xAxis);
+    g.append("g")
+      .attr("transform", `translate(0,${innerHeight})`)
+      .call(d3.axisBottom(xScale));
   });
 </script>
 
-<ChartWrapper title="Days of the Week" subtitle="counts of days">
-  <svg
-    bind:this={svg}
-    viewBox={`-100 0 ${width + 20} ${height + 30}`}
-    width="100%"
-    height="100%"
-  >
-  </svg>
+<ChartWrapper title="Days of the Week">
+  {#snippet children(show, hide)}
+    {@const _ = ((tooltip.show = show), (tooltip.hide = hide))}
+    <svg bind:this={svgEl}></svg>
+  {/snippet}
 </ChartWrapper>

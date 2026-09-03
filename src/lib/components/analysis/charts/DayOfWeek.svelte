@@ -61,16 +61,17 @@
       .on("mouseenter", (event, d) =>
         tooltip.show(
           event,
-          `<strong>${d.day + "s"}</strong><br/>${d.count} shows`,
+          `Since 2022 I've attended </br><strong>${d.count} shows on ${d.day + "s"}</strong>`,
           "#ff00d4",
         ),
       )
       .on("mouseleave", () => tooltip.hide());
-    g.append("g").call(d3.axisLeft(yScale));
+    g.append("g").call(d3.axisLeft(yScale)).style("stroke-width", 2);
 
     g.append("g")
       .attr("transform", `translate(0,${innerHeight})`)
-      .call(d3.axisBottom(xScale));
+      .call(d3.axisBottom(xScale))
+      .style("stroke-width", 2);
   });
 </script>
 

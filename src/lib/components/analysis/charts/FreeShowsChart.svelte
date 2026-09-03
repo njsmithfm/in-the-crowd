@@ -3,8 +3,8 @@
   import * as d3 from "d3";
   import shows from "../../../../../public/data/shows.json";
   import ChartWrapper from "../ChartWrapper.svelte";
-  let svg;
-
+  let svgEl;
+  let tooltip = {};
   onMount(() => {
     const width = 640;
     const height = 320;
@@ -19,22 +19,22 @@
         (items) => items.length,
         (show) => show.Year,
       ),
-      ([label, value]) => ({ label: String(label), value }),
-    ).sort((a, b) => d3.ascending(a.label, b.label));
+      ([year, count]) => ({ year: String(year), count }),
+    ).sort((a, b) => d3.ascending(a.year, b.count));
 
     const x = d3
       .scaleBand()
-      .domain(counts.map((d) => d.label))
+      .domain(counts.map((d) => d.year))
       .range([0, innerWidth])
       .padding(0.2);
 
     const y = d3
       .scaleLinear()
-      .domain([0, d3.max(counts, (d) => d.value) ?? 0])
+      .domain([0, d3.max(counts, (d) => d.count) ?? 0])
       .nice()
       .range([innerHeight, 0]);
 
-    const root = d3.select(svg);
+    const root = d3.select(svgEl);
     root.selectAll("*").remove();
 
     const g = root
@@ -42,24 +42,40 @@
       .append("g")
       .attr("transform", `translate(${margin.left},${margin.top})`);
 
-    g.append("g")
-      .attr("transform", `translate(0,${innerHeight})`)
-      .call(d3.axisBottom(x));
-
-    g.append("g").call(d3.axisLeft(y).ticks(4));
+    g.append("g").call(d3.axisLeft(y).ticks(4)).style("stroke-width", 2);
 
     g.selectAll("rect")
       .data(counts)
       .join("rect")
-      .attr("x", (d) => x(d.label))
-      .attr("y", (d) => y(d.value))
+      .attr("x", (d) => x(d.year))
+      .attr("y", (d) => y(d.count))
       .attr("width", x.bandwidth())
-      .attr("height", (d) => innerHeight - y(d.value))
+      .attr("height", (d) => innerHeight - y(d.count))
       .attr("fill", "#ff00d440")
-      .attr("stroke", "black");
+      .attr("stroke", "black")
+      .on("mouseenter", (event, d) =>
+        tooltip.show(
+          event,
+
+          `<strong>${d.count} ${d.count === 1 ? "free show" : "free shows"}</strong></br>attended in ${d.year}`,
+          "#ff00d4",
+        ),
+      )
+      .on("mouseleave", () => tooltip.hide());
+
+    g.append("g")
+      .attr("transform", `translate(0,${innerHeight})`)
+      .call(d3.axisBottom(x))
+      .style("stroke-width", 2);
   });
 </script>
 
 <ChartWrapper title="Free Shows by Year">
-  <svg bind:this={svg}></svg>
+  {#snippet children(show, hide)}
+    {@const _ = ((tooltip.show = show), (tooltip.hide = hide))}
+    <svg bind:this={svgEl}></svg>
+  {/snippet}
 </ChartWrapper>
+
+<style>
+</style>

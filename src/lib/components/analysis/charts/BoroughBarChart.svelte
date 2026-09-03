@@ -4,8 +4,8 @@
   import ChartWrapper from "../ChartWrapper.svelte";
   import { boroughColors } from "../boroughColors.js";
   import shows from "../../../../../public/data/shows.json";
-  let svg;
-
+  let svgEl;
+  let tooltip = {};
   onMount(() => {
     const width = 640;
     const height = 320;
@@ -34,22 +34,13 @@
       .nice()
       .range([innerHeight, 0]);
 
-    const root = d3.select(svg);
+    const root = d3.select(svgEl);
     root.selectAll("*").remove();
 
     const g = root
       .attr("viewBox", `0 0 ${width} ${height}`)
       .append("g")
       .attr("transform", `translate(${margin.left},${margin.top})`);
-
-    g.append("g")
-      .attr("transform", `translate(0,${innerHeight})`)
-      .call(d3.axisBottom(x))
-      .selectAll("text")
-      .attr("transform", "rotate(-25)")
-      .style("text-anchor", "end");
-
-    g.append("g").call(d3.axisLeft(y).ticks(4));
 
     g.selectAll("rect")
       .data(counts)
@@ -58,10 +49,34 @@
       .attr("y", (d) => y(d.value))
       .attr("width", x.bandwidth())
       .attr("height", (d) => innerHeight - y(d.value))
-      .attr("fill", (d) => boroughColors[d.label] || "#111");
+      .attr("fill", (d) => boroughColors[d.label] || "#111")
+      .attr("fill-opacity", 0.6)
+      .attr("stroke", "black")
+      .on("mouseenter", (event, d) =>
+        tooltip.show(
+          event,
+
+          `<strong>${d.value} ${d.value === 1 ? "show" : "shows"} attended</strong></br> in ${d.label} since 2022`,
+          `${boroughColors[d.label]}`,
+        ),
+      )
+      .on("mouseleave", () => tooltip.hide());
+
+    g.append("g")
+      .attr("transform", `translate(0,${innerHeight})`)
+      .call(d3.axisBottom(x))
+      .style("stroke-width", 2)
+      .selectAll("text")
+      .attr("transform", "rotate(-25)")
+      .style("text-anchor", "end");
+
+    g.append("g").call(d3.axisLeft(y).ticks(4)).style("stroke-width", 2);
   });
 </script>
 
 <ChartWrapper title="Shows by Location">
-  <svg bind:this={svg}></svg>
+  {#snippet children(show, hide)}
+    {@const _ = ((tooltip.show = show), (tooltip.hide = hide))}
+    <svg bind:this={svgEl}></svg>
+  {/snippet}
 </ChartWrapper>

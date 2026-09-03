@@ -82,12 +82,13 @@
         y1={height - margin}
         y2={height - margin}
         stroke="#333"
+        stroke-width={2}
       />
 
       {#each ticks as year}
         <g transform={`translate(${xScale(year)}, ${height - margin})`}>
           <!-- tick mark -->
-          <line y2={5} stroke="#333" stroke-width={1} />
+          <line y2={5} stroke="#333" stroke-width={2} />
           <!-- label -->
           <text y={18} text-anchor="middle" font-size={16} fill="#333">
             {d3.timeFormat("%Y")(year)}

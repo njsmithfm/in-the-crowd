@@ -3,11 +3,11 @@
 </script>
 
 <div class="summary-card">
-  <span class="label"> <strong>{totalShows}</strong> total shows</span>
+  <span class="label"> <strong>{totalShows}</strong> total shows attended</span>
 </div>
 
 <div class="summary-card">
-  <span class="label"><strong>{freeShows}</strong> free shows</span>
+  <span class="label"><strong>{freeShows}</strong> free shows attended</span>
 </div>
 
 <div class="summary-card">
@@ -15,9 +15,13 @@
 </div>
 
 <div class="summary-card">
-  <span class="label"><strong>{topBorough}</strong> rocks the hardest</span>
+  <span class="label"
+    ><strong>{topBorough}</strong> rocks the hardest (I saw shows here the most)</span
+  >
 </div>
 
 <div class="summary-card">
-  <span class="label"><strong>{topVenue}</strong> was the top venue</span>
+  <span class="label"
+    ><strong>{topVenue}</strong> is the top venue I've been to</span
+  >
 </div>

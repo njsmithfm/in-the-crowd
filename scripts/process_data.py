@@ -45,6 +45,14 @@ df = df.reset_index(drop=True)
 df['Bill_ID'] = df['Date'].astype(str) + '|' + df['Venue']
 df['Show_Number'] = range(1, len(df) + 1)  # Recreated each run
 
+df["Free_Show"] = (
+    df["Free_Show"]
+    .astype(str)
+    .str.strip()
+    .str.lower()
+    .eq("true")
+)
+
 # Build JSON output
 records = []
 for _, row in df.iterrows():

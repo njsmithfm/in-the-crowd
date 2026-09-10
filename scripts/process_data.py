@@ -73,10 +73,6 @@ for _, row in df.iterrows():
     
     record['media'] = media if media else None
     
-    # Cleanup temp columns
-    for col in ['Free show?', 'mediaPath']:
-        record.pop(col, None)
-    
     records.append(record)
 
 OUTPUT_JSON.parent.mkdir(parents=True, exist_ok=True)

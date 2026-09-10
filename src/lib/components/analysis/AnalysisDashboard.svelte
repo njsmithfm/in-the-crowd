@@ -35,7 +35,6 @@
   const totalShows = sortedShows.length;
   const freeShows = sortedShows.filter((show) => show.Free_Show).length;
   const yearsCovered = new Set(sortedShows.map((show) => show.Year)).size;
-  console.log(boroughCounts);
   const topBorough = Object.keys(boroughCounts).reduce((a, b) =>
     boroughCounts[a] > boroughCounts[b] ? a : b,
   );

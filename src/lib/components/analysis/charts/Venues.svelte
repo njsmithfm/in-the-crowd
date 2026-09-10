@@ -4,6 +4,7 @@
   import { boroughColors } from "../boroughColors.js";
 
   let venueCounts = {};
+
   for (const show of shows) {
     const venue = show.Venue.trim();
     if (!venueCounts[venue]) {
@@ -72,10 +73,11 @@
   function hideTooltip() {
     tooltipState.visible = false;
   }
-
-  console.log(
-    Object.entries(venueCounts).sort(([, a], [, b]) => b.count - a.count),
+  const sortedVenues = Object.entries(venueCounts).sort(
+    ([, a], [, b]) => b.count - a.count,
   );
+
+  console.log(sortedVenues);
 </script>
 
 <ChartWrapper title="Top Venues">

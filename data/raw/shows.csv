@@ -7,9 +7,9 @@ Common,2023-09-21,Perleman Arts Center,Manhattan,True,I saw Common do the windmi
 Brandee Younger,2022-07-31,Central Park Summerstage,Manhattan,True,Accompanying Makaya McCraven.,0d53e055
 Makaya McCraven,2022-07-31,Central Park Summerstage,Manhattan,True,,841d1699
 Makaya McCraven,2022-05-19,Music Hall of Williamsburg,Brooklyn,False,,0d4555c3
-Tom Misch,2022-03-15,Avant Gardener,Brooklyn,False,"Got invited to this one and would not have gone otherwise. I was bored to tears. Tom Misch is boring Gen-Z ""vibe"" garbage.",07b99025
+Tom Misch,2022-03-15,Avant Gardner,Brooklyn,False,"Got invited to this one and would not have gone otherwise. I was bored to tears. Tom Misch is boring Gen-Z ""vibe"" garbage.",07b99025
 LCD Soundsystem,2022-11-22,Brooklyn Steel,Brooklyn,False,"After a 3-year hiatus, this was show 13 of their 20-show residency at the Brooklyn Steel. Some time later, I remember James Murphy saying he got sick for like 3 weeks straight after the run. Front row seeing LCD Soundsystem after loving them in college.",12d4c100
-Sigur Ros,2022-06-14,Kings Theater,Brooklyn,False,"Second time I've seen them, 9 years after the O2 Arena in London. Both times I saw them with my buddy Mark who I met while studying abroad.",a82ffadc
+Sigur Ros,2022-06-14,Kings Theatre,Brooklyn,False,"Second time I've seen them, 9 years after the O2 Arena in London. Both times I saw them with my buddy Mark who I met while studying abroad.",a82ffadc
 Regina Spektor,2022-07-19,Carnegie Hall,Manhattan,False,My disclaimer is that this was before I knew about her Zionism.,814a2482
 De La Soul,2023-09-27,Barclays Center,Brooklyn,False,RIP Dave. Talib Kweli and Pharoahe Monch filled in.🙏,7ca41778
 Wu Tang Clan,2023-09-27,Barclays Center,Brooklyn,False,"Wu-Tang forever. A dream come true. RZA released the Tao of Wu when I was in high school, I devoured it, and the Wu shaped who I was, there at the threshold of adulthood.",845b5eee
@@ -17,7 +17,7 @@ Nas,2023-09-27,Barclays Center,Brooklyn,False,,728cf762
 Fishbone,2023-09-19,Wellmont Theater,New Jersey,False,A set that I'll remember forever. I met Angelo before and after this show.,3ebe9780
 Parliament-Funkadelic,2023-09-19,Wellmont Theater,New Jersey,False,,63e41222
 Oumou Sangare,2023-07-14,Lena Horne Bandshell,Brooklyn,True,,392dd344
-Fatoumata Diawara,2024-04-26,Sony Theater,Manhattan,False,,fbd455f4
+Fatoumata Diawara,2024-04-26,Sony Hall,Manhattan,False,,fbd455f4
 Turnstile,2023-05-24,Barclays Center,Brooklyn,True,"Weirdly, the opener for Blink-182. It would have been way cooler to see Turnstile before their Glow On record when they were actually a hardcore band. The previous album Time & Space has some good songs on it which I had wanted to see live, but this band has since mellowed out into more popular alternative directions. But through them I did end up discovering Snapcase, who provided the template for Turnstile's earlier breakthrough sound.",d9de7ffd
 Blink-182,2023-05-24,Barclays Center,Brooklyn,True,I was a +1 for someone who got free tickets since they worked at a music magazine. I am forever bitter towards Barclays Center for stealing my Nalgene bottle during the security check.,1474747b
 Herbie Hancock,2022-06-11,Central Park Summerstage,Manhattan,False,"Ok *technically* I didn't get into this one. Summerstage filled up fucking fast for ol' Herbert Hancock and I didn't get through the front gate. But still being in Central Park, I hung out listening outside the rear bleachers on the grass having a picnic with some strangers and we pulled up a livestream on our phones and watched him shred the keytar.",154e6e4e
@@ -28,7 +28,7 @@ Moor Mother,2023-12-04,Lincoln Center,Manhattan,False,I think this was a $5 show
 Irreversible Entanglements,2023-01-14,Superior Ingredients,Brooklyn,False,NYC Winter Jazz Fest,1d938eb7
 Julius Rodriguez,2023-01-14,The Opera House,Brooklyn,False,NYC Winter Jazzfest,b94772f0
 The Smiths Tribute,2023-08-04,Gramercy Theater,Manhattan,False,,27a35d9b
-Algernon Cadwallader,2022-10-21,Warsaw,Brooklyn,False,,62a749da
+Algernon Cadwallader,2022-10-21,Warsaw Concerts,Brooklyn,False,,62a749da
 Brandee Younger,2023-07-30,Lincoln Center,Manhattan,True,,54d02b2c
 Streetlight Manifesto,2023-12-09,Starlight Ballroom,New Jersey,False,20th Anniversary Show,401e88aa
 Bouncing Souls,2023-07-22,The Stone Pony,New Jersey,False,Stoked for the Summer! Fest,c9bfff9c
@@ -49,12 +49,12 @@ Shabaka Hutchings,2024-01-15,Le Poisson Rouge,Manhattan,False,,136bae82
 The Comet Is Coming,2023-08-02,Central Park Summerstage,Manhattan,True,,d5f3d3fd
 Celeste,2024-07-07,Central Park Summerstage,Manhattan,True,,d955414e
 Ibeyi,2023-08-02,Central Park Summerstage,Manhattan,True,,f73fc477
-Colin Stetson,2024-05-11,Greenwood Cemetery,Brooklyn,False,,11003d70
+Colin Stetson,2024-05-11,Green-Wood Cemetery,Brooklyn,False,,11003d70
 Fishbone,2024-06-29,Lena Horne Bandshell,Brooklyn,True,,08e267d2
 Son Rompe Pera,2024-06-29,Lena Horne Bandshell,Brooklyn,True,,ba0dd6f2
-Los Campesinos!,2024-06-15,Warsaw,Brooklyn,False,,c6c0ed08
-Strung Out,2024-03-21,Warsaw,Brooklyn,False,,57f7a506
-Less Than Jake,2024-03-21,Warsaw,Brooklyn,False,,906f1d2f
+Los Campesinos!,2024-06-15,Warsaw Concerts,Brooklyn,False,,c6c0ed08
+Strung Out,2024-03-21,Warsaw Concerts,Brooklyn,False,,57f7a506
+Less Than Jake,2024-03-21,Warsaw Concerts,Brooklyn,False,,906f1d2f
 Berke Can Ozcan,2024-10-08,Nublu,Manhattan,False,,e06102fc
 The Pharcyde,2024-07-12,Herbert Von King Park,Brooklyn,True,,9e029934
 Common ,2024-07-14,Herbert Von King Park,Brooklyn,True,,a333dff6
@@ -83,8 +83,8 @@ Jeremiah Chiu,2025-04-01,Public Records,Brooklyn,False,,a383775c
 Alkaline Trio,2024-03-09,Knockdown Center,Brooklyn,False,,0d24ebfc
 Drug Church,2024-03-09,Knockdown Center,Brooklyn,False,,9e3366cb
 Worriers,2024-03-09,Knockdown Center,Brooklyn,False,,eb525f23
-Jeff Rosenstock,2024-08-21,Warsaw,Brooklyn,False,,e1f98160
-Chris Farren ,2024-08-21,Warsaw,Brooklyn,False,,6ebea167
+Jeff Rosenstock,2024-08-21,Warsaw Concerts,Brooklyn,False,,e1f98160
+Chris Farren ,2024-08-21,Warsaw Concerts,Brooklyn,False,,6ebea167
 Maruja,2025-03-29,Big Ears 2025,"Knoxville, TN",True,,2aab9c89
 Anohni,2025-03-28,Big Ears 2025,"Knoxville, TN",True,,1d229437
 Anoushka Shankar,2025-03-30,Big Ears 2025,"Knoxville, TN",True,,a8cd658f
@@ -94,12 +94,12 @@ Carlos Niño,2025-05-29,Roulette Intermedium,Brooklyn,False,"Featuring Saul Will
 Saul Williams,2025-05-29,Roulette Intermedium,Brooklyn,False,,b71cec9d
 Carlos Niño,2025-03-30,Big Ears 2025,"Knoxville, TN",True,,c409cb24
 TV Moms,2024-08-04,Hart Bar,Brooklyn,False,,cce503a2
-Algernon Cadwallader,2025-12-04,Racket,Manhattan,False,,647a76c4
-Antarctigo Vespucci,2026-02-06,Warsaw,Brooklyn,False,,b1e933a2
+Algernon Cadwallader,2025-12-04,Racket NYC,Manhattan,False,,647a76c4
+Antarctigo Vespucci,2026-02-06,Warsaw Concerts,Brooklyn,False,,b1e933a2
 The English Beat,2022-03-09,Le Poisson Rouge,Manhattan,False,,3bba61a8
 Antonio Lizana,2022-05-07,Terraza 7,Queens,False,,8d485f89
 Nduduzo Makhathini,2025-10-25,Jazz at Lincoln Center,Manhattan,False,Went to this when my mom and brother were in town.,e9bf934d
-Chicano Batman,2022-07-16,Prospect Park Bandshell,Brooklyn,True,,d6aab6ef
+Chicano Batman,2022-07-16,Lena Horne Bandshell,Brooklyn,True,,d6aab6ef
 Los Campesinos!,2022-08-24,Elsewhere,Brooklyn,False,,c4e54cb7
 Yeah Yeah Yeahs,2022-10-01,Forest Hills Stadium,Queens,False,,15752240
 Screaming Females,2023-04-28,Elsewhere,Brooklyn,False,,63c8d1ed
@@ -113,8 +113,9 @@ Chicago Underground Duo,2024-05-05,Public Records,Brooklyn,False,,dc78d691
 Raw Poetic,2024-05-05,Public Records,Brooklyn,False,,9f1920ae
 Damu The Fudgemunk,2024-05-05,Public Records,Brooklyn,False,,69aad680
 Pharoah Sanders Harvest Time Project,2023-10-14,National Sawdust,Brooklyn,False,,8a495843
+Champe-Soukous Collective,2023-07-28,Bryant Park,Manhattan,True,,72c8b36e
 Caroline,2023-04-07,National Sawdust,Brooklyn,False,,3aca3b77
-Kimya Dawson,2024-09-24,Xanadu,Brooklyn,False,,61035683
+Kimya Dawson,2024-09-24,Xanadu Roller Arts,Brooklyn,False,,61035683
 Yussef Dayes,2024-06-22,Central Park Summerstage,Manhattan,True,"I was super hyped for this show, and I'm glad I went, but it became a bit boring for me after a few songs. Black Classical Music was a huge record for 2024, I believe Gilles Peterson chose it as his record of the year, but during the set it felt like it was all about vibes. Which to be sure, the 2024 Gen Z crowd ate up gladly, but for me, all the songs started to feel the same.",3925ace0
 Vijay Iyer,2024-03-02,Harlem Stage,Manhattan,False,,c0afbc88
 Kahil El'Zabar,2025-03-30,Big Ears 2025,"Knoxville, TN",True,,edd54967

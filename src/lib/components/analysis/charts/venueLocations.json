@@ -1,0 +1,496 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-73.96973749, 40.77245208],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "Central Park Summerstage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-83.92115449, 35.96843003],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "Big Ears 2025"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-73.98647, 40.68207],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "Public Records"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-73.948503, 40.722433],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "Warsaw Concerts"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-73.923279, 40.70967],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "Elsewhere"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-73.9145601, 40.7160347],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "The Ruins at Knockdown Center"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-73.9753674, 40.6826509],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "Barclays Center"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-73.946732, 40.689612],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "Herbert Von King Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-73.98434, 40.77377],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "Lincoln Center"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-73.961243, 40.718966],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "National Sawdust"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-73.97646785, 40.66340555],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "Lena Horne Bandshell"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-74.000888, 40.219981],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "The Stone Pony"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-74.6550755, 40.34309777],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "Princeton University"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-73.9136156, 40.7151995],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "Knockdown Center"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-73.97867959, 40.75874593],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "Rockefeller Center"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-73.961747, 40.719153],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "Music Hall of Williamsburg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-73.9890993, 40.7318068],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "Webster Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-73.938797, 40.719357],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "Brooklyn Steel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-73.9577101, 40.72224808],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "Superior Ingredients"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-73.96398043, 40.71357932],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "The Opera House"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-73.968208, 40.672485],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "Brooklyn Central Library"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-74.21661, 40.812663],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "Wellmont Theater"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-73.95151374, 40.81842381],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "Harlem Stage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-73.980464, 40.759513],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "Rough Trade"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-73.9835806, 40.7537648],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "Bryant Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-73.957506, 40.721879],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "Brooklyn Bowl"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-73.98075865, 40.68558435],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "Roulette Intermedium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-73.93620862, 40.71081501],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "Brooklyn Monarch"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-73.882025, 40.747536],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "Terraza 7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-73.957291, 40.646004],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "Kings Theatre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-73.97959531581954, 40.764886405254856],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "Carnegie Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-73.9345924, 40.69699576],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "Market Hotel - 1140 Myrtle Ave, Brooklyn, New York 11221, United States"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-73.84992058, 40.71935457],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "Forest Hills Stadium - 1 Tennis Pl, Forest Hills, New York 11375, United States"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-73.99468, 40.65812],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "Green-Wood Cemetery"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-73.987022, 40.759628],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "Sony Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-73.8455238, 40.75095378],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "Louis Armstrong Stadium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-73.99175, 40.728965],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "Joe's Pub"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-73.93004857, 40.69639844],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "Hart Bar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-73.99266455, 40.76977536],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "Terminal 5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-74.0089277, 40.739662],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "Whitney Museum of American Art"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-73.921529, 40.706478],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "Xanadu Roller Arts"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-73.97794537, 40.72562327],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "Nublu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-73.99047804, 40.72909093],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "Cooper Union"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-73.98247496, 40.76875434],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "Jazz at Lincoln Center"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-74.005729, 40.743087],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "Racket NYC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-74.002241, 40.7546788],
+        "type": "Point"
+      },
+      "bbox": [-74.00665, 40.752051, -73.99915, 40.756289],
+      "properties": {
+        "label": "Hudson Yards"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-74.355228, 40.440384],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "Starland Ballroom"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-73.922002, 40.707161],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "Brooklyn Made"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [-73.92631, 40.710618],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "Avant Gardner"
+      }
+    }
+  ]
+}

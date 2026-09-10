@@ -78,6 +78,7 @@
   );
 
   console.log(sortedVenues);
+  console.log(sortedVenues.map(([venue]) => venue));
 </script>
 
 <ChartWrapper title="Top Venues">

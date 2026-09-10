@@ -60,14 +60,11 @@ for _, row in df.iterrows():
     
     # Media lookup using STABLE Record_ID (not Show_Number!)
     record_id = row['Record_ID']
-    media_dir = MEDIA_DIR / record_id
+    image_dir = MEDIA_DIR / record_id
     media = {}
     
-    if media_dir.exists():
-        video_file = media_dir / f"{record_id}.mp4"
-        if video_file.exists():
-            media['video'] = f"/media/{record_id}/{record_id}.mp4"
-        image_files = sorted(media_dir.glob("*.jpg"))
+    if image_dir.exists():
+        image_files = sorted(image_dir.glob("*.jpg"))
         if image_files:
             media['images'] = [f"/media/{record_id}/{img.name}" for img in image_files]
     
@@ -80,3 +77,7 @@ with open(OUTPUT_JSON, 'w', encoding='utf-8') as f:
     json.dump(records, f, indent=2, default=str)
 
 print(f"Processed {len(records)} shows to {OUTPUT_JSON}")
+
+
+
+

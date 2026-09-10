@@ -15,20 +15,8 @@
       })}
     </p>
 
-    <!-- Media Display -->
+    <!-- Image Display -->
     <div style="margin: 20px 0;">
-      {#if show.media?.video}
-        <video
-          width="100%"
-          height="auto"
-          controls
-          style="margin-bottom: 15px; background: #000;"
-        >
-          <source src={show.media.video} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-      {/if}
-
       {#if show.media?.images && show.media.images.length > 0}
         <div>
           <img

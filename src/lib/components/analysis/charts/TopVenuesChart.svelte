@@ -4,18 +4,52 @@
   import { boroughColors } from "../boroughColors.js";
 
   let venueCounts = {};
-  for (let show of shows) {
+  for (const show of shows) {
     const venue = show.Venue.trim();
     if (!venueCounts[venue]) {
-      venueCounts[venue] = { count: 0, borough: show.Borough.trim() };
+      venueCounts[venue] = {
+        count: 0,
+        borough: show.Borough.trim(),
+        shows: [],
+      };
     }
     venueCounts[venue].count += 1;
+    venueCounts[venue].shows.push({
+      artist: show.Artist,
+      date: show.Date,
+      show_number: show.Show_Number,
+    });
   }
 
   let counts = Object.entries(venueCounts)
-    .map(([venue, { count, borough }]) => ({ label: venue, count, borough }))
-    .sort((a, b) => b.count - a.count)
+    .map(([venue, { count, borough, shows: venueShows }]) => ({
+      label: venue,
+      count,
+      borough,
+      shows: venueShows,
+    }))
+    .sort((a, b) => b.count - a.count || a.label.localeCompare(b.label))
     .slice(0, 12);
+
+  function escapeHtml(value) {
+    return String(value)
+      .replaceAll("&", "&amp;")
+      .replaceAll("<", "&lt;")
+      .replaceAll(">", "&gt;")
+      .replaceAll('"', "&quot;")
+      .replaceAll("'", "&#039;");
+  }
+
+  function formatVenueTooltip({ label, borough, count, shows: venueShows }) {
+    const showDetails = venueShows
+      .map(
+        ({ artist, date, show_number }) =>
+          `${escapeHtml(artist)} (${escapeHtml(date)}, show #${escapeHtml(show_number)})`,
+      )
+      .join("<br/>");
+
+    return `<strong>${escapeHtml(label)}</strong> in ${escapeHtml(borough)}<br/><strong>${count}</strong> ${count === 1 ? "show" : "shows"}<br/>${showDetails}`;
+  }
 
   const barHeight = 40;
   let tooltipState = $state({
@@ -38,6 +72,10 @@
   function hideTooltip() {
     tooltipState.visible = false;
   }
+
+  console.log(
+    Object.entries(venueCounts).sort(([, a], [, b]) => b.count - a.count),
+  );
 </script>
 
 <ChartWrapper title="Top Venues">

@@ -47,11 +47,11 @@
       .domain([0, d3.max(venueData, (venue) => venue.count) ?? 1])
       .range([4, 18]);
 
-    const root = d3.select(svgEl).attr("viewBox", `0 0 ${width} ${height}`);
+    const marker = d3.select(svgEl).attr("viewBox", `0 0 ${width} ${height}`);
 
-    root.selectAll("*").remove();
+    marker.selectAll("*").remove();
 
-    root
+    marker
       .selectAll(".borough")
       .data(boroughs.features)
       .join("path")
@@ -61,7 +61,7 @@
       .attr("stroke", "#222")
       .attr("stroke-width", 1);
 
-    root
+    marker
       .selectAll(".venue")
       .data(venueData)
       .join("circle")
@@ -86,20 +86,9 @@
   });
 </script>
 
-<ChartWrapper title="Venues Map">
+<ChartWrapper title="Map" subtitle="(NYC Shows)">
   {#snippet children(show, hide)}
     {@const _ = ((tooltip.show = show), (tooltip.hide = hide))}
     <svg bind:this={svgEl}></svg>
   {/snippet}
 </ChartWrapper>
-
-<style>
-  svg {
-    width: 100%;
-    height: auto;
-  }
-
-  .venue {
-    cursor: pointer;
-  }
-</style>

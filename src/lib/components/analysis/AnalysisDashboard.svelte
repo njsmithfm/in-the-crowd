@@ -51,17 +51,12 @@
 </script>
 
 <section class="analysis-dashboard">
+  <div><SummaryCards {...stats} /></div>
   <div class="dashboard-grid">
-    <div>
-      <h2>Quick Stats</h2>
-      <SummaryCards {...stats} />
-    </div>
-    <div><BoroughBarChart /></div>
-    <div><Venues /></div>
-    <div><FreeShowsChart /></div>
-    <div><TimelineChart /></div>
-    <div><DayOfWeek /></div>
-    <div><BoroughMap /></div>
+    <div class="timeline"><TimelineChart /></div>
+    <div class="free-shows"><FreeShowsChart /></div>
+    <div class="day-of-week"><DayOfWeek /></div>
+    <div class="borough-map"><BoroughMap /></div>
   </div>
 </section>
 
@@ -71,18 +66,36 @@
     width: calc(100% - 5rem); /* account for margins */
     height: calc(100vh - 5rem);
   }
-
   .dashboard-grid {
     display: grid;
-
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    min-height: 600px;
   }
-
   .dashboard-grid div {
     margin: 1.5rem;
     padding: 1rem;
     border: solid 2px;
     border-radius: 5px;
     border-color: #ff00d4;
+  }
+  .timeline {
+    grid-column: 1 / 3;
+    grid-row: 1;
+  }
+
+  .free-shows {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .day-of-week {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .borough-map {
+    grid-column: 3;
+    grid-row: 1 / 3;
   }
 </style>

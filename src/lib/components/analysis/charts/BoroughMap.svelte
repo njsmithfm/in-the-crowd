@@ -18,7 +18,7 @@
   let tooltip = {};
 
   onMount(() => {
-    const width = 640;
+    const width = 400;
     const height = 400;
 
     const venueData = Array.from(
@@ -45,23 +45,27 @@
     const radius = d3
       .scaleSqrt()
       .domain([0, d3.max(venueData, (venue) => venue.count) ?? 1])
-      .range([4, 18]);
+      .range([2, 10]);
 
     const marker = d3.select(svgEl).attr("viewBox", `0 0 ${width} ${height}`);
 
     marker.selectAll("*").remove();
 
-    marker
+    const mapLayer = marker.append("g").attr("class", "map-layer");
+
+    mapLayer
       .selectAll(".borough")
       .data(boroughs.features)
       .join("path")
       .attr("class", "borough")
       .attr("d", path)
-      .attr("fill", "#eeeeee")
+      .attr("fill", "#eee")
       .attr("stroke", "#222")
       .attr("stroke-width", 1);
 
-    marker
+    const venueLayer = mapLayer.append("g").attr("class", "venue-layer");
+    const venueStrokeWidth = 1;
+    venueLayer
       .selectAll(".venue")
       .data(venueData)
       .join("circle")
@@ -70,9 +74,9 @@
       .attr("cy", (venue) => projection(venue.coordinates)[1])
       .attr("r", (venue) => radius(venue.count))
       .attr("fill", (venue) => boroughColors[venue.borough] || "#111")
-      .attr("fill-opacity", 0.75)
+      .attr("fill-opacity", 0.5)
       .attr("stroke", "#111")
-      .attr("stroke-width", 1.5)
+      .attr("stroke-width", venueStrokeWidth)
       .on("mouseenter", (event, venue) => {
         tooltip.show(
           event,
@@ -83,10 +87,26 @@
         );
       })
       .on("mouseleave", () => tooltip.hide());
+    const zoom = d3
+      .zoom()
+      .scaleExtent([1, 8])
+      .translateExtent([
+        [0, 0],
+        [width, height],
+      ])
+      .on("zoom", (event) => {
+        mapLayer.attr("transform", event.transform);
+        venueLayer
+          .selectAll(".venue")
+          .attr("r", (venue) => radius(venue.count) / event.transform.k)
+          .attr("stroke-width", venueStrokeWidth / event.transform.k);
+      });
+
+    marker.call(zoom);
   });
 </script>
 
-<ChartWrapper title="Map" subtitle="(NYC Shows)">
+<ChartWrapper title="Map" subtitle="(Zoom for detail)">
   {#snippet children(show, hide)}
     {@const _ = ((tooltip.show = show), (tooltip.hide = hide))}
     <svg bind:this={svgEl}></svg>

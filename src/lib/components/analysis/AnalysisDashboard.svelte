@@ -68,7 +68,7 @@
   }
   .dashboard-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 2fr;
     grid-template-rows: 1fr 1fr;
     min-height: 600px;
   }
@@ -79,8 +79,9 @@
     border-radius: 5px;
     border-color: #ff00d4;
   }
+
   .timeline {
-    grid-column: 1 / 3;
+    grid-column: 1 /3;
     grid-row: 1;
   }
 

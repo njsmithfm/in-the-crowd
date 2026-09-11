@@ -4,8 +4,8 @@
   import { boroughColors } from "../boroughColors.js";
   import shows from "../../../../../public/data/shows.json";
 
-  const width = 640;
-  const height = 300;
+  const width = 1000;
+  const height = 200;
   const radius = 6.5;
   const margin = 40;
 

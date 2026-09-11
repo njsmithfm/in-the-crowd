@@ -45,7 +45,7 @@
     const radius = d3
       .scaleSqrt()
       .domain([0, d3.max(venueData, (venue) => venue.count) ?? 1])
-      .range([2, 10]);
+      .range([1, 10]);
 
     const marker = d3.select(svgEl).attr("viewBox", `0 0 ${width} ${height}`);
 

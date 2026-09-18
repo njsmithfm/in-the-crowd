@@ -106,7 +106,10 @@
   });
 </script>
 
-<ChartWrapper title="Map" subtitle="(Zoom for detail)">
+<ChartWrapper
+  title="Map of NYC Shows"
+  subtitle="No shows in Bronx or Staten Island to report"
+>
   {#snippet children(show, hide)}
     {@const _ = ((tooltip.show = show), (tooltip.hide = hide))}
     <svg bind:this={svgEl}></svg>

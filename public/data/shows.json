@@ -131,7 +131,7 @@
     "Artist": "Pink Siifu",
     "Date": "2022-07-23 00:00:00",
     "Venue": " Herbert Von King Park",
-    "Borough": " Brooklyn",
+    "Borough": "Brooklyn",
     "Free_Show": true,
     "Notes": "Opening for Sampa the Great",
     "Record_ID": "c1ad460c",
@@ -147,7 +147,7 @@
     "Artist": "Sampa the Great",
     "Date": "2022-07-23 00:00:00",
     "Venue": " Herbert Von King Park",
-    "Borough": " Brooklyn",
+    "Borough": "Brooklyn",
     "Free_Show": true,
     "Notes": "I'd been following Sampa since I was living in Minneapolis. Seeing her live, for free, so shortly after coming to New York was surreal.",
     "Record_ID": "9711d837",
@@ -2274,7 +2274,7 @@
     "Venue": "Brooklyn Monarch",
     "Borough": "Brooklyn",
     "Free_Show": false,
-    "Notes": "",
+    "Notes": "This is the second time I've seen the mighty Long Island band Iron Chic. Although I think the singer Jason might live in Brooklyn--I'm pretty sure he was my neighbor when I lived in Flatbush, since I could've sworn I saw him on the subway with me and at the neighborhood market a few times. I fucking love this band. Massive, triumphant, life-affirming songs that can lift you up and make you feel powerful. Like Bruce Springsteen. Which might be unusual for a punk band, but maybe not unusual for a beard-guy punk band? What do you think? Who cares! It rocks! \ud83e\udd18",
     "Record_ID": "fc704b7f",
     "Year": 2026,
     "Month": 6,
@@ -2282,7 +2282,12 @@
     "Primary Artist": "Iron Chic",
     "Bill_ID": "2026-06-26|Brooklyn Monarch",
     "Show_Number": 140,
-    "media": null
+    "media": {
+      "images": [
+        "/media/fc704b7f/00ironChic.jpg",
+        "/media/fc704b7f/01ironChic.jpg"
+      ]
+    }
   },
   {
     "Artist": "The Lawrence Arms",
@@ -2298,6 +2303,64 @@
     "Primary Artist": "The Lawrence Arms",
     "Bill_ID": "2026-06-26|Brooklyn Monarch",
     "Show_Number": 141,
+    "media": null
+  },
+  {
+    "Artist": "Chris Farren",
+    "Date": "2026-09-19 00:00:00",
+    "Venue": "The Rooftop at Pier 17",
+    "Borough": "Manhattan",
+    "Free_Show": false,
+    "Notes": "The whole world loves Chris Farren.",
+    "Record_ID": "8603ee75",
+    "Year": 2026,
+    "Month": 9,
+    "Day": "Saturday",
+    "Primary Artist": "Chris Farren",
+    "Bill_ID": "2026-09-19|The Rooftop at Pier 17",
+    "Show_Number": 142,
+    "media": {
+      "images": [
+        "/media/8603ee75/chrisF.jpg"
+      ]
+    }
+  },
+  {
+    "Artist": "Jeff Rosenstock",
+    "Date": "2026-09-19 00:00:00",
+    "Venue": "The Rooftop at Pier 17",
+    "Borough": "Manhattan",
+    "Free_Show": false,
+    "Notes": "Without question, one of the top 3 experiences I've had in my first 5 years living in New York. I have been seeing Jeff Rosenstock play (in his different bands) for about 13 years, and this is certainly the best show of his I've been to. He was stoked to be back in NYC, loving the people and loving the Knicks, and it was great to be in the crowd for this one. It was a mammoth 3-hour set on the downtown Manhattan waterfront, with the Brooklyn Bridge and Empire State Building behind the stage, in anniversary of Worry being released 10 years ago. Laura Stevenson and Chris Farren were on backup vocals, and Skatoon Network was there on horns, and there was a string quartet too. They played Worry in full and also had a mini Antarctigo Vespucci set in the middle. And in the decade-plus I've been seeing Jeff live, this was the first time he played Bomb the Music Industry! material--the penultimate song was Future 86, which real ones know was the song that BTMI! closed their final performance with at the Warsaw in 2014. Then, the very final song was I Don't Wanna Die (a Ging Nang Boyz cover) which closed Jeff's first solo EP around the same time as BTMI!'s end. He never really performs that one live either. It was really special to see. I'm not crying you're crying.",
+    "Record_ID": "1228103b",
+    "Year": 2026,
+    "Month": 9,
+    "Day": "Saturday",
+    "Primary Artist": "Jeff Rosenstock",
+    "Bill_ID": "2026-09-19|The Rooftop at Pier 17",
+    "Show_Number": 143,
+    "media": {
+      "images": [
+        "/media/1228103b/00jeffR.jpg",
+        "/media/1228103b/01jeffR.jpg",
+        "/media/1228103b/02jeffR.jpg"
+      ]
+    }
+  },
+  {
+    "Artist": "Lambchop",
+    "Date": "2026-10-02 00:00:00",
+    "Venue": "Public Records",
+    "Borough": "Brooklyn",
+    "Free_Show": false,
+    "Notes": "Finally, seeing Kurt Wagner live.",
+    "Record_ID": "6979e985",
+    "Year": 2026,
+    "Month": 10,
+    "Day": "Friday",
+    "Primary Artist": "Lambchop",
+    "Bill_ID": "2026-10-02|Public Records",
+    "Show_Number": 144,
     "media": null
   }
 ]

@@ -254,6 +254,16 @@
     {
       "type": "Feature",
       "geometry": {
+        "coordinates": [-74.00184533, 40.70569689],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "The Rooftop at Pier 17"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "coordinates": [-73.957506, 40.721879],
         "type": "Point"
       },

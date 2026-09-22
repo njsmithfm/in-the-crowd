@@ -3,8 +3,9 @@
   let selectedImageIndex = $state(0);
 </script>
 
-<div style="border: 5px solid #ff00d4; padding: 20px; background: white;">
+<div class="detail-wrapper">
   {#if show}
+    <button onclick={onClose}>X</button>
     <h1>{show.Artist}</h1>
     <p>{show.Venue} in {show.Borough}</p>
     <p>
@@ -53,12 +54,26 @@
   {:else}
     <p style="color: #ff00d4; font-weight: bold;">Select a show from left!</p>
   {/if}
-
-  <button onclick={onClose}>Close</button>
 </div>
 
 <style>
+  .detail-wrapper {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid #ff00d4;
+    padding: 20px;
+    background: white;
+  }
   .show-notes {
     margin: 0.75rem;
+  }
+  button {
+    background-color: none;
+    background: none;
+    font-weight: 600;
+    color: #ff00d4;
+    border: solid #ff00d4 2px;
+    cursor: pointer;
+    align-content: end;
   }
 </style>

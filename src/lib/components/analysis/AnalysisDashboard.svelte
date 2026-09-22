@@ -75,9 +75,9 @@
   .dashboard-grid div {
     margin: 1.5rem;
     padding: 1rem;
-    border: solid 2px;
+    /* border: solid 2px;
     border-radius: 5px;
-    border-color: #ff00d4;
+    border-color: #ff00d4; */
   }
 
   .timeline {

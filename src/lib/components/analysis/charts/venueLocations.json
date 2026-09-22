@@ -264,6 +264,16 @@
     {
       "type": "Feature",
       "geometry": {
+        "coordinates": [-73.84992058, 40.71935457],
+        "type": "Point"
+      },
+      "properties": {
+        "label": "Forest Hills Stadium"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "coordinates": [-73.957506, 40.721879],
         "type": "Point"
       },

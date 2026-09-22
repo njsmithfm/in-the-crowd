@@ -47,7 +47,7 @@
       >
     </span>
     <p style="margin-right:1.5rem;margin-top:0.5rem;">
-      the shows I've been to since 2022
+      concerts I've been to since 2022
     </p>
   </div>
 </div>

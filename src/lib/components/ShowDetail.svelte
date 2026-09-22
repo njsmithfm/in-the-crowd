@@ -68,12 +68,11 @@
     margin: 0.75rem;
   }
   button {
-    background-color: none;
+    align-self: end;
     background: none;
-    font-weight: 600;
+    font-weight: 500;
     color: #ff00d4;
-    border: solid #ff00d4 2px;
+    border: solid #ff00d4 1px;
     cursor: pointer;
-    align-content: end;
   }
 </style>

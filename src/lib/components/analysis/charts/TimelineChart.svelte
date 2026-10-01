@@ -5,8 +5,8 @@
   import shows from "../../../../../public/data/shows.json";
 
   const width = 1000;
-  const height = 200;
-  const radius = 6.5;
+  const height = 500;
+  const radius = 9.75;
   const margin = 40;
 
   const parser = d3.timeParse("%Y-%m-%d %H:%M:%S");
@@ -116,3 +116,11 @@
     </svg>
   {/snippet}
 </ChartWrapper>
+
+<style>
+  svg {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+</style>

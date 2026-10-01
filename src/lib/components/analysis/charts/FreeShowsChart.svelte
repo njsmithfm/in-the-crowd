@@ -13,14 +13,20 @@
     const innerWidth = width - margin.left - margin.right;
     const innerHeight = height - margin.top - margin.bottom;
 
-    const counts = Array.from(
+    const freeShowCounts = new Map(
       d3.rollup(
         shows.filter((show) => show.Free_Show),
         (items) => items.length,
         (show) => show.Year,
       ),
-      ([year, count]) => ({ year: String(year), count }),
-    ).sort((a, b) => d3.ascending(a.year, b.count));
+    );
+    const years = Array.from(new Set(shows.map((show) => show.Year))).sort(
+      d3.ascending,
+    );
+    const counts = years.map((year) => ({
+      year: String(year),
+      count: freeShowCounts.get(year) ?? 0,
+    }));
 
     const x = d3
       .scaleBand()
@@ -78,4 +84,9 @@
 </ChartWrapper>
 
 <style>
+  svg {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
 </style>

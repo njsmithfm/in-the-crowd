@@ -42,7 +42,10 @@
   let tooltip = {};
 
   onMount(() => {
-    const svg = d3.select(svgEl).attr("width", width).attr("height", height);
+    const svg = d3
+      .select(svgEl)
+      .attr("viewBox", `0 0 ${width} ${height}`)
+      .attr("preserveAspectRatio", "xMidYMid meet");
 
     const g = svg
       .append("g")
@@ -80,3 +83,11 @@
     <svg bind:this={svgEl}></svg>
   {/snippet}
 </ChartWrapper>
+
+<style>
+  svg {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+</style>

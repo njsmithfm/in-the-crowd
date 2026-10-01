@@ -68,16 +68,14 @@
   }
   .dashboard-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 2fr);
     grid-template-rows: 1fr 1fr;
+    gap: 1.5rem;
     min-height: 600px;
   }
-  .dashboard-grid div {
-    margin: 1.5rem;
+  .dashboard-grid > div {
+    min-width: 0;
     padding: 1rem;
-    /* border: solid 2px;
-    border-radius: 5px;
-    border-color: #ff00d4; */
   }
 
   .timeline {

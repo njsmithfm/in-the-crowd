@@ -47,7 +47,6 @@
         </div>
       {/if}
       {#if show?.Notes}
-        <p style="margin:0; "><i>Notes:</i></p>
         <div class="show-notes">{show.Notes}</div>
       {/if}
     </div>
@@ -66,6 +65,8 @@
   }
   .show-notes {
     margin: 0.75rem;
+    margin-top: 1.5rem;
+    line-height: 1.35rem;
   }
   button {
     align-self: end;

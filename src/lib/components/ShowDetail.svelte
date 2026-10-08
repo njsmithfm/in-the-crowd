@@ -6,16 +6,19 @@
 <div class="detail-wrapper">
   {#if show}
     <button onclick={onClose}>X</button>
-    <h1>{show.Artist}</h1>
-    <p>{show.Venue} in {show.Borough}</p>
-    <p>
-      {new Date(show.Date).toLocaleDateString("en-gb", {
-        day: "numeric",
-        month: "long",
-        year: "numeric",
-      })}
-    </p>
-
+    <div class="show-detail-heading">
+      <h1>{show.Artist}</h1>
+      <div>
+        <p>{show.Venue} in {show.Borough}</p>
+        <p>
+          {new Date(show.Date).toLocaleDateString("en-gb", {
+            day: "numeric",
+            month: "long",
+            year: "numeric",
+          })}
+        </p>
+      </div>
+    </div>
     <!-- Image Display -->
     <div style="margin: 20px 0;">
       {#if show.media?.images && show.media.images.length > 0}
@@ -75,5 +78,16 @@
     color: #ff00d4;
     border: solid #ff00d4 1px;
     cursor: pointer;
+  }
+  .show-detail-heading {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+  }
+  .show-detail-heading div {
+    display: flex;
+    flex-direction: column;
+    line-height: 0rem;
+    align-content: end;
   }
 </style>

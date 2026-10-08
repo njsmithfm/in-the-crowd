@@ -5,9 +5,9 @@
   import shows from "../../../../../public/data/shows.json";
 
   const width = 1000;
-  const height = 500;
+  const height = 320;
   const radius = 9.75;
-  const margin = 40;
+  const margin = 30;
 
   const parser = d3.timeParse("%Y-%m-%d %H:%M:%S");
   const data = shows.map((show) => ({ ...show, date: new Date(show.Date) }));

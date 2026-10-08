@@ -1822,7 +1822,7 @@
     "Venue": "Brooklyn Steel",
     "Borough": "Brooklyn",
     "Free_Show": false,
-    "Notes": "The sound here truly sucked.",
+    "Notes": "The sound here truly sucked. If I can avoid it I will never return to Brooklyn Steel again because they tried piercing our eardrums through this whole show. I left early it was so bad.",
     "Record_ID": "242ce10e",
     "Year": 2024,
     "Month": 10,
@@ -2377,6 +2377,12 @@
     "Primary Artist": "Lambchop",
     "Bill_ID": "2026-10-02|Public Records",
     "Show_Number": 145,
-    "media": null
+    "media": {
+      "images": [
+        "/media/6979e985/Lambchop_1.jpg",
+        "/media/6979e985/Lambchop_2.jpg",
+        "/media/6979e985/Lambchop_3.jpg"
+      ]
+    }
   }
 ]

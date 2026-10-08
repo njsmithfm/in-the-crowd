@@ -1,8 +1,6 @@
 <script>
   import SummaryCards from "$lib/components/analysis/cards/SummaryCards.svelte";
-  import BoroughBarChart from "$lib/components/analysis/charts/BoroughBarChart.svelte";
   import FreeShowsChart from "$lib/components/analysis/charts/FreeShowsChart.svelte";
-  import Venues from "$lib/components/analysis/charts/Venues.svelte";
   import TimelineChart from "$lib/components/analysis/charts/TimelineChart.svelte";
   import DayOfWeek from "$lib/components/analysis/charts/DayOfWeek.svelte";
   import BoroughMap from "$lib/components/analysis/charts/BoroughMap.svelte";
@@ -51,7 +49,7 @@
 </script>
 
 <section class="analysis-dashboard">
-  <div><SummaryCards {...stats} /></div>
+  <SummaryCards {...stats} />
   <div class="dashboard-grid">
     <div class="timeline"><TimelineChart /></div>
     <div class="free-shows"><FreeShowsChart /></div>
@@ -62,39 +60,76 @@
 
 <style>
   .analysis-dashboard {
-    margin: 2.5rem;
-    width: calc(100% - 5rem); /* account for margins */
-    height: calc(100vh - 5rem);
+    box-sizing: border-box;
+    width: min(100%, 1600px);
+    margin: 0 auto;
+    padding: clamp(1rem, 3vw, 2.5rem);
   }
   .dashboard-grid {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 2fr);
-    grid-template-rows: 1fr 1fr;
-    gap: 1.5rem;
-    min-height: 600px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: clamp(1rem, 2vw, 1.5rem);
   }
   .dashboard-grid > div {
     min-width: 0;
-    padding: 1rem;
   }
 
   .timeline {
-    grid-column: 1 /3;
-    grid-row: 1;
+    grid-column: 1 / -1;
   }
 
   .free-shows {
     grid-column: 1;
-    grid-row: 2;
   }
 
   .day-of-week {
     grid-column: 2;
-    grid-row: 2;
   }
 
   .borough-map {
-    grid-column: 3;
-    grid-row: 1 / 3;
+    grid-column: 1 / -1;
+  }
+
+  @media (min-width: 1100px) {
+    .analysis-dashboard {
+      padding: 1rem 2rem;
+    }
+
+    .dashboard-grid {
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1.35fr);
+      grid-template-rows: auto auto;
+      gap: 1rem;
+    }
+
+    :global(.summary-grid) {
+      margin-bottom: 0.75rem;
+    }
+
+    .timeline {
+      grid-column: 1 / 3;
+    }
+
+    .borough-map {
+      grid-column: 3;
+      grid-row: 1 / 3;
+    }
+
+    .borough-map :global(.chart-panel-body) {
+      align-items: flex-start;
+      padding-top: 0.25rem;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .dashboard-grid {
+      grid-template-columns: minmax(0, 1fr);
+    }
+
+    .timeline,
+    .free-shows,
+    .day-of-week,
+    .borough-map {
+      grid-column: 1;
+    }
   }
 </style>

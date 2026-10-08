@@ -3,7 +3,7 @@
   import * as d3 from "d3";
   import ChartWrapper from "../ChartWrapper.svelte";
   import shows from "../../../../../public/data/shows.json";
-  import boroughs from "./boroughs.json";
+  import boroughs from "./DatawrapperNYCwithoutStatenIsland.json";
   import venueLocations from "./venueLocations.json";
   import { boroughColors } from "../boroughColors.js";
 
@@ -48,7 +48,6 @@
       .range([1, 10]);
 
     const marker = d3.select(svgEl).attr("viewBox", `0 0 ${width} ${height}`);
-
     marker.selectAll("*").remove();
 
     const mapLayer = marker.append("g").attr("class", "map-layer");
@@ -59,9 +58,9 @@
       .join("path")
       .attr("class", "borough")
       .attr("d", path)
-      .attr("fill", "#eee")
-      .attr("stroke", "#222")
-      .attr("stroke-width", 1);
+      .attr("fill", "#00000010")
+      .attr("stroke", "#000")
+      .attr("stroke-width", 0.25);
 
     const venueLayer = mapLayer.append("g").attr("class", "venue-layer");
     const venueStrokeWidth = 1;

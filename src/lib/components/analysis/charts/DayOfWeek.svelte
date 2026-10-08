@@ -4,7 +4,13 @@
   import shows from "../../../../../public/data/shows.json";
   import * as d3 from "d3";
 
-  let daysArray = [
+  const margin = { top: 20, right: 20, bottom: 40, left: 60 };
+  const innerWidth = 500;
+  const innerHeight = 280;
+  const width = innerWidth + margin.left + margin.right;
+  const height = innerHeight + margin.top + margin.bottom;
+
+  const daysArray = [
     "Monday",
     "Tuesday",
     "Wednesday",
@@ -13,41 +19,26 @@
     "Saturday",
     "Sunday",
   ];
-
-  // count shows per day, then map to daysArray order (fixes the ordering bug)
-  let dayCountsRaw = {};
+  let dayCounts = {};
   for (let show of shows) {
-    dayCountsRaw[show.Day] = (dayCountsRaw[show.Day] ?? 0) + 1;
+    dayCounts[show.Day] = (dayCounts[show.Day] ?? 0) + 1;
   }
-  let data = daysArray.map((day) => ({
-    day,
-    count: dayCountsRaw[day] ?? 0,
-  }));
-
-  // margin convention
-  const margin = { top: 10, right: 20, bottom: 30, left: 80 };
-  const innerWidth = 250;
-  const innerHeight = 150;
-  const width = innerWidth + margin.left + margin.right;
-  const height = innerHeight + margin.top + margin.bottom;
+  let data = daysArray.map((day) => ({ day, count: dayCounts[day] ?? 0 }));
 
   let xScale = d3.scaleLinear().domain([0, 50]).range([0, innerWidth]);
   let yScale = d3
     .scaleBand()
     .domain(daysArray)
     .range([0, innerHeight])
-    .padding(1);
+    .padding(0.25);
 
   let svgEl;
   let tooltip = {};
 
   onMount(() => {
-    const svg = d3
+    const g = d3
       .select(svgEl)
       .attr("viewBox", `0 0 ${width} ${height}`)
-      .attr("preserveAspectRatio", "xMidYMid meet");
-
-    const g = svg
       .append("g")
       .attr("transform", `translate(${margin.left},${margin.top})`);
 
@@ -57,23 +48,43 @@
       .attr("x", 0)
       .attr("y", (d) => yScale(d.day))
       .attr("width", (d) => xScale(d.count))
-      .attr("height", 15)
+      .attr("height", 25)
       .attr("fill", "#ff00d440")
       .attr("stroke", "black")
-      .on("mouseenter", (event, d) =>
+      .on("mouseenter", (e, d) =>
         tooltip.show(
-          event,
-          `Since 2022 I've attended </br><strong>${d.count} shows on ${d.day + "s"}</strong>`,
+          e,
+          `<strong>${d.count}</strong> shows attended<br>on <strong>${d.day}s</strong>`,
           "#ff00d4",
         ),
       )
       .on("mouseleave", () => tooltip.hide());
-    g.append("g").call(d3.axisLeft(yScale)).style("stroke-width", 2);
 
+    const yAxis = g.append("g").call(d3.axisLeft(yScale));
+    yAxis.selectAll("text").text(
+      (d) =>
+        ({
+          Monday: "Mon",
+          Tuesday: "Tues",
+          Wednesday: "Wed",
+          Thursday: "Thurs",
+          Friday: "Fri",
+          Saturday: "Sat",
+          Sunday: "Sun",
+        })[d],
+    );
+    yAxis
+      .selectAll("*")
+      .attr("stroke", "#333")
+      .attr("stroke-width", 1)
+      .style("font-size", "16px");
     g.append("g")
       .attr("transform", `translate(0,${innerHeight})`)
       .call(d3.axisBottom(xScale))
-      .style("stroke-width", 2);
+      .selectAll("*")
+      .attr("stroke", "#333")
+      .attr("stroke-width", 1)
+      .style("font-size", "16px");
   });
 </script>
 

@@ -7,9 +7,12 @@
   {#if show}
     <button onclick={onClose}>X</button>
     <div class="show-detail-heading">
-      <h1>{show.Artist}</h1>
-      <div>
-        <p>{show.Venue} in {show.Borough}</p>
+      <div class="artist-borough">
+        <h1>{show.Artist}</h1>
+        <p>{show.Borough}</p>
+      </div>
+      <div class="venue-date">
+        <p>{show.Venue}</p>
         <p>
           {new Date(show.Date).toLocaleDateString("en-gb", {
             day: "numeric",
@@ -81,13 +84,33 @@
   }
   .show-detail-heading {
     display: flex;
-    flex-direction: row;
-    align-items: stretch;
+    justify-content: space-between;
   }
-  .show-detail-heading div {
+
+  .venue-date {
     display: flex;
     flex-direction: column;
-    line-height: 0rem;
-    align-content: end;
+    justify-content: end;
+    align-items: end;
+    margin: auto 0;
+  }
+  .venue-date p {
+    margin: 0;
+    text-align: end;
+  }
+  .artist-borough {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin: auto 0;
+  }
+  .artist-borough h1 {
+    margin: 0;
+  }
+  .artist-borough p {
+    font-style: italic;
+    color: #ff00d4;
+    margin: 0;
   }
 </style>

@@ -90,10 +90,14 @@
           <!-- tick mark -->
           <line y2={5} stroke="#333" stroke-width={2} />
           <!-- label -->
-          <text y={18} text-anchor="middle" font-size={16} fill="#333">
+          <text
+            y={18}
+            text-anchor="middle"
+            style="font-size: 16px; font-weight: 600; fill: #333"
+          >
             {d3.timeFormat("%Y")(year)}
-          </text>
-        </g>
+          </text></g
+        >
       {/each}
 
       {#each processedData as item}

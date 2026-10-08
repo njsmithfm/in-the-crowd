@@ -1,31 +1,35 @@
 <script>
-  let { totalShows, freeShows, yearsCovered, topBorough, topVenue } = $props();
+  let { totalShows, freeShows, yearsCovered, topBorough, topVenue, topDay } =
+    $props();
 </script>
 
 <div class="summary-grid">
   <div class="summary-card">
-    <span class="label">
-      <strong>{totalShows}</strong> total shows attended</span
+    <span class="label"
+      >I've got <strong>{yearsCovered}</strong> years of data here</span
+    >
+  </div>
+  <div class="summary-card">
+    <span class="label"
+      >logging <strong>{totalShows}</strong> shows I've attended</span
     >
   </div>
 
   <div class="summary-card">
-    <span class="label"><strong>{freeShows}</strong> free shows attended</span>
+    <span class="label">mostly on <strong>{topDay}s</strong></span>
   </div>
-
-  <div class="summary-card">
-    <span class="label"><strong>{yearsCovered}</strong> years of data</span>
-  </div>
-
   <div class="summary-card">
     <span class="label"
-      ><strong>{topBorough}</strong> rocks the hardest (I saw shows here the most)</span
+      >and <strong>{freeShows}</strong> of those shows were free</span
     >
   </div>
+  <div class="summary-card">
+    <span class="label">mostly in <strong>{topBorough}</strong> </span>
+  </div>
 
   <div class="summary-card">
     <span class="label"
-      ><strong>{topVenue}</strong> is the top venue I've been to</span
+      >and <strong>{topVenue}</strong>is my most-visited venue</span
     >
   </div>
 </div>
@@ -33,7 +37,7 @@
 <style>
   .summary-grid {
     display: grid;
-    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-template-columns: repeat(6, minmax(0, 1fr));
     gap: 0.75rem;
     margin-bottom: clamp(1rem, 2vw, 1.5rem);
   }
@@ -46,12 +50,15 @@
   }
 
   .label {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     line-height: 1.3;
   }
 
   strong {
-    font-size: 1.25rem;
+    font-size: 1.15rem;
   }
 
   @media (max-width: 1000px) {

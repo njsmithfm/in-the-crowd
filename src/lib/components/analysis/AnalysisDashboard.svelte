@@ -13,6 +13,11 @@
     return counts;
   }, {});
 
+  const dayCounts = sortedShows.reduce((counts, show) => {
+    counts[show.Day] = (counts[show.Day] ?? 0) + 1;
+    return counts;
+  }, {});
+
   const venueCounts = sortedShows.reduce((counts, show) => {
     counts[show.Venue] = (counts[show.Venue] ?? 0) + 1;
     return counts;
@@ -33,6 +38,9 @@
   const totalShows = sortedShows.length;
   const freeShows = sortedShows.filter((show) => show.Free_Show).length;
   const yearsCovered = new Set(sortedShows.map((show) => show.Year)).size;
+  const topDay = Object.keys(dayCounts).reduce((a, b) =>
+    dayCounts[a] > dayCounts[b] ? a : b,
+  );
   const topBorough = Object.keys(boroughCounts).reduce((a, b) =>
     boroughCounts[a] > boroughCounts[b] ? a : b,
   );
@@ -45,6 +53,7 @@
     yearsCovered,
     topBorough,
     topVenue,
+    topDay,
   };
 </script>
 

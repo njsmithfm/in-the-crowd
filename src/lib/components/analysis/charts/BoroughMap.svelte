@@ -106,11 +106,11 @@
 </script>
 
 <ChartWrapper
-  title="Map of NYC Shows"
-  subtitle="No shows in Bronx or Staten Island to report"
+  title="Map of these concerts"
+  subtitle="(No shows in The Bronx or Staten Island yet)"
 >
   {#snippet children(show, hide)}
     {@const _ = ((tooltip.show = show), (tooltip.hide = hide))}
-    <svg bind:this={svgEl}></svg>
+    <svg style="margin-top:1.5rem" bind:this={svgEl}></svg>
   {/snippet}
 </ChartWrapper>

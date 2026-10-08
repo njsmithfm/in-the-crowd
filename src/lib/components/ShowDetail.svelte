@@ -55,6 +55,16 @@
       {#if show?.Notes}
         <div class="show-notes">{show.Notes}</div>
       {/if}
+      {#if show.Venue == "Big Ears Festival"}
+        <div class="big-ears-note">
+          <p>
+            Big Ears itself is not free, but they have an artist scholarship
+            that I applied for and received, which got me a free pass to the
+            whole festival. Totally rad and a beautiful location, hands down the
+            best fest I've ever been do.🤘
+          </p>
+        </div>
+      {/if}
     </div>
   {:else}
     <p style="color: #ff00d4; font-weight: bold;">Select a show from left!</p>
@@ -112,5 +122,10 @@
     font-style: italic;
     color: #ff00d4;
     margin: 0;
+  }
+  .big-ears-note {
+    font-size: 0.85rem;
+    font-style: italic;
+    color: #666;
   }
 </style>

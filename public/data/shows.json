@@ -2218,7 +2218,7 @@
     "Venue": "Jazz at Lincoln Center",
     "Borough": "Manhattan",
     "Free_Show": false,
-    "Notes": "Went to this when my mom and brother were in town.",
+    "Notes": "Went to this when my mom and brother were in town. I have known about this dude for a while but hadn't explored his music too much. All I know was he's a South African pianist with a beaming smile and boundless steeze. Here at Lincoln Center he was playing with Wynton Marsalis (I have now seen two of the Marsalis brothers, Wynton and Delfayo) in a big-band set up.",
     "Record_ID": "e9bf934d",
     "Year": 2025,
     "Month": 10,
@@ -2226,7 +2226,12 @@
     "Primary Artist": "Nduduzo Makhathini",
     "Bill_ID": "2025-10-25|Jazz at Lincoln Center",
     "Show_Number": 137,
-    "media": null
+    "media": {
+      "images": [
+        "/media/e9bf934d/Makathini_1.jpg",
+        "/media/e9bf934d/Makathini_2.jpg"
+      ]
+    }
   },
   {
     "Artist": "Algernon Cadwallader",
@@ -2242,7 +2247,11 @@
     "Primary Artist": "Algernon Cadwallader",
     "Bill_ID": "2025-12-04|Racket NYC",
     "Show_Number": 138,
-    "media": null
+    "media": {
+      "images": [
+        "/media/647a76c4/AC_1.jpg"
+      ]
+    }
   },
   {
     "Artist": "Antarctigo Vespucci",

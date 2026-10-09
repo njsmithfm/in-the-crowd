@@ -2,7 +2,7 @@ Artist,Date,Venue,Borough,Free_Show,Notes,Record_ID
 Busta Rhymes,2026-05-27,Hudson Yards,Manhattan,True,"Hell yeah. I was disappointed though in Busta for saying that none of the stuff on the stage was AI when clearly every single animation during his set was AI. Floating de-aged deepfake heads not only of himself but of Mariah Carey, Janet Jackson, and Chris Rock. Does he think his fans are dumb? That dumb?",f4322611
 Crywank,2022-08-05,Market Hotel,Brooklyn,False,"Pleasantly surprised by this one. I'd gotten invited by someone I was seeing at the time, never heard of them before. The drummer couldn't make it because of some visa issue so it was a one-man show. Walked to East Williamsburg from Park Slope in the August heat to get here.",f8685ec2
 Surf Curse,2022-11-30,Webster Hall,Manhattan,False,"Again, this is a show I got invited to. The drummer got all the attention. I wouldn't probably see them on my own.",0bd05010
-Broken Social Scene,2022-10-15,Webster Hall,Manhattan,False,An interesting set. Kevin Drew made some strange apologist intro to I'm Still Your Fag to win the crowd over before playing it. Meryl Streep and Tracy Ullman came on stage during Anthems for a Seventeen Year Old Girl,314aae63
+Broken Social Scene,2022-10-15,Webster Hall,Manhattan,False,"An interesting set. Kevin Drew made some clumsy apologist preamble to I'm Still Your Fag to bring the crowd onboard with it before playing. But then, later, Meryl Streep and Tracy Ullman came on stage during Anthems for a Seventeen Year Old Girl. And they just stood there, half-dancing. And clips of it went a little viral afterward, taken by the person standing directly behind me in the crowd. So now I can say I've been in a TikTok with Meryl Streep.",314aae63
 Common,2023-09-21,Perleman Arts Center,Manhattan,True,I saw Common do the windmill. I GOT THE TAPES.,97b28adc
 Brandee Younger,2022-07-31,Central Park Summerstage,Manhattan,True,Accompanying Makaya McCraven.,0d53e055
 Makaya McCraven,2022-07-31,Central Park Summerstage,Manhattan,True,,841d1699
@@ -38,15 +38,11 @@ Bayside,2023-07-22,The Stone Pony,New Jersey,False,Stoked for the Summer! Fest,a
 Alabaster DePlume,2023-09-22,Elsewhere,Brooklyn,False,,3fa7bfb9
 Kokoroko,2024-03-20,Le Poisson Rouge,Manhattan,False,,3d7f450e
 Iron Chic,2023-04-28,Elsewhere,Brooklyn,False,,c2312d8f
-Arooj Aftab,2024-08-30,Bryant Park,Manhattan,True,,e23e864f
-Vijay Iyer,2023-10-05,Princeton University,New Jersey,False,McCarter Theater Center (Matthews Theater),03c29356
-Shazhad Ismaily,2023-10-05,Princeton University,New Jersey,False,McCarter Theater Center (Matthews Theater),3a478680
-Arooj Aftab,2023-10-05,Princeton University,New Jersey,False,McCarter Theater Center (Matthews Theater),47f21923
-Vijay Iyer,2024-08-30,Bryant Park,Manhattan,True,,af346174
+Vijay Iyer & Arooj Aftab,2024-08-30,Bryant Park,Manhattan,True,,e23e864f
+"Arooj Aftab, Vijay Iyer, & Shazhad Ismaily",2023-10-05,Princeton University,New Jersey,False,"McCarter Theater Center (Matthews Theater) at Princeton University. These three were touring the Love In Exile album, which was nominated for two Grammy awards.",47f21923
 Ganavya,2024-07-21,Joe's Pub,Manhattan,False,,ce7122d3
-Esperanza Spalding,2024-01-15,Le Poisson Rouge,Manhattan,False,,89174900
-Esperanza Spalding,2025-03-28,Big Ears Festival,"Knoxville, TN",True,"",97af126a
-Shabaka Hutchings,2024-01-15,Le Poisson Rouge,Manhattan,False,,136bae82
+Shabaka Hutchings & Esperanza Spalding,2024-01-15,Le Poisson Rouge,Manhattan,False,,89174900
+Esperanza Spalding & Ganavya,2025-03-28,Big Ears Festival,"Knoxville, TN",True,,97af126a
 The Comet Is Coming,2023-08-02,Central Park Summerstage,Manhattan,True,,d5f3d3fd
 Celeste,2024-07-07,Central Park Summerstage,Manhattan,True,,d955414e
 Ibeyi,2023-08-02,Central Park Summerstage,Manhattan,True,,f73fc477
@@ -58,12 +54,11 @@ Strung Out,2024-03-21,Warsaw Concerts,Brooklyn,False,,57f7a506
 Less Than Jake,2024-03-21,Warsaw Concerts,Brooklyn,False,,906f1d2f
 Berke Can Ozcan,2024-10-08,Nublu,Manhattan,False,,e06102fc
 The Pharcyde,2024-07-12,Herbert Von King Park,Brooklyn,True,,9e029934
-Common ,2024-07-14,Herbert Von King Park,Brooklyn,True,,a333dff6
+Common & Pete Rock,2024-07-14,Herbert Von King Park,Brooklyn,True,,a333dff6
 Reverend Kristin Michael Hayter,2024-01-26,Le Poisson Rouge,Manhattan,False,,028eeeff
-Nicole Mitchell,2024-03-02,Harlem Stage,Manhattan,False,,33d86473
 Aja Monet,2023-08-02,Central Park Summerstage,Manhattan,True,,5344c69e
 Elephant Gym,2024-09-06,Music Hall of Williamsburg,Brooklyn,False,,47cab60a
-Mass of the Fermenting Dregs,2024-10-06,Brooklyn Steel,Brooklyn,False,The sound here truly sucked. If I can avoid it I will never return to Brooklyn Steel again because they tried piercing our eardrums through this whole show. I left early it was so bad.,242ce10e
+Mass of the Fermenting Dregs,2024-10-06,Brooklyn Steel,Brooklyn,False,The sound here truly sucked. I hope to never return to Brooklyn Steel again. I left early it was so bad.,242ce10e
 Santigold,2024-08-23,Terminal 5,Manhattan,False,My birthday present to me 🎂,3a908f76
 Arthur Verocai,2023-08-11,Lincoln Center,Manhattan,True,,e71f66fa
 Ben Lamar Gay,2023-10-29,Public Records,Brooklyn,False,,162addc7
@@ -71,29 +66,28 @@ Dana and Alden,2024-06-22,Central Park Summerstage,Manhattan,True,Not for me,cc7
 Ezra Collective,2024-07-07,Central Park Summerstage,Manhattan,True,,86a37609
 Juggaknots,2024-07-08,Rough Trade,Manhattan,True,,b8149aa2
 Baaba Maal,2024-06-20,Rough Trade,Manhattan,True,,e4d62642
-Combo Chimbita,2024-06-25,Rockefeller Center,Manhattan,True,Pretty awesome. I was testing out my new-to-me Pentax K1000. Carolina Oliveros has some serious pipes.,72e1a794
+Combo Chimbita,2024-06-25,Rockefeller Center,Manhattan,True,Pretty awesome. I was testing out my then-new-to-me Pentax K1000. Carolina Oliveros has some serious pipes.,72e1a794
 Armand Hammer,2024-04-20,Rockefeller Center,Manhattan,True,,67b3b95a
-Patti Smith,2025-03-05,Cooper Union,Manhattan,True,"This was a talk, a back and forth with her and one of the Creative Writing faculty at Cooper Union. But she did play some songs, she sang Because the Night (which is a classic) and My Blakean Year (which we sat through).",aedb3973
+Patti Smith,2025-03-05,Cooper Union,Manhattan,True,"This was a talk, a back and forth with Patti Smith and one of the Creative Writing faculty at Cooper Union. But she did play some songs, she sang Because the Night (which is a classic) and My Blakean Year (which we sat through).",aedb3973
 Cloud Nothings,2024-04-20,Rockefeller Center,Manhattan,True,,6aa37b75
-Ibellise Guardia Ferragutti,2025-04-01,Public Records,Brooklyn,False,,eeb45b18
-Frank Rosaly,2025-04-01,Public Records,Brooklyn,False,,96aaa9c2
+Jeremiah Chiu,2025-04-01,Public Records,Brooklyn,False,,a383775c
+Ibellise Guardia Ferragutti & Frank Rosaly,2025-04-01,Public Records,Brooklyn,False,,eeb45b18
 Atmosphere,2025-02-10,Brooklyn Bowl,Brooklyn,False,,79dd3fe8
 Sage Francis,2025-02-10,Brooklyn Bowl,Brooklyn,False,,63e6ee91
-Ganavya,2025-03-29,Big Ears Festival,"Knoxville, TN",True,"",c1c8989c
-Jeremiah Chiu,2025-04-01,Public Records,Brooklyn,False,,a383775c
+Ganavya,2025-03-29,Big Ears Festival,"Knoxville, TN",True,,c1c8989c
+DakhaBrakha,2025-03-30,Big Ears Festival,"Knoxville, TN",True,,fc562136
 Worriers,2024-03-09,Knockdown Center,Queens,False,,eb525f23
 Drug Church,2024-03-09,Knockdown Center,Queens,False,,9e3366cb
 Alkaline Trio,2024-03-09,Knockdown Center,Queens,False,,0d24ebfc
 Jeff Rosenstock,2024-08-21,Warsaw Concerts,Brooklyn,False,,e1f98160
 Chris Farren ,2024-08-21,Warsaw Concerts,Brooklyn,False,,6ebea167
-Maruja,2025-03-29,Big Ears Festival,"Knoxville, TN",True,"",2aab9c89
-Anohni,2025-03-28,Big Ears Festival,"Knoxville, TN",True,"",1d229437
+Maruja,2025-03-29,Big Ears Festival,"Knoxville, TN",True,,2aab9c89
+Anohni,2025-03-28,Big Ears Festival,"Knoxville, TN",True,,1d229437
 Anoushka Shankar,2025-03-30,Big Ears Festival,"Knoxville, TN",True,"At long last I saw Anoushka Shankar. In truth leading up to this show I'd been becoming more familiar with her drummer Sarathy Korwar's work than her own. (dude is awesome.) But I was stoked to see Anoushka of course, and I've known about her for many years already, but hadn't enlightened myself to her music until recent years. ",a8cd658f
 Múm,2025-03-30,Big Ears Festival,"Knoxville, TN",True,"Glitchy Iceland band I've known about for years, but seeing them live finally their set was way more doom-inducing and darker than I could have expected, haha. I thought they were more twee than their live show displayed. ",6d5663a3
 Adi Oasis,2023-04-20,Brooklyn Made,Brooklyn,True,I won free tickets to this show through a raffle. (stoked),64d5443f
-Carlos Niño,2025-05-29,Roulette Intermedium,Brooklyn,False,"Featuring Saul Williams. As the set finished Carlos held the silence on stage after the musicians finished playing, and slowly opened his eyes and whispered to the crowd, 'Ok so (waving to the band on stage) we're done now.' He asked the crowd to maintain the silence instead of applauding for them all, and then after a moment got up and they all left the stage with the quiet lingering in the air and the band dispersed to mingle with the crowd. Carlos simply sat down on the front of the stage and after a pause, asked the people in the front row, 'So do you guys come here alot?'",7e314fa0
-Saul Williams,2025-05-29,Roulette Intermedium,Brooklyn,False,,b71cec9d
-Carlos Niño,2025-03-30,Big Ears Festival,"Knoxville, TN",True,"",c409cb24
+Carlos Niño & Saul Williams,2025-05-29,Roulette Intermedium,Brooklyn,False,"As the set finished Carlos held the silence on stage after the musicians finished playing, and slowly opened his eyes and whispered to the crowd, 'Ok so (waving to the band on stage) we're done now.' He asked the crowd to maintain the silence instead of applauding for them all, and then after a moment got up and they all left the stage with the quiet lingering in the air and the band dispersed to mingle with the crowd. Carlos simply sat down on the front of the stage and after a pause, asked the people in the front row, 'So do you guys come here alot?'",7e314fa0
+Carlos Niño & Idris Ackamoor,2025-03-30,Big Ears Festival,"Knoxville, TN",True,,c409cb24
 TV Moms,2024-08-04,Hart Bar,Brooklyn,False,,cce503a2
 Algernon Cadwallader,2025-12-04,Racket NYC,Manhattan,False,,647a76c4
 Antarctigo Vespucci,2026-02-06,Warsaw Concerts,Brooklyn,False,,b1e933a2
@@ -108,32 +102,28 @@ Lip Critic,2023-04-28,Elsewhere,Brooklyn,False,I guess these guys are kinda big.
 Arooj Aftab,2024-07-24,Central Park Summerstage,Manhattan,True,"She played Mohabbat at this show, after publicly saying earlier in the year she'd be done with it.",349d4cf2
 Kermit the Frog,2022-10-22, Lincoln Center,Manhattan,True,It was sweet.,00835a4b
 Irreversible Entanglements,2024-01-15,Le Poisson Rouge,Manhattan,False,,403c66d8
-James Brandon Lewis,2024-01-15,Le Poisson Rouge,Manhattan,False,,1e114174
-Messthetics,2024-01-15,Le Poisson Rouge,Manhattan,False,,e8e8027b
+Messthetics & James Brandon Lewis,2024-01-15,Le Poisson Rouge,Manhattan,False,,1e114174
 Chicago Underground Duo,2024-05-05,Public Records,Brooklyn,False,,dc78d691
-Raw Poetic,2024-05-05,Public Records,Brooklyn,False,,9f1920ae
-Damu The Fudgemunk,2024-05-05,Public Records,Brooklyn,False,,69aad680
+Raw Poetic & Damu The Fudgemunk,2024-05-05,Public Records,Brooklyn,False,,9f1920ae
 Pharoah Sanders Harvest Time Project,2023-10-14,National Sawdust,Brooklyn,False,,8a495843
 Champe-Soukous Collective,2023-07-28,Bryant Park,Manhattan,True,,72c8b36e
 Caroline,2023-04-07,National Sawdust,Brooklyn,False,,3aca3b77
 Kimya Dawson,2024-09-24,Xanadu Roller Arts,Brooklyn,False,,61035683
 Yussef Dayes,2024-06-22,Central Park Summerstage,Manhattan,True,"I was super hyped for this show, and I'm glad I went, but it became a bit boring for me after a few songs. Black Classical Music was a huge record for 2024, I believe Gilles Peterson chose it as his record of the year, but during the set it felt like it was all about vibes. Which to be sure, the 2024 Gen Z crowd ate up gladly, but for me, all the songs started to feel the same.",3925ace0
-Vijay Iyer,2024-03-02,Harlem Stage,Manhattan,False,,c0afbc88
-Kahil El'Zabar,2025-03-30,Big Ears Festival,"Knoxville, TN",True,"",edd54967
+Vijay Iyer & Nicole Mitchell,2024-03-02,Harlem Stage,Manhattan,False,,c0afbc88
+Kahil El'Zabar,2025-03-30,Big Ears Festival,"Knoxville, TN",True,,edd54967
 John Zorn,2024-05-17,Louis Armstrong Stadium,Queens,True,My master's commencement ceremony,3fa0d4fd
 Iron Chic,2026-06-26,Brooklyn Monarch,Brooklyn,False,"This is the second time I've seen the mighty Long Island band Iron Chic. Although I think the singer Jason might live in Brooklyn--I'm pretty sure he was my neighbor when I lived in Flatbush, since I could've sworn I saw him on the subway with me and at the neighborhood market a few times. I fucking love this band. Massive, triumphant, life-affirming songs that can lift you up and make you feel powerful. Like Bruce Springsteen. Which might be unusual for a punk band, but maybe not unusual for a beard-guy punk band? What do you think? Who cares! It rocks! 🤘",fc704b7f
-The Lawrence Arms,2026-06-26,Brooklyn Monarch,Brooklyn,False,,7656a966
-Carlos Niño,2023-01-14,National Sawdust,Brooklyn,False,NYC Winter Jazz Fest,4e23b754
-Photay,2023-01-14,National Sawdust,Brooklyn,False,NYC Winter Jazz Fest,cd2855ce
-Wadada Leo Smith,2025-03-28,Big Ears Festival,"Knoxville, TN",True,"",b336098a
-Steve Roach,2025-03-29,Big Ears Festival,"Knoxville, TN",True,"",e12145d9
-Mary Lattimore,2025-03-29,Big Ears Festival,"Knoxville, TN",True,"",d818de4f
-Idris Ackamoor,2025-03-30,Big Ears Festival,"Knoxville, TN",True,"Playing with Carlos Niño and Laraaji. ",97d09c5d
+The Lawrence Arms,2026-06-26,Brooklyn Monarch,Brooklyn,False,"I was stoked to see this band. I love Chicago bands.",7656a966
+Carlos Niño & Photay,2023-01-14,National Sawdust,Brooklyn,False,NYC Winter Jazz Fest,4e23b754
+Wadada Leo Smith,2025-03-28,Big Ears Festival,"Knoxville, TN",True,,b336098a
+Steve Roach,2025-03-29,Big Ears Festival,"Knoxville, TN",True,,e12145d9
+Mary Lattimore,2025-03-29,Big Ears Festival,"Knoxville, TN",True,,d818de4f
 Standing on the Corner,2023-05-13,The Ruins at Knockdown Center,Queens,False,,10fd8778
 Makaya McCraven,2023-05-13,The Ruins at Knockdown Center,Queens,False,,31c046d0
 Laraaji,2023-05-13,The Ruins at Knockdown Center,Queens,False,,a74a4e19
 Xiu Xiu,2025-06-22,The Ruins at Knockdown Center,Queens,False,"Finally, I got to see Shwee Shwee.",0942c729
-Chuquimamani-Condori,2025-06-22,The Ruins at Knockdown Center,Queens,False,"I'm now a fan for life. Don't sleep on Elly or her other group Los Thuthanaka with Joshua Chiquimia Crampton.",3f9c4ca2
+Chuquimamani-Condori,2025-06-22,The Ruins at Knockdown Center,Queens,False,I'm now a fan for life. Don't sleep on Elly or her other group Los Thuthanaka with Joshua Chiquimia Crampton.,3f9c4ca2
 Eucademix,2024-09-05,Whitney Museum of American Art,Manhattan,True,"Yuka Honda from Cibo Matto, a funky Brooklyn group from the early 2000s which my grad media design professor put me onto. A purely instrumental set, in the lobby of the Whitney over in the Meatpacking District.",d04ab6b9
 Aneesa Strings,2024-06-22,Central Park Summerstage,Manhattan,True,,f6135035
 KRS-One,2023-06-17,Brooklyn Central Library,Brooklyn,True,Night at the Library: The Philosophy of Hip-Hop,76e2a628
@@ -143,4 +133,4 @@ Sampa the Great,2022-07-23, Herbert Von King Park,Brooklyn,True,"I'd been follow
 Chris Farren,2026-09-19,The Rooftop at Pier 17,Manhattan,False,The whole world loves Chris Farren.,8603ee75
 Jeff Rosenstock,2026-09-19,The Rooftop at Pier 17,Manhattan,False,"Without question, one of the top 3 experiences I've had in my first 5 years living in New York. I have been seeing Jeff Rosenstock play (in his different bands) for about 13 years, and this is certainly the best show of his I've been to. He was stoked to be back in NYC, loving the people and loving the Knicks, and it was great to be in the crowd for this one. It was a mammoth 3-hour set on the downtown Manhattan waterfront, with the Brooklyn Bridge and Empire State Building behind the stage, in anniversary of Worry being released 10 years ago. Laura Stevenson and Chris Farren were on backup vocals, and Skatoon Network was there on horns, and there was a string quartet too. They played Worry in full and also had a mini Antarctigo Vespucci set in the middle. And in the decade-plus I've been seeing Jeff live, this was the first time he played Bomb the Music Industry! material--the penultimate song was Future 86, which real ones know was the song that BTMI! closed their final performance with at the Warsaw in 2014. Then, the very final song was I Don't Wanna Die (a Ging Nang Boyz cover) which closed Jeff's first solo EP around the same time as BTMI!'s end. He never really performs that one live either. It was really special to see. I'm not crying you're crying.",1228103b
 Lambchop,2026-10-02,Public Records,Brooklyn,False,"Finally, I saw Kurt Wagner live. This was on the tour supporting 'Punching the Clown', the 2026 Lambchop album which featured Minneapolis local Andrew Broder heavily. This live version of Lambchop just Kurt and Andrew Broder, the two of them, in the quiet, tiny Sound Room downstairs at Public Records, with Andrew on acoustic guitar and Kurt sitting in a chair next to him, only singing. Which is what I expected--while Lambchop has shapeshifted over the years and once was a sprawling live collective, I knew that Kurt's most recent performances had just been him singing solo with a pianist. And I'd only see them touring across Europe, and to see New York dates announced was huge to me. Surely enough, during the show he said he didn't know when they'd ever come back to New York. They only played new songs. Nothing that was before this most recent album, and they closed the set with two still-unreleased songs that nobody in the audience yet knows.",6979e985
-PAN-POT,2023-02-11,Knockdown Center,Queens,False,"I have absolutely no idea who this is. I went for a friend's birthday and just tried to enjoy myself. Took no pictures. Rave stuff is not for me.",fb256e42
+PAN-POT,2023-02-11,Knockdown Center,Queens,False,I have absolutely no idea who this is. I went for a friend's birthday and just tried to enjoy myself. Took no pictures. Rave stuff is not for me.,fb256e42

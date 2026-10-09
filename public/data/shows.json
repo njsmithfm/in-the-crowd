@@ -245,7 +245,7 @@
     "Venue": "Webster Hall",
     "Borough": "Manhattan",
     "Free_Show": false,
-    "Notes": "An interesting set. Kevin Drew made some strange apologist intro to I'm Still Your Fag to win the crowd over before playing it. Meryl Streep and Tracy Ullman came on stage during Anthems for a Seventeen Year Old Girl",
+    "Notes": "An interesting set. Kevin Drew made some clumsy apologist preamble to I'm Still Your Fag to bring the crowd onboard with it before playing. But then, later, Meryl Streep and Tracy Ullman came on stage during Anthems for a Seventeen Year Old Girl. And they just stood there, half-dancing. And clips of it went a little viral afterward, taken by the person standing directly behind me in the crowd. So now I can say I've been in a TikTok with Meryl Streep.",
     "Record_ID": "314aae63",
     "Year": 2022,
     "Month": 10,
@@ -320,7 +320,7 @@
     "media": null
   },
   {
-    "Artist": "Carlos Ni\u00f1o",
+    "Artist": "Carlos Ni\u00f1o & Photay",
     "Date": "2023-01-14 00:00:00",
     "Venue": "National Sawdust",
     "Borough": "Brooklyn",
@@ -330,25 +330,9 @@
     "Year": 2023,
     "Month": 1,
     "Day": "Saturday",
-    "Primary Artist": "Carlos Ni\u00f1o",
+    "Primary Artist": "Carlos Ni\u00f1o & Photay",
     "Bill_ID": "2023-01-14|National Sawdust",
     "Show_Number": 21,
-    "media": null
-  },
-  {
-    "Artist": "Photay",
-    "Date": "2023-01-14 00:00:00",
-    "Venue": "National Sawdust",
-    "Borough": "Brooklyn",
-    "Free_Show": false,
-    "Notes": "NYC Winter Jazz Fest",
-    "Record_ID": "cd2855ce",
-    "Year": 2023,
-    "Month": 1,
-    "Day": "Saturday",
-    "Primary Artist": "Photay",
-    "Bill_ID": "2023-01-14|National Sawdust",
-    "Show_Number": 22,
     "media": null
   },
   {
@@ -364,7 +348,7 @@
     "Day": "Saturday",
     "Primary Artist": "Gilles Peterson",
     "Bill_ID": "2023-01-14|Superior Ingredients",
-    "Show_Number": 23,
+    "Show_Number": 22,
     "media": null
   },
   {
@@ -383,7 +367,7 @@
       "Irreversible Entanglements"
     ],
     "Bill_ID": "2023-01-14|Superior Ingredients",
-    "Show_Number": 24,
+    "Show_Number": 23,
     "media": null
   },
   {
@@ -399,7 +383,7 @@
     "Day": "Saturday",
     "Primary Artist": "Brandee Younger",
     "Bill_ID": "2023-01-14|The Opera House",
-    "Show_Number": 25,
+    "Show_Number": 24,
     "media": null
   },
   {
@@ -415,7 +399,7 @@
     "Day": "Saturday",
     "Primary Artist": "Julius Rodriguez",
     "Bill_ID": "2023-01-14|The Opera House",
-    "Show_Number": 26,
+    "Show_Number": 25,
     "media": null
   },
   {
@@ -431,7 +415,7 @@
     "Day": "Saturday",
     "Primary Artist": "PAN-POT",
     "Bill_ID": "2023-02-11|Knockdown Center",
-    "Show_Number": 27,
+    "Show_Number": 26,
     "media": null
   },
   {
@@ -447,7 +431,7 @@
     "Day": "Friday",
     "Primary Artist": "Caroline",
     "Bill_ID": "2023-04-07|National Sawdust",
-    "Show_Number": 28,
+    "Show_Number": 27,
     "media": null
   },
   {
@@ -463,7 +447,7 @@
     "Day": "Thursday",
     "Primary Artist": "Adi Oasis",
     "Bill_ID": "2023-04-20|Brooklyn Made",
-    "Show_Number": 29,
+    "Show_Number": 28,
     "media": null
   },
   {
@@ -479,7 +463,7 @@
     "Day": "Friday",
     "Primary Artist": "Iron Chic",
     "Bill_ID": "2023-04-28|Elsewhere",
-    "Show_Number": 30,
+    "Show_Number": 29,
     "media": null
   },
   {
@@ -495,7 +479,7 @@
     "Day": "Friday",
     "Primary Artist": "Screaming Females",
     "Bill_ID": "2023-04-28|Elsewhere",
-    "Show_Number": 31,
+    "Show_Number": 30,
     "media": null
   },
   {
@@ -511,7 +495,7 @@
     "Day": "Friday",
     "Primary Artist": "Lip Critic",
     "Bill_ID": "2023-04-28|Elsewhere",
-    "Show_Number": 32,
+    "Show_Number": 31,
     "media": null
   },
   {
@@ -527,7 +511,7 @@
     "Day": "Saturday",
     "Primary Artist": "Standing on the Corner",
     "Bill_ID": "2023-05-13|The Ruins at Knockdown Center",
-    "Show_Number": 33,
+    "Show_Number": 32,
     "media": null
   },
   {
@@ -543,7 +527,7 @@
     "Day": "Saturday",
     "Primary Artist": "Makaya McCraven",
     "Bill_ID": "2023-05-13|The Ruins at Knockdown Center",
-    "Show_Number": 34,
+    "Show_Number": 33,
     "media": null
   },
   {
@@ -559,7 +543,7 @@
     "Day": "Saturday",
     "Primary Artist": "Laraaji",
     "Bill_ID": "2023-05-13|The Ruins at Knockdown Center",
-    "Show_Number": 35,
+    "Show_Number": 34,
     "media": null
   },
   {
@@ -575,7 +559,7 @@
     "Day": "Wednesday",
     "Primary Artist": "Turnstile",
     "Bill_ID": "2023-05-24|Barclays Center",
-    "Show_Number": 36,
+    "Show_Number": 35,
     "media": null
   },
   {
@@ -591,7 +575,7 @@
     "Day": "Wednesday",
     "Primary Artist": "Blink-182",
     "Bill_ID": "2023-05-24|Barclays Center",
-    "Show_Number": 37,
+    "Show_Number": 36,
     "media": null
   },
   {
@@ -607,7 +591,7 @@
     "Day": "Saturday",
     "Primary Artist": "KRS-One",
     "Bill_ID": "2023-06-17|Brooklyn Central Library",
-    "Show_Number": 38,
+    "Show_Number": 37,
     "media": null
   },
   {
@@ -623,7 +607,7 @@
     "Day": "Saturday",
     "Primary Artist": "Rapsody",
     "Bill_ID": "2023-06-17|Brooklyn Central Library",
-    "Show_Number": 39,
+    "Show_Number": 38,
     "media": null
   },
   {
@@ -639,7 +623,7 @@
     "Day": "Wednesday",
     "Primary Artist": "DOMi and JD Beck",
     "Bill_ID": "2023-07-05|Hudson Yards",
-    "Show_Number": 40,
+    "Show_Number": 39,
     "media": null
   },
   {
@@ -655,7 +639,7 @@
     "Day": "Friday",
     "Primary Artist": "Oumou Sangare",
     "Bill_ID": "2023-07-14|Lena Horne Bandshell",
-    "Show_Number": 41,
+    "Show_Number": 40,
     "media": null
   },
   {
@@ -671,7 +655,7 @@
     "Day": "Saturday",
     "Primary Artist": "Bouncing Souls",
     "Bill_ID": "2023-07-22|The Stone Pony",
-    "Show_Number": 42,
+    "Show_Number": 41,
     "media": null
   },
   {
@@ -687,7 +671,7 @@
     "Day": "Saturday",
     "Primary Artist": "Screaming Females",
     "Bill_ID": "2023-07-22|The Stone Pony",
-    "Show_Number": 43,
+    "Show_Number": 42,
     "media": null
   },
   {
@@ -703,7 +687,7 @@
     "Day": "Saturday",
     "Primary Artist": "Bayside",
     "Bill_ID": "2023-07-22|The Stone Pony",
-    "Show_Number": 44,
+    "Show_Number": 43,
     "media": null
   },
   {
@@ -719,7 +703,7 @@
     "Day": "Friday",
     "Primary Artist": "Champe-Soukous Collective",
     "Bill_ID": "2023-07-28|Bryant Park",
-    "Show_Number": 45,
+    "Show_Number": 44,
     "media": null
   },
   {
@@ -735,7 +719,7 @@
     "Day": "Sunday",
     "Primary Artist": "Brandee Younger",
     "Bill_ID": "2023-07-30|Lincoln Center",
-    "Show_Number": 46,
+    "Show_Number": 45,
     "media": null
   },
   {
@@ -751,7 +735,7 @@
     "Day": "Wednesday",
     "Primary Artist": "The Comet Is Coming",
     "Bill_ID": "2023-08-02|Central Park Summerstage",
-    "Show_Number": 47,
+    "Show_Number": 46,
     "media": null
   },
   {
@@ -767,7 +751,7 @@
     "Day": "Wednesday",
     "Primary Artist": "Ibeyi",
     "Bill_ID": "2023-08-02|Central Park Summerstage",
-    "Show_Number": 48,
+    "Show_Number": 47,
     "media": null
   },
   {
@@ -783,7 +767,7 @@
     "Day": "Wednesday",
     "Primary Artist": "Aja Monet",
     "Bill_ID": "2023-08-02|Central Park Summerstage",
-    "Show_Number": 49,
+    "Show_Number": 48,
     "media": null
   },
   {
@@ -799,7 +783,7 @@
     "Day": "Friday",
     "Primary Artist": "The Smiths Tribute",
     "Bill_ID": "2023-08-04|Gramercy Theater",
-    "Show_Number": 50,
+    "Show_Number": 49,
     "media": null
   },
   {
@@ -815,7 +799,7 @@
     "Day": "Friday",
     "Primary Artist": "Arthur Verocai",
     "Bill_ID": "2023-08-11|Lincoln Center",
-    "Show_Number": 51,
+    "Show_Number": 50,
     "media": null
   },
   {
@@ -831,7 +815,7 @@
     "Day": "Tuesday",
     "Primary Artist": "Fishbone",
     "Bill_ID": "2023-09-19|Wellmont Theater",
-    "Show_Number": 52,
+    "Show_Number": 51,
     "media": null
   },
   {
@@ -847,7 +831,7 @@
     "Day": "Tuesday",
     "Primary Artist": "Parliament-Funkadelic",
     "Bill_ID": "2023-09-19|Wellmont Theater",
-    "Show_Number": 53,
+    "Show_Number": 52,
     "media": null
   },
   {
@@ -863,7 +847,7 @@
     "Day": "Thursday",
     "Primary Artist": "Common",
     "Bill_ID": "2023-09-21|Perleman Arts Center",
-    "Show_Number": 54,
+    "Show_Number": 53,
     "media": null
   },
   {
@@ -879,7 +863,7 @@
     "Day": "Friday",
     "Primary Artist": "Alabaster DePlume",
     "Bill_ID": "2023-09-22|Elsewhere",
-    "Show_Number": 55,
+    "Show_Number": 54,
     "media": null
   },
   {
@@ -895,7 +879,7 @@
     "Day": "Wednesday",
     "Primary Artist": "De La Soul",
     "Bill_ID": "2023-09-27|Barclays Center",
-    "Show_Number": 56,
+    "Show_Number": 55,
     "media": null
   },
   {
@@ -911,7 +895,7 @@
     "Day": "Wednesday",
     "Primary Artist": "Wu Tang Clan",
     "Bill_ID": "2023-09-27|Barclays Center",
-    "Show_Number": 57,
+    "Show_Number": 56,
     "media": null
   },
   {
@@ -927,55 +911,23 @@
     "Day": "Wednesday",
     "Primary Artist": "Nas",
     "Bill_ID": "2023-09-27|Barclays Center",
-    "Show_Number": 58,
+    "Show_Number": 57,
     "media": null
   },
   {
-    "Artist": "Vijay Iyer",
+    "Artist": "Arooj Aftab, Vijay Iyer, & Shazhad Ismaily",
     "Date": "2023-10-05 00:00:00",
     "Venue": "Princeton University",
     "Borough": "New Jersey",
     "Free_Show": false,
-    "Notes": "McCarter Theater Center (Matthews Theater)",
-    "Record_ID": "03c29356",
-    "Year": 2023,
-    "Month": 10,
-    "Day": "Thursday",
-    "Primary Artist": "Vijay Iyer",
-    "Bill_ID": "2023-10-05|Princeton University",
-    "Show_Number": 59,
-    "media": null
-  },
-  {
-    "Artist": "Shazhad Ismaily",
-    "Date": "2023-10-05 00:00:00",
-    "Venue": "Princeton University",
-    "Borough": "New Jersey",
-    "Free_Show": false,
-    "Notes": "McCarter Theater Center (Matthews Theater)",
-    "Record_ID": "3a478680",
-    "Year": 2023,
-    "Month": 10,
-    "Day": "Thursday",
-    "Primary Artist": "Shazhad Ismaily",
-    "Bill_ID": "2023-10-05|Princeton University",
-    "Show_Number": 60,
-    "media": null
-  },
-  {
-    "Artist": "Arooj Aftab",
-    "Date": "2023-10-05 00:00:00",
-    "Venue": "Princeton University",
-    "Borough": "New Jersey",
-    "Free_Show": false,
-    "Notes": "McCarter Theater Center (Matthews Theater)",
+    "Notes": "McCarter Theater Center (Matthews Theater) at Princeton University. These three were touring the Love In Exile album, which was nominated for two Grammy awards.",
     "Record_ID": "47f21923",
     "Year": 2023,
     "Month": 10,
     "Day": "Thursday",
-    "Primary Artist": "Arooj Aftab",
+    "Primary Artist": "Arooj Aftab, Vijay Iyer, & Shazhad Ismaily",
     "Bill_ID": "2023-10-05|Princeton University",
-    "Show_Number": 61,
+    "Show_Number": 58,
     "media": null
   },
   {
@@ -996,7 +948,7 @@
       "Jeff Parker"
     ],
     "Bill_ID": "2023-10-14|National Sawdust",
-    "Show_Number": 62,
+    "Show_Number": 59,
     "media": null
   },
   {
@@ -1012,7 +964,7 @@
     "Day": "Wednesday",
     "Primary Artist": "Daniel Villarreal",
     "Bill_ID": "2023-10-18|Public Records",
-    "Show_Number": 63,
+    "Show_Number": 60,
     "media": {
       "images": [
         "/media/c8d935b8/54.jpg"
@@ -1032,7 +984,7 @@
     "Day": "Sunday",
     "Primary Artist": "Ben Lamar Gay",
     "Bill_ID": "2023-10-29|Public Records",
-    "Show_Number": 64,
+    "Show_Number": 61,
     "media": null
   },
   {
@@ -1048,7 +1000,7 @@
     "Day": "Monday",
     "Primary Artist": "Moor Mother",
     "Bill_ID": "2023-12-04|Lincoln Center",
-    "Show_Number": 65,
+    "Show_Number": 62,
     "media": null
   },
   {
@@ -1064,11 +1016,11 @@
     "Day": "Saturday",
     "Primary Artist": "Streetlight Manifesto",
     "Bill_ID": "2023-12-09|Starlight Ballroom",
-    "Show_Number": 66,
+    "Show_Number": 63,
     "media": null
   },
   {
-    "Artist": "Esperanza Spalding",
+    "Artist": "Shabaka Hutchings & Esperanza Spalding",
     "Date": "2024-01-15 00:00:00",
     "Venue": "Le Poisson Rouge",
     "Borough": "Manhattan",
@@ -1078,25 +1030,9 @@
     "Year": 2024,
     "Month": 1,
     "Day": "Monday",
-    "Primary Artist": "Esperanza Spalding",
+    "Primary Artist": "Shabaka Hutchings & Esperanza Spalding",
     "Bill_ID": "2024-01-15|Le Poisson Rouge",
-    "Show_Number": 67,
-    "media": null
-  },
-  {
-    "Artist": "Shabaka Hutchings",
-    "Date": "2024-01-15 00:00:00",
-    "Venue": "Le Poisson Rouge",
-    "Borough": "Manhattan",
-    "Free_Show": false,
-    "Notes": "",
-    "Record_ID": "136bae82",
-    "Year": 2024,
-    "Month": 1,
-    "Day": "Monday",
-    "Primary Artist": "Shabaka Hutchings",
-    "Bill_ID": "2024-01-15|Le Poisson Rouge",
-    "Show_Number": 68,
+    "Show_Number": 64,
     "media": null
   },
   {
@@ -1115,11 +1051,11 @@
       "Irreversible Entanglements"
     ],
     "Bill_ID": "2024-01-15|Le Poisson Rouge",
-    "Show_Number": 69,
+    "Show_Number": 65,
     "media": null
   },
   {
-    "Artist": "James Brandon Lewis",
+    "Artist": "Messthetics & James Brandon Lewis",
     "Date": "2024-01-15 00:00:00",
     "Venue": "Le Poisson Rouge",
     "Borough": "Manhattan",
@@ -1129,25 +1065,9 @@
     "Year": 2024,
     "Month": 1,
     "Day": "Monday",
-    "Primary Artist": "James Brandon Lewis",
+    "Primary Artist": "Messthetics & James Brandon Lewis",
     "Bill_ID": "2024-01-15|Le Poisson Rouge",
-    "Show_Number": 70,
-    "media": null
-  },
-  {
-    "Artist": "Messthetics",
-    "Date": "2024-01-15 00:00:00",
-    "Venue": "Le Poisson Rouge",
-    "Borough": "Manhattan",
-    "Free_Show": false,
-    "Notes": "",
-    "Record_ID": "e8e8027b",
-    "Year": 2024,
-    "Month": 1,
-    "Day": "Monday",
-    "Primary Artist": "Messthetics",
-    "Bill_ID": "2024-01-15|Le Poisson Rouge",
-    "Show_Number": 71,
+    "Show_Number": 66,
     "media": null
   },
   {
@@ -1163,27 +1083,11 @@
     "Day": "Friday",
     "Primary Artist": "Reverend Kristin Michael Hayter",
     "Bill_ID": "2024-01-26|Le Poisson Rouge",
-    "Show_Number": 72,
+    "Show_Number": 67,
     "media": null
   },
   {
-    "Artist": "Nicole Mitchell",
-    "Date": "2024-03-02 00:00:00",
-    "Venue": "Harlem Stage",
-    "Borough": "Manhattan",
-    "Free_Show": false,
-    "Notes": "",
-    "Record_ID": "33d86473",
-    "Year": 2024,
-    "Month": 3,
-    "Day": "Saturday",
-    "Primary Artist": "Nicole Mitchell",
-    "Bill_ID": "2024-03-02|Harlem Stage",
-    "Show_Number": 73,
-    "media": null
-  },
-  {
-    "Artist": "Vijay Iyer",
+    "Artist": "Vijay Iyer & Nicole Mitchell",
     "Date": "2024-03-02 00:00:00",
     "Venue": "Harlem Stage",
     "Borough": "Manhattan",
@@ -1193,9 +1097,9 @@
     "Year": 2024,
     "Month": 3,
     "Day": "Saturday",
-    "Primary Artist": "Vijay Iyer",
+    "Primary Artist": "Vijay Iyer & Nicole Mitchell",
     "Bill_ID": "2024-03-02|Harlem Stage",
-    "Show_Number": 74,
+    "Show_Number": 68,
     "media": null
   },
   {
@@ -1211,7 +1115,7 @@
     "Day": "Saturday",
     "Primary Artist": "Worriers",
     "Bill_ID": "2024-03-09|Knockdown Center",
-    "Show_Number": 75,
+    "Show_Number": 69,
     "media": null
   },
   {
@@ -1227,7 +1131,7 @@
     "Day": "Saturday",
     "Primary Artist": "Drug Church",
     "Bill_ID": "2024-03-09|Knockdown Center",
-    "Show_Number": 76,
+    "Show_Number": 70,
     "media": null
   },
   {
@@ -1243,7 +1147,7 @@
     "Day": "Saturday",
     "Primary Artist": "Alkaline Trio",
     "Bill_ID": "2024-03-09|Knockdown Center",
-    "Show_Number": 77,
+    "Show_Number": 71,
     "media": null
   },
   {
@@ -1259,7 +1163,7 @@
     "Day": "Wednesday",
     "Primary Artist": "Kokoroko",
     "Bill_ID": "2024-03-20|Le Poisson Rouge",
-    "Show_Number": 78,
+    "Show_Number": 72,
     "media": null
   },
   {
@@ -1275,7 +1179,7 @@
     "Day": "Thursday",
     "Primary Artist": "Strung Out",
     "Bill_ID": "2024-03-21|Warsaw Concerts",
-    "Show_Number": 79,
+    "Show_Number": 73,
     "media": null
   },
   {
@@ -1291,7 +1195,7 @@
     "Day": "Thursday",
     "Primary Artist": "Less Than Jake",
     "Bill_ID": "2024-03-21|Warsaw Concerts",
-    "Show_Number": 80,
+    "Show_Number": 74,
     "media": null
   },
   {
@@ -1307,7 +1211,7 @@
     "Day": "Saturday",
     "Primary Artist": "Armand Hammer",
     "Bill_ID": "2024-04-20|Rockefeller Center",
-    "Show_Number": 81,
+    "Show_Number": 75,
     "media": null
   },
   {
@@ -1323,7 +1227,7 @@
     "Day": "Saturday",
     "Primary Artist": "Cloud Nothings",
     "Bill_ID": "2024-04-20|Rockefeller Center",
-    "Show_Number": 82,
+    "Show_Number": 76,
     "media": null
   },
   {
@@ -1339,7 +1243,7 @@
     "Day": "Friday",
     "Primary Artist": "Fatoumata Diawara",
     "Bill_ID": "2024-04-26|Sony Hall",
-    "Show_Number": 83,
+    "Show_Number": 77,
     "media": null
   },
   {
@@ -1359,11 +1263,11 @@
       "Chicago Underground Duo"
     ],
     "Bill_ID": "2024-05-05|Public Records",
-    "Show_Number": 84,
+    "Show_Number": 78,
     "media": null
   },
   {
-    "Artist": "Raw Poetic",
+    "Artist": "Raw Poetic & Damu The Fudgemunk",
     "Date": "2024-05-05 00:00:00",
     "Venue": "Public Records",
     "Borough": "Brooklyn",
@@ -1373,25 +1277,9 @@
     "Year": 2024,
     "Month": 5,
     "Day": "Sunday",
-    "Primary Artist": "Raw Poetic",
+    "Primary Artist": "Raw Poetic & Damu The Fudgemunk",
     "Bill_ID": "2024-05-05|Public Records",
-    "Show_Number": 85,
-    "media": null
-  },
-  {
-    "Artist": "Damu The Fudgemunk",
-    "Date": "2024-05-05 00:00:00",
-    "Venue": "Public Records",
-    "Borough": "Brooklyn",
-    "Free_Show": false,
-    "Notes": "",
-    "Record_ID": "69aad680",
-    "Year": 2024,
-    "Month": 5,
-    "Day": "Sunday",
-    "Primary Artist": "Damu The Fudgemunk",
-    "Bill_ID": "2024-05-05|Public Records",
-    "Show_Number": 86,
+    "Show_Number": 79,
     "media": null
   },
   {
@@ -1407,7 +1295,7 @@
     "Day": "Saturday",
     "Primary Artist": "Colin Stetson",
     "Bill_ID": "2024-05-11|Green-Wood Cemetery",
-    "Show_Number": 87,
+    "Show_Number": 80,
     "media": null
   },
   {
@@ -1423,7 +1311,7 @@
     "Day": "Friday",
     "Primary Artist": "John Zorn",
     "Bill_ID": "2024-05-17|Louis Armstrong Stadium",
-    "Show_Number": 88,
+    "Show_Number": 81,
     "media": null
   },
   {
@@ -1439,7 +1327,7 @@
     "Day": "Saturday",
     "Primary Artist": "Los Campesinos!",
     "Bill_ID": "2024-06-15|Warsaw Concerts",
-    "Show_Number": 89,
+    "Show_Number": 82,
     "media": null
   },
   {
@@ -1455,7 +1343,7 @@
     "Day": "Thursday",
     "Primary Artist": "Baaba Maal",
     "Bill_ID": "2024-06-20|Rough Trade",
-    "Show_Number": 90,
+    "Show_Number": 83,
     "media": null
   },
   {
@@ -1471,7 +1359,7 @@
     "Day": "Saturday",
     "Primary Artist": "Dana and Alden",
     "Bill_ID": "2024-06-22|Central Park Summerstage",
-    "Show_Number": 91,
+    "Show_Number": 84,
     "media": null
   },
   {
@@ -1487,7 +1375,7 @@
     "Day": "Saturday",
     "Primary Artist": "Yussef Dayes",
     "Bill_ID": "2024-06-22|Central Park Summerstage",
-    "Show_Number": 92,
+    "Show_Number": 85,
     "media": null
   },
   {
@@ -1503,7 +1391,7 @@
     "Day": "Saturday",
     "Primary Artist": "Aneesa Strings",
     "Bill_ID": "2024-06-22|Central Park Summerstage",
-    "Show_Number": 93,
+    "Show_Number": 86,
     "media": null
   },
   {
@@ -1512,14 +1400,14 @@
     "Venue": "Rockefeller Center",
     "Borough": "Manhattan",
     "Free_Show": true,
-    "Notes": "Pretty awesome. I was testing out my new-to-me Pentax K1000. Carolina Oliveros has some serious pipes.",
+    "Notes": "Pretty awesome. I was testing out my then-new-to-me Pentax K1000. Carolina Oliveros has some serious pipes.",
     "Record_ID": "72e1a794",
     "Year": 2024,
     "Month": 6,
     "Day": "Tuesday",
     "Primary Artist": "Combo Chimbita",
     "Bill_ID": "2024-06-25|Rockefeller Center",
-    "Show_Number": 94,
+    "Show_Number": 87,
     "media": {
       "images": [
         "/media/72e1a794/84.jpg",
@@ -1541,7 +1429,7 @@
     "Day": "Saturday",
     "Primary Artist": "Fishbone",
     "Bill_ID": "2024-06-29|Lena Horne Bandshell",
-    "Show_Number": 95,
+    "Show_Number": 88,
     "media": null
   },
   {
@@ -1557,7 +1445,7 @@
     "Day": "Saturday",
     "Primary Artist": "Son Rompe Pera",
     "Bill_ID": "2024-06-29|Lena Horne Bandshell",
-    "Show_Number": 96,
+    "Show_Number": 89,
     "media": null
   },
   {
@@ -1573,7 +1461,7 @@
     "Day": "Sunday",
     "Primary Artist": "Celeste",
     "Bill_ID": "2024-07-07|Central Park Summerstage",
-    "Show_Number": 97,
+    "Show_Number": 90,
     "media": null
   },
   {
@@ -1589,7 +1477,7 @@
     "Day": "Sunday",
     "Primary Artist": "Ezra Collective",
     "Bill_ID": "2024-07-07|Central Park Summerstage",
-    "Show_Number": 98,
+    "Show_Number": 91,
     "media": null
   },
   {
@@ -1605,7 +1493,7 @@
     "Day": "Monday",
     "Primary Artist": "Juggaknots",
     "Bill_ID": "2024-07-08|Rough Trade",
-    "Show_Number": 99,
+    "Show_Number": 92,
     "media": null
   },
   {
@@ -1621,11 +1509,11 @@
     "Day": "Friday",
     "Primary Artist": "The Pharcyde",
     "Bill_ID": "2024-07-12|Herbert Von King Park",
-    "Show_Number": 100,
+    "Show_Number": 93,
     "media": null
   },
   {
-    "Artist": "Common",
+    "Artist": "Common & Pete Rock",
     "Date": "2024-07-14 00:00:00",
     "Venue": "Herbert Von King Park",
     "Borough": "Brooklyn",
@@ -1635,9 +1523,9 @@
     "Year": 2024,
     "Month": 7,
     "Day": "Sunday",
-    "Primary Artist": "Common",
+    "Primary Artist": "Common & Pete Rock",
     "Bill_ID": "2024-07-14|Herbert Von King Park",
-    "Show_Number": 101,
+    "Show_Number": 94,
     "media": null
   },
   {
@@ -1653,7 +1541,7 @@
     "Day": "Sunday",
     "Primary Artist": "Ganavya",
     "Bill_ID": "2024-07-21|Joe's Pub",
-    "Show_Number": 102,
+    "Show_Number": 95,
     "media": null
   },
   {
@@ -1669,7 +1557,7 @@
     "Day": "Wednesday",
     "Primary Artist": "Arooj Aftab",
     "Bill_ID": "2024-07-24|Central Park Summerstage",
-    "Show_Number": 103,
+    "Show_Number": 96,
     "media": null
   },
   {
@@ -1685,7 +1573,7 @@
     "Day": "Sunday",
     "Primary Artist": "TV Moms",
     "Bill_ID": "2024-08-04|Hart Bar",
-    "Show_Number": 104,
+    "Show_Number": 97,
     "media": null
   },
   {
@@ -1701,7 +1589,7 @@
     "Day": "Wednesday",
     "Primary Artist": "Jeff Rosenstock",
     "Bill_ID": "2024-08-21|Warsaw Concerts",
-    "Show_Number": 105,
+    "Show_Number": 98,
     "media": null
   },
   {
@@ -1717,7 +1605,7 @@
     "Day": "Wednesday",
     "Primary Artist": "Chris Farren",
     "Bill_ID": "2024-08-21|Warsaw Concerts",
-    "Show_Number": 106,
+    "Show_Number": 99,
     "media": null
   },
   {
@@ -1733,11 +1621,11 @@
     "Day": "Friday",
     "Primary Artist": "Santigold",
     "Bill_ID": "2024-08-23|Terminal 5",
-    "Show_Number": 107,
+    "Show_Number": 100,
     "media": null
   },
   {
-    "Artist": "Arooj Aftab",
+    "Artist": "Vijay Iyer & Arooj Aftab",
     "Date": "2024-08-30 00:00:00",
     "Venue": "Bryant Park",
     "Borough": "Manhattan",
@@ -1747,25 +1635,9 @@
     "Year": 2024,
     "Month": 8,
     "Day": "Friday",
-    "Primary Artist": "Arooj Aftab",
+    "Primary Artist": "Vijay Iyer & Arooj Aftab",
     "Bill_ID": "2024-08-30|Bryant Park",
-    "Show_Number": 108,
-    "media": null
-  },
-  {
-    "Artist": "Vijay Iyer",
-    "Date": "2024-08-30 00:00:00",
-    "Venue": "Bryant Park",
-    "Borough": "Manhattan",
-    "Free_Show": true,
-    "Notes": "",
-    "Record_ID": "af346174",
-    "Year": 2024,
-    "Month": 8,
-    "Day": "Friday",
-    "Primary Artist": "Vijay Iyer",
-    "Bill_ID": "2024-08-30|Bryant Park",
-    "Show_Number": 109,
+    "Show_Number": 101,
     "media": null
   },
   {
@@ -1781,7 +1653,7 @@
     "Day": "Thursday",
     "Primary Artist": "Eucademix",
     "Bill_ID": "2024-09-05|Whitney Museum of American Art",
-    "Show_Number": 110,
+    "Show_Number": 102,
     "media": null
   },
   {
@@ -1797,7 +1669,7 @@
     "Day": "Friday",
     "Primary Artist": "Elephant Gym",
     "Bill_ID": "2024-09-06|Music Hall of Williamsburg",
-    "Show_Number": 111,
+    "Show_Number": 103,
     "media": null
   },
   {
@@ -1813,7 +1685,7 @@
     "Day": "Tuesday",
     "Primary Artist": "Kimya Dawson",
     "Bill_ID": "2024-09-24|Xanadu Roller Arts",
-    "Show_Number": 112,
+    "Show_Number": 104,
     "media": null
   },
   {
@@ -1822,14 +1694,14 @@
     "Venue": "Brooklyn Steel",
     "Borough": "Brooklyn",
     "Free_Show": false,
-    "Notes": "The sound here truly sucked. If I can avoid it I will never return to Brooklyn Steel again because they tried piercing our eardrums through this whole show. I left early it was so bad.",
+    "Notes": "The sound here truly sucked. I hope to never return to Brooklyn Steel again. I left early it was so bad.",
     "Record_ID": "242ce10e",
     "Year": 2024,
     "Month": 10,
     "Day": "Sunday",
     "Primary Artist": "Mass of the Fermenting Dregs",
     "Bill_ID": "2024-10-06|Brooklyn Steel",
-    "Show_Number": 113,
+    "Show_Number": 105,
     "media": null
   },
   {
@@ -1845,7 +1717,7 @@
     "Day": "Tuesday",
     "Primary Artist": "Berke Can Ozcan",
     "Bill_ID": "2024-10-08|Nublu",
-    "Show_Number": 114,
+    "Show_Number": 106,
     "media": null
   },
   {
@@ -1861,7 +1733,7 @@
     "Day": "Monday",
     "Primary Artist": "Atmosphere",
     "Bill_ID": "2025-02-10|Brooklyn Bowl",
-    "Show_Number": 115,
+    "Show_Number": 107,
     "media": null
   },
   {
@@ -1877,7 +1749,7 @@
     "Day": "Monday",
     "Primary Artist": "Sage Francis",
     "Bill_ID": "2025-02-10|Brooklyn Bowl",
-    "Show_Number": 116,
+    "Show_Number": 108,
     "media": null
   },
   {
@@ -1886,18 +1758,18 @@
     "Venue": "Cooper Union",
     "Borough": "Manhattan",
     "Free_Show": true,
-    "Notes": "This was a talk, a back and forth with her and one of the Creative Writing faculty at Cooper Union. But she did play some songs, she sang Because the Night (which is a classic) and My Blakean Year (which we sat through).",
+    "Notes": "This was a talk, a back and forth with Patti Smith and one of the Creative Writing faculty at Cooper Union. But she did play some songs, she sang Because the Night (which is a classic) and My Blakean Year (which we sat through).",
     "Record_ID": "aedb3973",
     "Year": 2025,
     "Month": 3,
     "Day": "Wednesday",
     "Primary Artist": "Patti Smith",
     "Bill_ID": "2025-03-05|Cooper Union",
-    "Show_Number": 117,
+    "Show_Number": 109,
     "media": null
   },
   {
-    "Artist": "Esperanza Spalding",
+    "Artist": "Esperanza Spalding & Ganavya",
     "Date": "2025-03-28 00:00:00",
     "Venue": "Big Ears Festival",
     "Borough": "Knoxville, TN",
@@ -1907,9 +1779,9 @@
     "Year": 2025,
     "Month": 3,
     "Day": "Friday",
-    "Primary Artist": "Esperanza Spalding",
+    "Primary Artist": "Esperanza Spalding & Ganavya",
     "Bill_ID": "2025-03-28|Big Ears Festival",
-    "Show_Number": 118,
+    "Show_Number": 110,
     "media": null
   },
   {
@@ -1925,7 +1797,7 @@
     "Day": "Friday",
     "Primary Artist": "Anohni",
     "Bill_ID": "2025-03-28|Big Ears Festival",
-    "Show_Number": 119,
+    "Show_Number": 111,
     "media": null
   },
   {
@@ -1941,7 +1813,7 @@
     "Day": "Friday",
     "Primary Artist": "Wadada Leo Smith",
     "Bill_ID": "2025-03-28|Big Ears Festival",
-    "Show_Number": 120,
+    "Show_Number": 112,
     "media": null
   },
   {
@@ -1957,7 +1829,7 @@
     "Day": "Saturday",
     "Primary Artist": "Ganavya",
     "Bill_ID": "2025-03-29|Big Ears Festival",
-    "Show_Number": 121,
+    "Show_Number": 113,
     "media": null
   },
   {
@@ -1973,7 +1845,7 @@
     "Day": "Saturday",
     "Primary Artist": "Maruja",
     "Bill_ID": "2025-03-29|Big Ears Festival",
-    "Show_Number": 122,
+    "Show_Number": 114,
     "media": null
   },
   {
@@ -1989,7 +1861,7 @@
     "Day": "Saturday",
     "Primary Artist": "Steve Roach",
     "Bill_ID": "2025-03-29|Big Ears Festival",
-    "Show_Number": 123,
+    "Show_Number": 115,
     "media": null
   },
   {
@@ -2005,7 +1877,23 @@
     "Day": "Saturday",
     "Primary Artist": "Mary Lattimore",
     "Bill_ID": "2025-03-29|Big Ears Festival",
-    "Show_Number": 124,
+    "Show_Number": 116,
+    "media": null
+  },
+  {
+    "Artist": "DakhaBrakha",
+    "Date": "2025-03-30 00:00:00",
+    "Venue": "Big Ears Festival",
+    "Borough": "Knoxville, TN",
+    "Free_Show": true,
+    "Notes": "",
+    "Record_ID": "fc562136",
+    "Year": 2025,
+    "Month": 3,
+    "Day": "Sunday",
+    "Primary Artist": "DakhaBrakha",
+    "Bill_ID": "2025-03-30|Big Ears Festival",
+    "Show_Number": 117,
     "media": null
   },
   {
@@ -2021,7 +1909,7 @@
     "Day": "Sunday",
     "Primary Artist": "Anoushka Shankar",
     "Bill_ID": "2025-03-30|Big Ears Festival",
-    "Show_Number": 125,
+    "Show_Number": 118,
     "media": null
   },
   {
@@ -2037,11 +1925,11 @@
     "Day": "Sunday",
     "Primary Artist": "M\u00fam",
     "Bill_ID": "2025-03-30|Big Ears Festival",
-    "Show_Number": 126,
+    "Show_Number": 119,
     "media": null
   },
   {
-    "Artist": "Carlos Ni\u00f1o",
+    "Artist": "Carlos Ni\u00f1o & Idris Ackamoor",
     "Date": "2025-03-30 00:00:00",
     "Venue": "Big Ears Festival",
     "Borough": "Knoxville, TN",
@@ -2051,9 +1939,9 @@
     "Year": 2025,
     "Month": 3,
     "Day": "Sunday",
-    "Primary Artist": "Carlos Ni\u00f1o",
+    "Primary Artist": "Carlos Ni\u00f1o & Idris Ackamoor",
     "Bill_ID": "2025-03-30|Big Ears Festival",
-    "Show_Number": 127,
+    "Show_Number": 120,
     "media": null
   },
   {
@@ -2069,55 +1957,7 @@
     "Day": "Sunday",
     "Primary Artist": "Kahil El'Zabar",
     "Bill_ID": "2025-03-30|Big Ears Festival",
-    "Show_Number": 128,
-    "media": null
-  },
-  {
-    "Artist": "Idris Ackamoor",
-    "Date": "2025-03-30 00:00:00",
-    "Venue": "Big Ears Festival",
-    "Borough": "Knoxville, TN",
-    "Free_Show": true,
-    "Notes": "Playing with Carlos Ni\u00f1o and Laraaji. ",
-    "Record_ID": "97d09c5d",
-    "Year": 2025,
-    "Month": 3,
-    "Day": "Sunday",
-    "Primary Artist": "Idris Ackamoor",
-    "Bill_ID": "2025-03-30|Big Ears Festival",
-    "Show_Number": 129,
-    "media": null
-  },
-  {
-    "Artist": "Ibellise Guardia Ferragutti",
-    "Date": "2025-04-01 00:00:00",
-    "Venue": "Public Records",
-    "Borough": "Brooklyn",
-    "Free_Show": false,
-    "Notes": "",
-    "Record_ID": "eeb45b18",
-    "Year": 2025,
-    "Month": 4,
-    "Day": "Tuesday",
-    "Primary Artist": "Ibellise Guardia Ferragutti",
-    "Bill_ID": "2025-04-01|Public Records",
-    "Show_Number": 130,
-    "media": null
-  },
-  {
-    "Artist": "Frank Rosaly",
-    "Date": "2025-04-01 00:00:00",
-    "Venue": "Public Records",
-    "Borough": "Brooklyn",
-    "Free_Show": false,
-    "Notes": "",
-    "Record_ID": "96aaa9c2",
-    "Year": 2025,
-    "Month": 4,
-    "Day": "Tuesday",
-    "Primary Artist": "Frank Rosaly",
-    "Bill_ID": "2025-04-01|Public Records",
-    "Show_Number": 131,
+    "Show_Number": 121,
     "media": null
   },
   {
@@ -2133,7 +1973,7 @@
     "Day": "Tuesday",
     "Primary Artist": "Jeremiah Chiu",
     "Bill_ID": "2025-04-01|Public Records",
-    "Show_Number": 132,
+    "Show_Number": 122,
     "media": {
       "images": [
         "/media/a383775c/118.jpg"
@@ -2141,35 +1981,39 @@
     }
   },
   {
-    "Artist": "Carlos Ni\u00f1o",
+    "Artist": "Ibellise Guardia Ferragutti & Frank Rosaly",
+    "Date": "2025-04-01 00:00:00",
+    "Venue": "Public Records",
+    "Borough": "Brooklyn",
+    "Free_Show": false,
+    "Notes": "",
+    "Record_ID": "eeb45b18",
+    "Year": 2025,
+    "Month": 4,
+    "Day": "Tuesday",
+    "Primary Artist": "Ibellise Guardia Ferragutti & Frank Rosaly",
+    "Bill_ID": "2025-04-01|Public Records",
+    "Show_Number": 123,
+    "media": {
+      "images": [
+        "/media/eeb45b18/Mestizx_1.jpg"
+      ]
+    }
+  },
+  {
+    "Artist": "Carlos Ni\u00f1o & Saul Williams",
     "Date": "2025-05-29 00:00:00",
     "Venue": "Roulette Intermedium",
     "Borough": "Brooklyn",
     "Free_Show": false,
-    "Notes": "Featuring Saul Williams. As the set finished Carlos held the silence on stage after the musicians finished playing, and slowly opened his eyes and whispered to the crowd, 'Ok so (waving to the band on stage) we're done now.' He asked the crowd to maintain the silence instead of applauding for them all, and then after a moment got up and they all left the stage with the quiet lingering in the air and the band dispersed to mingle with the crowd. Carlos simply sat down on the front of the stage and after a pause, asked the people in the front row, 'So do you guys come here alot?'",
+    "Notes": "As the set finished Carlos held the silence on stage after the musicians finished playing, and slowly opened his eyes and whispered to the crowd, 'Ok so (waving to the band on stage) we're done now.' He asked the crowd to maintain the silence instead of applauding for them all, and then after a moment got up and they all left the stage with the quiet lingering in the air and the band dispersed to mingle with the crowd. Carlos simply sat down on the front of the stage and after a pause, asked the people in the front row, 'So do you guys come here alot?'",
     "Record_ID": "7e314fa0",
     "Year": 2025,
     "Month": 5,
     "Day": "Thursday",
-    "Primary Artist": "Carlos Ni\u00f1o",
+    "Primary Artist": "Carlos Ni\u00f1o & Saul Williams",
     "Bill_ID": "2025-05-29|Roulette Intermedium",
-    "Show_Number": 133,
-    "media": null
-  },
-  {
-    "Artist": "Saul Williams",
-    "Date": "2025-05-29 00:00:00",
-    "Venue": "Roulette Intermedium",
-    "Borough": "Brooklyn",
-    "Free_Show": false,
-    "Notes": "",
-    "Record_ID": "b71cec9d",
-    "Year": 2025,
-    "Month": 5,
-    "Day": "Thursday",
-    "Primary Artist": "Saul Williams",
-    "Bill_ID": "2025-05-29|Roulette Intermedium",
-    "Show_Number": 134,
+    "Show_Number": 124,
     "media": null
   },
   {
@@ -2185,7 +2029,7 @@
     "Day": "Sunday",
     "Primary Artist": "Xiu Xiu",
     "Bill_ID": "2025-06-22|The Ruins at Knockdown Center",
-    "Show_Number": 135,
+    "Show_Number": 125,
     "media": {
       "images": [
         "/media/0942c729/121.jpg"
@@ -2205,7 +2049,7 @@
     "Day": "Sunday",
     "Primary Artist": "Chuquimamani-Condori",
     "Bill_ID": "2025-06-22|The Ruins at Knockdown Center",
-    "Show_Number": 136,
+    "Show_Number": 126,
     "media": {
       "images": [
         "/media/3f9c4ca2/122.jpg"
@@ -2225,7 +2069,7 @@
     "Day": "Saturday",
     "Primary Artist": "Nduduzo Makhathini",
     "Bill_ID": "2025-10-25|Jazz at Lincoln Center",
-    "Show_Number": 137,
+    "Show_Number": 127,
     "media": {
       "images": [
         "/media/e9bf934d/Makathini_1.jpg",
@@ -2246,7 +2090,7 @@
     "Day": "Thursday",
     "Primary Artist": "Algernon Cadwallader",
     "Bill_ID": "2025-12-04|Racket NYC",
-    "Show_Number": 138,
+    "Show_Number": 128,
     "media": {
       "images": [
         "/media/647a76c4/AC_1.jpg"
@@ -2270,7 +2114,7 @@
       "Antarctigo Vespucci"
     ],
     "Bill_ID": "2026-02-06|Warsaw Concerts",
-    "Show_Number": 139,
+    "Show_Number": 129,
     "media": null
   },
   {
@@ -2286,7 +2130,7 @@
     "Day": "Wednesday",
     "Primary Artist": "Busta Rhymes",
     "Bill_ID": "2026-05-27|Hudson Yards",
-    "Show_Number": 140,
+    "Show_Number": 130,
     "media": {
       "images": [
         "/media/f4322611/129.jpg"
@@ -2306,7 +2150,7 @@
     "Day": "Friday",
     "Primary Artist": "Iron Chic",
     "Bill_ID": "2026-06-26|Brooklyn Monarch",
-    "Show_Number": 141,
+    "Show_Number": 131,
     "media": {
       "images": [
         "/media/fc704b7f/00ironChic.jpg",
@@ -2320,14 +2164,14 @@
     "Venue": "Brooklyn Monarch",
     "Borough": "Brooklyn",
     "Free_Show": false,
-    "Notes": "",
+    "Notes": "I was stoked to see this band. I love Chicago bands.",
     "Record_ID": "7656a966",
     "Year": 2026,
     "Month": 6,
     "Day": "Friday",
     "Primary Artist": "The Lawrence Arms",
     "Bill_ID": "2026-06-26|Brooklyn Monarch",
-    "Show_Number": 142,
+    "Show_Number": 132,
     "media": null
   },
   {
@@ -2343,7 +2187,7 @@
     "Day": "Saturday",
     "Primary Artist": "Chris Farren",
     "Bill_ID": "2026-09-19|The Rooftop at Pier 17",
-    "Show_Number": 143,
+    "Show_Number": 133,
     "media": {
       "images": [
         "/media/8603ee75/chrisF.jpg"
@@ -2363,7 +2207,7 @@
     "Day": "Saturday",
     "Primary Artist": "Jeff Rosenstock",
     "Bill_ID": "2026-09-19|The Rooftop at Pier 17",
-    "Show_Number": 144,
+    "Show_Number": 134,
     "media": {
       "images": [
         "/media/1228103b/00jeffR.jpg",
@@ -2385,7 +2229,7 @@
     "Day": "Friday",
     "Primary Artist": "Lambchop",
     "Bill_ID": "2026-10-02|Public Records",
-    "Show_Number": 145,
+    "Show_Number": 135,
     "media": {
       "images": [
         "/media/6979e985/Lambchop_1.jpg",

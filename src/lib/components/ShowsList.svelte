@@ -55,7 +55,7 @@
       <span>Artist</span>
       <span>Venue</span>
       <span>Location</span>
-      <span>¿Gratis?</span>
+      <span></span>
       <span></span>
     </div>
   </div>
@@ -96,9 +96,13 @@
     display: flex;
     flex-direction: column;
     height: 100%;
+    min-height: 0;
+    overflow: hidden;
   }
 
   .fixed-header {
+    position: sticky;
+    top: 0;
     background-color: white;
     flex: 0 0 auto;
     z-index: 100;
@@ -124,6 +128,8 @@
 
   .date-shows-scrolling-area {
     flex: 1 1 auto;
+    min-width: 0;
+    min-height: 0;
     overflow-y: auto;
   }
 
@@ -152,5 +158,36 @@
     padding: 1.5px 2px;
     margin-left: 5px;
     border-radius: 3px;
+  }
+
+  @media (max-width: 700px) {
+    .shows-list-container {
+      flex: 1 1 auto;
+      height: auto;
+    }
+
+    .date-shows-scrolling-area {
+      flex: 1 1 auto;
+      min-height: 0;
+      overflow-x: auto;
+      overflow-y: auto;
+    }
+
+    .show-data-row {
+      grid-template-columns: 0.5fr 1.5fr 2fr;
+      min-width: 0;
+    }
+
+    .column-header-row {
+      grid-template-columns: 0.5fr 1.5fr 2fr;
+      min-width: 0;
+    }
+
+    .column-header-row span:nth-child(n + 4),
+    .col-venue,
+    .col-borough,
+    .col-free-show {
+      display: none;
+    }
   }
 </style>

@@ -10,23 +10,27 @@
   const width = innerWidth + margin.left + margin.right;
   const height = innerHeight + margin.top + margin.bottom;
 
-  let freeShows = shows.filter((s) => s.Free_Show);
-  let years = [...new Set(freeShows.map((s) => s.Year))].sort(d3.ascending);
-  let counts = years.map((y) => ({
-    year: String(y),
-    count: freeShows.filter((s) => s.Year === y).length,
-  }));
+  const daysArray = [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday",
+  ];
+  let dayCounts = {};
+  for (let show of shows) {
+    dayCounts[show.Day] = (dayCounts[show.Day] ?? 0) + 1;
+  }
+  let data = daysArray.map((day) => ({ day, count: dayCounts[day] ?? 0 }));
 
-  let xScale = d3
-    .scaleBand()
-    .domain(counts.map((d) => d.year))
-    .range([0, innerWidth])
-    .padding(0.3);
+  let xScale = d3.scaleLinear().domain([0, 50]).range([0, innerWidth]);
   let yScale = d3
-    .scaleLinear()
-    .domain([0, d3.max(counts, (d) => d.count)])
-    .nice()
-    .range([innerHeight, 0]);
+    .scaleBand()
+    .domain(daysArray)
+    .range([0, innerHeight])
+    .padding(0.25);
 
   let svgEl;
   let tooltip = {};
@@ -39,25 +43,37 @@
       .attr("transform", `translate(${margin.left},${margin.top})`);
 
     g.selectAll("rect")
-      .data(counts)
+      .data(data)
       .join("rect")
-      .attr("x", (d) => xScale(d.year))
-      .attr("y", (d) => yScale(d.count))
-      .attr("width", xScale.bandwidth())
-      .attr("height", (d) => innerHeight - yScale(d.count))
+      .attr("x", 0)
+      .attr("y", (d) => yScale(d.day))
+      .attr("width", (d) => xScale(d.count))
+      .attr("height", 25)
       .attr("fill", "#ff00d440")
       .attr("stroke", "black")
       .on("mouseenter", (e, d) =>
         tooltip.show(
           e,
-          `<strong>${d.count}</strong> free show${d.count > 1 ? "s" : ""}<br>attended in <strong>${d.year}</strong>`,
+          `<strong>${d.count}</strong> shows attended<br>on <strong>${d.day}s</strong>`,
           "#ff00d4",
         ),
       )
       .on("mouseleave", () => tooltip.hide());
 
-    g.append("g")
-      .call(d3.axisLeft(yScale))
+    const yAxis = g.append("g").call(d3.axisLeft(yScale));
+    yAxis.selectAll("text").text(
+      (d) =>
+        ({
+          Monday: "Mon",
+          Tuesday: "Tues",
+          Wednesday: "Wed",
+          Thursday: "Thurs",
+          Friday: "Fri",
+          Saturday: "Sat",
+          Sunday: "Sun",
+        })[d],
+    );
+    yAxis
       .selectAll("*")
       .attr("stroke", "#333")
       .attr("stroke-width", 1)
@@ -72,7 +88,7 @@
   });
 </script>
 
-<ChartWrapper title="Free Shows by Year">
+<ChartWrapper title="Days of the Week">
   {#snippet children(show, hide)}
     {@const _ = ((tooltip.show = show), (tooltip.hide = hide))}
     <svg bind:this={svgEl}></svg>

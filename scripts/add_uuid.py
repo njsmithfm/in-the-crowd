@@ -22,21 +22,15 @@ if len(missing_ids) == 0:
 print(f"Found {len(missing_ids)} record(s) missing Record_ID:")
 
 for idx, row in missing_ids.iterrows():
-    # Generate UUID
     new_uuid = str(uuid.uuid4())[:8]
-    
-    # Create media folder
+
+    df.at[idx, 'Record_ID'] = new_uuid
+
     folder_path = MEDIA_DIR / new_uuid
     folder_path.mkdir(parents=True, exist_ok=True)
-    
-    print(f"\n✓ Assigned {new_uuid} to: {row['Artist']} ({row['Date']})")
-    print(f"  Media folder created: {folder_path}")
 
-# Update dataframe with new UUIDs and save
-for idx, row in missing_ids.iterrows():
-    new_uuid = str(uuid.uuid4())[:8]
-    df.at[idx, 'Record_ID'] = new_uuid
-    (MEDIA_DIR / new_uuid).mkdir(parents=True, exist_ok=True)
+    print(f"\nAssigned {new_uuid} to: {row['Artist']} ({row['Date']})")
+    print(f"Media folder created: {folder_path}")
 
 df.to_csv(CSV_PATH, index=False)
 print(f"\n Updated {CSV_PATH} with {len(missing_ids)} new Record_IDs")

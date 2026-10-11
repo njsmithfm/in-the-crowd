@@ -3,32 +3,27 @@
   let selectedImageIndex = $state(0);
 </script>
 
-<div style="border: 5px solid #ff00d4; padding: 20px; background: white;">
+<div class="detail-wrapper">
   {#if show}
-    <h1>{show.Artist}</h1>
-    <p>{show.Venue} in {show.Borough}</p>
-    <p>
-      {new Date(show.Date).toLocaleDateString("en-gb", {
-        day: "numeric",
-        month: "long",
-        year: "numeric",
-      })}
-    </p>
-
-    <!-- Media Display -->
+    <button onclick={onClose}>X</button>
+    <div class="show-detail-heading">
+      <div class="artist-borough">
+        <h1>{show.Artist}</h1>
+        <p>{show.Borough}</p>
+      </div>
+      <div class="venue-date">
+        <p>{show.Venue}</p>
+        <p>
+          {new Date(show.Date).toLocaleDateString("en-gb", {
+            day: "numeric",
+            month: "long",
+            year: "numeric",
+          })}
+        </p>
+      </div>
+    </div>
+    <!-- Image Display -->
     <div style="margin: 20px 0;">
-      {#if show.media?.video}
-        <video
-          width="100%"
-          height="auto"
-          controls
-          style="margin-bottom: 15px; background: #000;"
-        >
-          <source src={show.media.video} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-      {/if}
-
       {#if show.media?.images && show.media.images.length > 0}
         <div>
           <img
@@ -58,19 +53,79 @@
         </div>
       {/if}
       {#if show?.Notes}
-        <p style="margin:0; "><i>Notes:</i></p>
         <div class="show-notes">{show.Notes}</div>
+      {/if}
+      {#if show.Venue == "Big Ears Festival"}
+        <div class="big-ears-note">
+          <p>
+            Big Ears itself is not free, but they have an artist scholarship
+            that I applied for and received, which got me a free pass to the
+            whole festival. Totally rad and a beautiful location, hands down the
+            best fest I've ever been do.🤘
+          </p>
+        </div>
       {/if}
     </div>
   {:else}
     <p style="color: #ff00d4; font-weight: bold;">Select a show from left!</p>
   {/if}
-
-  <button onclick={onClose}>Close</button>
 </div>
 
 <style>
+  .detail-wrapper {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid #ff00d4;
+    padding: 20px;
+    background: white;
+  }
   .show-notes {
     margin: 0.75rem;
+    margin-top: 1.5rem;
+    line-height: 1.35rem;
+  }
+  button {
+    align-self: end;
+    background: none;
+    font-weight: 500;
+    color: #ff00d4;
+    border: solid #ff00d4 1px;
+    cursor: pointer;
+  }
+  .show-detail-heading {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .venue-date {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    margin: auto 0;
+  }
+  .venue-date p {
+    margin: 0;
+    text-align: end;
+  }
+  .artist-borough {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin: auto 0;
+  }
+  .artist-borough h1 {
+    margin: 0;
+  }
+  .artist-borough p {
+    font-style: italic;
+    color: #ff00d4;
+    margin: 0;
+  }
+  .big-ears-note {
+    font-size: 0.85rem;
+    font-style: italic;
+    color: #666;
   }
 </style>

@@ -106,7 +106,7 @@
 </script>
 
 <ChartWrapper
-  title="Map of these concerts"
+  title="NYC Concerts"
   subtitle="(No shows in The Bronx or Staten Island yet)"
 >
   {#snippet children(show, hide)}

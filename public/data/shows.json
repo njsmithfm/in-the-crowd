@@ -21,7 +21,7 @@
     "Venue": "Avant Gardner",
     "Borough": "Brooklyn",
     "Free_Show": false,
-    "Notes": "Got invited to this one and would not have gone otherwise. I was bored to tears. Tom Misch is boring Gen-Z \"vibe\" garbage.",
+    "Notes": "Got invited to this one and I would not have gone otherwise. I was bored to tears. Tom Misch makes boring milquetoast Gen-Z \"vibe\" music.",
     "Record_ID": "07b99025",
     "Year": 2022,
     "Month": 3,
@@ -117,8 +117,8 @@
     "Venue": "Carnegie Hall",
     "Borough": "Manhattan",
     "Free_Show": false,
-    "Notes": "My disclaimer is that this was before I knew about her Zionism.",
-    "Record_ID": "814a2482",
+    "Notes": "My disclaimer here is that this was before I knew about her Zionism, which swiftly came into focus after Israel began its genocide. I was more ignorant then, and understanding what I do now, I would never see her perform again.",
+    "Record_ID": "814a2482'",
     "Year": 2022,
     "Month": 7,
     "Day": "Tuesday",
@@ -261,7 +261,7 @@
     "Venue": " Lincoln Center",
     "Borough": "Manhattan",
     "Free_Show": true,
-    "Notes": "It was sweet.",
+    "Notes": "It was sweet. I went to this with my then-girlfriend. What I remember most was how they didn't even bother trying to hide Kermit's puppeteer. The dude just rolled out from stage right on his butt, sitting on one of those square wheely carts from 90s gym class, with Kermit on his hand up in the air, and no illusions about the puppetry whatsoever. That killed me.",
     "Record_ID": "00835a4b",
     "Year": 2022,
     "Month": 10,
@@ -616,7 +616,7 @@
     "Venue": "Hudson Yards",
     "Borough": "Manhattan",
     "Free_Show": true,
-    "Notes": "",
+    "Notes": "An awesome show, my first time seenig a free set at Hudson Yards, and I'd taken a Canon RX7 mirrorless camera with me and took some good pictures. Seeing these two live, I learned that DOMi plays piano on a plastic toilet, and that both of them love to curse like sailors.",
     "Record_ID": "83635faa",
     "Year": 2023,
     "Month": 7,
@@ -632,7 +632,7 @@
     "Venue": "Lena Horne Bandshell",
     "Borough": "Brooklyn",
     "Free_Show": true,
-    "Notes": "",
+    "Notes": "I've listened to Oumou Sangare for years, since I was a college undergrad and heard her on a midwest public radio world music program. So this felt unreal and like it'd been a long time coming. One of the best shows I've seen at Prospect Park.",
     "Record_ID": "392dd344",
     "Year": 2023,
     "Month": 7,
@@ -808,7 +808,7 @@
     "Venue": "Wellmont Theater",
     "Borough": "New Jersey",
     "Free_Show": false,
-    "Notes": "A set that I'll remember forever. I met Angelo before and after this show.",
+    "Notes": "A set that I'll remember forever. I met Angelo before and after this show and witnessed how far out he really is in person.",
     "Record_ID": "3ebe9780",
     "Year": 2023,
     "Month": 9,
@@ -824,7 +824,7 @@
     "Venue": "Wellmont Theater",
     "Borough": "New Jersey",
     "Free_Show": false,
-    "Notes": "",
+    "Notes": "Birthday present to my self. Viva New Jersey.",
     "Record_ID": "63e41222",
     "Year": 2023,
     "Month": 9,
@@ -1316,7 +1316,7 @@
     "Venue": "Sony Hall",
     "Borough": "Manhattan",
     "Free_Show": false,
-    "Notes": "",
+    "Notes": "This woman does not get nearly enough credit for playing the guitar like she does.",
     "Record_ID": "fbd455f4",
     "Year": 2024,
     "Month": 4,
@@ -1961,6 +1961,22 @@
     "media": null
   },
   {
+    "Artist": "Canzoniere Grecanico Salentino",
+    "Date": "2025-03-29 00:00:00",
+    "Venue": "Big Ears Festival",
+    "Borough": "Knoxville, TN",
+    "Free_Show": true,
+    "Notes": "An interesting band from Italy to see but not exactly my kinda thing. Maybe this is what earthy-rootsy-folky music is over there.",
+    "Record_ID": "0133fc34",
+    "Year": 2025,
+    "Month": 3,
+    "Day": "Saturday",
+    "Primary Artist": "Canzoniere Grecanico Salentino",
+    "Bill_ID": "2025-03-29|Big Ears Festival",
+    "Show_Number": 122,
+    "media": null
+  },
+  {
     "Artist": "Maruja",
     "Date": "2025-03-29 00:00:00",
     "Venue": "Big Ears Festival",
@@ -1973,7 +1989,7 @@
     "Day": "Saturday",
     "Primary Artist": "Maruja",
     "Bill_ID": "2025-03-29|Big Ears Festival",
-    "Show_Number": 122,
+    "Show_Number": 123,
     "media": null
   },
   {
@@ -1989,7 +2005,7 @@
     "Day": "Saturday",
     "Primary Artist": "Steve Roach",
     "Bill_ID": "2025-03-29|Big Ears Festival",
-    "Show_Number": 123,
+    "Show_Number": 124,
     "media": null
   },
   {
@@ -2005,7 +2021,7 @@
     "Day": "Saturday",
     "Primary Artist": "Mary Lattimore",
     "Bill_ID": "2025-03-29|Big Ears Festival",
-    "Show_Number": 124,
+    "Show_Number": 125,
     "media": null
   },
   {
@@ -2021,7 +2037,7 @@
     "Day": "Sunday",
     "Primary Artist": "Anoushka Shankar",
     "Bill_ID": "2025-03-30|Big Ears Festival",
-    "Show_Number": 125,
+    "Show_Number": 126,
     "media": {
       "images": [
         "/media/a8cd658f/Anoushka_1.jpg"
@@ -2041,7 +2057,7 @@
     "Day": "Sunday",
     "Primary Artist": "M\u00fam",
     "Bill_ID": "2025-03-30|Big Ears Festival",
-    "Show_Number": 126,
+    "Show_Number": 127,
     "media": null
   },
   {
@@ -2057,7 +2073,7 @@
     "Day": "Sunday",
     "Primary Artist": "Carlos Ni\u00f1o",
     "Bill_ID": "2025-03-30|Big Ears Festival",
-    "Show_Number": 127,
+    "Show_Number": 128,
     "media": null
   },
   {
@@ -2073,7 +2089,7 @@
     "Day": "Sunday",
     "Primary Artist": "Kahil El\u2019Zabar\u2019s Ethnic Heritage Ensemble",
     "Bill_ID": "2025-03-30|Big Ears Festival",
-    "Show_Number": 128,
+    "Show_Number": 129,
     "media": null
   },
   {
@@ -2089,7 +2105,7 @@
     "Day": "Sunday",
     "Primary Artist": "Idris Ackamoor",
     "Bill_ID": "2025-03-30|Big Ears Festival",
-    "Show_Number": 129,
+    "Show_Number": 130,
     "media": null
   },
   {
@@ -2105,7 +2121,7 @@
     "Day": "Tuesday",
     "Primary Artist": "Ibellise Guardia Ferragutti",
     "Bill_ID": "2025-04-01|Public Records",
-    "Show_Number": 130,
+    "Show_Number": 131,
     "media": null
   },
   {
@@ -2121,7 +2137,7 @@
     "Day": "Tuesday",
     "Primary Artist": "Frank Rosaly",
     "Bill_ID": "2025-04-01|Public Records",
-    "Show_Number": 131,
+    "Show_Number": 132,
     "media": null
   },
   {
@@ -2137,7 +2153,7 @@
     "Day": "Tuesday",
     "Primary Artist": "Jeremiah Chiu",
     "Bill_ID": "2025-04-01|Public Records",
-    "Show_Number": 132,
+    "Show_Number": 133,
     "media": {
       "images": [
         "/media/a383775c/118.jpg"
@@ -2157,7 +2173,7 @@
     "Day": "Thursday",
     "Primary Artist": "Carlos Ni\u00f1o",
     "Bill_ID": "2025-05-29|Roulette Intermedium",
-    "Show_Number": 133,
+    "Show_Number": 134,
     "media": null
   },
   {
@@ -2173,7 +2189,7 @@
     "Day": "Thursday",
     "Primary Artist": "Saul Williams",
     "Bill_ID": "2025-05-29|Roulette Intermedium",
-    "Show_Number": 134,
+    "Show_Number": 135,
     "media": null
   },
   {
@@ -2189,7 +2205,7 @@
     "Day": "Sunday",
     "Primary Artist": "Xiu Xiu",
     "Bill_ID": "2025-06-22|The Ruins at Knockdown Center",
-    "Show_Number": 135,
+    "Show_Number": 136,
     "media": {
       "images": [
         "/media/0942c729/121.jpg"
@@ -2209,7 +2225,7 @@
     "Day": "Sunday",
     "Primary Artist": "Chuquimamani-Condori",
     "Bill_ID": "2025-06-22|The Ruins at Knockdown Center",
-    "Show_Number": 136,
+    "Show_Number": 137,
     "media": {
       "images": [
         "/media/3f9c4ca2/122.jpg"
@@ -2229,7 +2245,7 @@
     "Day": "Saturday",
     "Primary Artist": "Nduduzo Makhathini",
     "Bill_ID": "2025-10-25|Jazz at Lincoln Center",
-    "Show_Number": 137,
+    "Show_Number": 138,
     "media": {
       "images": [
         "/media/e9bf934d/Makathini_1.jpg",
@@ -2250,7 +2266,7 @@
     "Day": "Thursday",
     "Primary Artist": "Algernon Cadwallader",
     "Bill_ID": "2025-12-04|Racket NYC",
-    "Show_Number": 138,
+    "Show_Number": 139,
     "media": {
       "images": [
         "/media/647a76c4/AC_1.jpg"
@@ -2274,7 +2290,7 @@
       "Antarctigo Vespucci"
     ],
     "Bill_ID": "2026-02-06|Warsaw Concerts",
-    "Show_Number": 139,
+    "Show_Number": 140,
     "media": null
   },
   {
@@ -2290,7 +2306,7 @@
     "Day": "Wednesday",
     "Primary Artist": "Busta Rhymes",
     "Bill_ID": "2026-05-27|Hudson Yards",
-    "Show_Number": 140,
+    "Show_Number": 141,
     "media": {
       "images": [
         "/media/f4322611/129.jpg"
@@ -2310,7 +2326,7 @@
     "Day": "Friday",
     "Primary Artist": "Iron Chic",
     "Bill_ID": "2026-06-26|Brooklyn Monarch",
-    "Show_Number": 141,
+    "Show_Number": 142,
     "media": {
       "images": [
         "/media/fc704b7f/00ironChic.jpg",
@@ -2331,7 +2347,7 @@
     "Day": "Friday",
     "Primary Artist": "The Lawrence Arms",
     "Bill_ID": "2026-06-26|Brooklyn Monarch",
-    "Show_Number": 142,
+    "Show_Number": 143,
     "media": null
   },
   {
@@ -2347,7 +2363,7 @@
     "Day": "Saturday",
     "Primary Artist": "Chris Farren",
     "Bill_ID": "2026-09-19|The Rooftop at Pier 17",
-    "Show_Number": 143,
+    "Show_Number": 144,
     "media": {
       "images": [
         "/media/8603ee75/chrisF.jpg"
@@ -2367,7 +2383,7 @@
     "Day": "Saturday",
     "Primary Artist": "Jeff Rosenstock",
     "Bill_ID": "2026-09-19|The Rooftop at Pier 17",
-    "Show_Number": 144,
+    "Show_Number": 145,
     "media": {
       "images": [
         "/media/1228103b/00jeffR.jpg",
@@ -2389,7 +2405,7 @@
     "Day": "Friday",
     "Primary Artist": "Lambchop",
     "Bill_ID": "2026-10-02|Public Records",
-    "Show_Number": 145,
+    "Show_Number": 146,
     "media": {
       "images": [
         "/media/6979e985/Lambchop_1.jpg",

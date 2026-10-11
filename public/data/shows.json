@@ -2022,7 +2022,11 @@
     "Primary Artist": "Anoushka Shankar",
     "Bill_ID": "2025-03-30|Big Ears Festival",
     "Show_Number": 125,
-    "media": null
+    "media": {
+      "images": [
+        "/media/a8cd658f/Anoushka_1.jpg"
+      ]
+    }
   },
   {
     "Artist": "M\u00fam",

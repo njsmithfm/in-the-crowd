@@ -26,11 +26,13 @@
     <div style="margin: 20px 0;">
       {#if show.media?.images && show.media.images.length > 0}
         <div>
-          <img
-            src={show.media.images[selectedImageIndex]}
-            alt={show.Artist}
-            style="max-width: 100%; height: auto; margin-bottom: 10px;"
-          />
+          <center>
+            <img
+              src={show.media.images[selectedImageIndex]}
+              alt={show.Artist}
+              style="max-width: 100%; height: auto; margin-bottom: 10px;"
+            /></center
+          >
           {#if show.media.images.length > 1}
             <div
               style="display: flex; gap: 10px; justify-content: center; margin-top: 10px;"

@@ -21,7 +21,7 @@
     "Venue": "Avant Gardner",
     "Borough": "Brooklyn",
     "Free_Show": false,
-    "Notes": "Got invited to this one and would not have gone otherwise. I was bored to tears. Tom Misch is boring Gen-Z \"vibe\" garbage.",
+    "Notes": "Got invited to this one and I would not have gone otherwise. I was bored to tears. Tom Misch makes boring milquetoast Gen-Z \"vibe\" music.",
     "Record_ID": "07b99025",
     "Year": 2022,
     "Month": 3,
@@ -117,8 +117,8 @@
     "Venue": "Carnegie Hall",
     "Borough": "Manhattan",
     "Free_Show": false,
-    "Notes": "My disclaimer is that this was before I knew about her Zionism.",
-    "Record_ID": "814a2482",
+    "Notes": "My disclaimer here is that this was before I knew about her Zionism, which swiftly came into focus after Israel began its genocide. I was more ignorant then, and understanding what I do now, I would never see her perform again.",
+    "Record_ID": "814a2482'",
     "Year": 2022,
     "Month": 7,
     "Day": "Tuesday",
@@ -160,35 +160,19 @@
     "media": null
   },
   {
-    "Artist": "Brandee Younger",
-    "Date": "2022-07-31 00:00:00",
-    "Venue": "Central Park Summerstage",
-    "Borough": "Manhattan",
-    "Free_Show": true,
-    "Notes": "Accompanying Makaya McCraven.",
-    "Record_ID": "0d53e055",
-    "Year": 2022,
-    "Month": 7,
-    "Day": "Sunday",
-    "Primary Artist": "Brandee Younger",
-    "Bill_ID": "2022-07-31|Central Park Summerstage",
-    "Show_Number": 11,
-    "media": null
-  },
-  {
     "Artist": "Makaya McCraven",
     "Date": "2022-07-31 00:00:00",
     "Venue": "Central Park Summerstage",
     "Borough": "Manhattan",
     "Free_Show": true,
-    "Notes": "",
+    "Notes": "Second time seeing this dude, a couple months after his show at the Music Hall of Williamsburg. I think he was between albums around the time of these shows--his remix album for Blue Note had come out previously, which I think I associate with the Brooklyn show in May 2022, and at this show in Central Park he might've been playing more from ",
     "Record_ID": "841d1699",
     "Year": 2022,
     "Month": 7,
     "Day": "Sunday",
     "Primary Artist": "Makaya McCraven",
     "Bill_ID": "2022-07-31|Central Park Summerstage",
-    "Show_Number": 12,
+    "Show_Number": 11,
     "media": null
   },
   {
@@ -204,7 +188,7 @@
     "Day": "Friday",
     "Primary Artist": "Crywank",
     "Bill_ID": "2022-08-05|Market Hotel",
-    "Show_Number": 13,
+    "Show_Number": 12,
     "media": null
   },
   {
@@ -220,7 +204,7 @@
     "Day": "Wednesday",
     "Primary Artist": "Los Campesinos!",
     "Bill_ID": "2022-08-24|Elsewhere",
-    "Show_Number": 14,
+    "Show_Number": 13,
     "media": null
   },
   {
@@ -236,7 +220,7 @@
     "Day": "Saturday",
     "Primary Artist": "Yeah Yeah Yeahs",
     "Bill_ID": "2022-10-01|Forest Hills Stadium",
-    "Show_Number": 15,
+    "Show_Number": 14,
     "media": null
   },
   {
@@ -252,7 +236,7 @@
     "Day": "Saturday",
     "Primary Artist": "Broken Social Scene",
     "Bill_ID": "2022-10-15|Webster Hall",
-    "Show_Number": 16,
+    "Show_Number": 15,
     "media": null
   },
   {
@@ -268,7 +252,7 @@
     "Day": "Friday",
     "Primary Artist": "Algernon Cadwallader",
     "Bill_ID": "2022-10-21|Warsaw Concerts",
-    "Show_Number": 17,
+    "Show_Number": 16,
     "media": null
   },
   {
@@ -277,14 +261,14 @@
     "Venue": " Lincoln Center",
     "Borough": "Manhattan",
     "Free_Show": true,
-    "Notes": "It was sweet.",
+    "Notes": "It was sweet. I went to this with my then-girlfriend. What I remember most was how they didn't even bother trying to hide Kermit's puppeteer. The dude just rolled out from stage right on his butt, sitting on one of those square wheely carts from 90s gym class, with Kermit on his hand up in the air, and no illusions about the puppetry whatsoever. That killed me.",
     "Record_ID": "00835a4b",
     "Year": 2022,
     "Month": 10,
     "Day": "Saturday",
     "Primary Artist": "Kermit the Frog",
     "Bill_ID": "2022-10-22| Lincoln Center",
-    "Show_Number": 18,
+    "Show_Number": 17,
     "media": null
   },
   {
@@ -300,7 +284,7 @@
     "Day": "Tuesday",
     "Primary Artist": "LCD Soundsystem",
     "Bill_ID": "2022-11-22|Brooklyn Steel",
-    "Show_Number": 19,
+    "Show_Number": 18,
     "media": null
   },
   {
@@ -316,7 +300,7 @@
     "Day": "Wednesday",
     "Primary Artist": "Surf Curse",
     "Bill_ID": "2022-11-30|Webster Hall",
-    "Show_Number": 20,
+    "Show_Number": 19,
     "media": null
   },
   {
@@ -332,7 +316,7 @@
     "Day": "Saturday",
     "Primary Artist": "Carlos Ni\u00f1o & Photay",
     "Bill_ID": "2023-01-14|National Sawdust",
-    "Show_Number": 21,
+    "Show_Number": 20,
     "media": null
   },
   {
@@ -616,7 +600,7 @@
     "Venue": "Hudson Yards",
     "Borough": "Manhattan",
     "Free_Show": true,
-    "Notes": "",
+    "Notes": "An awesome show, my first time seenig a free set at Hudson Yards, and I'd taken a Canon RX7 mirrorless camera with me and took some good pictures. Seeing these two live, I learned that DOMi plays piano on a plastic toilet, and that both of them love to curse like sailors.",
     "Record_ID": "83635faa",
     "Year": 2023,
     "Month": 7,
@@ -632,7 +616,7 @@
     "Venue": "Lena Horne Bandshell",
     "Borough": "Brooklyn",
     "Free_Show": true,
-    "Notes": "",
+    "Notes": "I've listened to Oumou Sangare for years, since I was a college undergrad and heard her on a midwest public radio world music program. So this felt unreal and like it'd been a long time coming. One of the best shows I've seen at Prospect Park.",
     "Record_ID": "392dd344",
     "Year": 2023,
     "Month": 7,
@@ -808,7 +792,7 @@
     "Venue": "Wellmont Theater",
     "Borough": "New Jersey",
     "Free_Show": false,
-    "Notes": "A set that I'll remember forever. I met Angelo before and after this show.",
+    "Notes": "A set that I'll remember forever. I met Angelo before and after this show and witnessed how far out he really is in person.",
     "Record_ID": "3ebe9780",
     "Year": 2023,
     "Month": 9,
@@ -824,7 +808,7 @@
     "Venue": "Wellmont Theater",
     "Borough": "New Jersey",
     "Free_Show": false,
-    "Notes": "",
+    "Notes": "Birthday present to my self. Viva New Jersey.",
     "Record_ID": "63e41222",
     "Year": 2023,
     "Month": 9,
@@ -1236,7 +1220,7 @@
     "Venue": "Sony Hall",
     "Borough": "Manhattan",
     "Free_Show": false,
-    "Notes": "",
+    "Notes": "This woman does not get nearly enough credit for playing the guitar like she does.",
     "Record_ID": "fbd455f4",
     "Year": 2024,
     "Month": 4,
@@ -1721,22 +1705,6 @@
     "media": null
   },
   {
-    "Artist": "Atmosphere",
-    "Date": "2025-02-10 00:00:00",
-    "Venue": "Brooklyn Bowl",
-    "Borough": "Brooklyn",
-    "Free_Show": false,
-    "Notes": "",
-    "Record_ID": "79dd3fe8",
-    "Year": 2025,
-    "Month": 2,
-    "Day": "Monday",
-    "Primary Artist": "Atmosphere",
-    "Bill_ID": "2025-02-10|Brooklyn Bowl",
-    "Show_Number": 107,
-    "media": null
-  },
-  {
     "Artist": "Sage Francis",
     "Date": "2025-02-10 00:00:00",
     "Venue": "Brooklyn Bowl",
@@ -1748,6 +1716,22 @@
     "Month": 2,
     "Day": "Monday",
     "Primary Artist": "Sage Francis",
+    "Bill_ID": "2025-02-10|Brooklyn Bowl",
+    "Show_Number": 107,
+    "media": null
+  },
+  {
+    "Artist": "Atmosphere",
+    "Date": "2025-02-10 00:00:00",
+    "Venue": "Brooklyn Bowl",
+    "Borough": "Brooklyn",
+    "Free_Show": false,
+    "Notes": "",
+    "Record_ID": "79dd3fe8",
+    "Year": 2025,
+    "Month": 2,
+    "Day": "Monday",
+    "Primary Artist": "Atmosphere",
     "Bill_ID": "2025-02-10|Brooklyn Bowl",
     "Show_Number": 108,
     "media": null
@@ -1790,7 +1774,7 @@
     "Venue": "Big Ears Festival",
     "Borough": "Knoxville, TN",
     "Free_Show": true,
-    "Notes": "",
+    "Notes": "I got one of the best phone pictures I've ever taken at this show, which could have gotten me kicked out--security were ",
     "Record_ID": "1d229437",
     "Year": 2025,
     "Month": 3,
@@ -1822,7 +1806,7 @@
     "Venue": "Big Ears Festival",
     "Borough": "Knoxville, TN",
     "Free_Show": true,
-    "Notes": "",
+    "Notes": "Solo Ganavya show in a church. I think this was the third time I've seen her perform (I saw her do a talk the day before with Alabaster DePlume and Carlos Ni\u00f1o). Admittedly I'm not always in the right mood for her music, but this really was a great show. When I went in I decided to  I think I spotted Ben LaMar Gay in the crowd with me too.",
     "Record_ID": "c1c8989c",
     "Year": 2025,
     "Month": 3,
@@ -1833,12 +1817,28 @@
     "media": null
   },
   {
+    "Artist": "Canzoniere Grecanico Salentino",
+    "Date": "2025-03-29 00:00:00",
+    "Venue": "Big Ears Festival",
+    "Borough": "Knoxville, TN",
+    "Free_Show": true,
+    "Notes": "An interesting band from Italy to see but not exactly my kinda thing. Maybe this is what earthy-rootsy-folky music is over there.",
+    "Record_ID": "0133fc34",
+    "Year": 2025,
+    "Month": 3,
+    "Day": "Saturday",
+    "Primary Artist": "Canzoniere Grecanico Salentino",
+    "Bill_ID": "2025-03-29|Big Ears Festival",
+    "Show_Number": 122,
+    "media": null
+  },
+  {
     "Artist": "Maruja",
     "Date": "2025-03-29 00:00:00",
     "Venue": "Big Ears Festival",
     "Borough": "Knoxville, TN",
     "Free_Show": true,
-    "Notes": "",
+    "Notes": "One of my favorite sets from Big Ears, and probably the most punk of what Big Ears had to offer. Lots of energy. And the guy on bass made weird faces throughout.",
     "Record_ID": "2aab9c89",
     "Year": 2025,
     "Month": 3,
@@ -1945,7 +1945,7 @@
     "media": null
   },
   {
-    "Artist": "Kahil El'Zabar",
+    "Artist": "Kahil El\u2019Zabar\u2019s Ethnic Heritage Ensemble",
     "Date": "2025-03-30 00:00:00",
     "Venue": "Big Ears Festival",
     "Borough": "Knoxville, TN",
@@ -1955,7 +1955,7 @@
     "Year": 2025,
     "Month": 3,
     "Day": "Sunday",
-    "Primary Artist": "Kahil El'Zabar",
+    "Primary Artist": "Kahil El\u2019Zabar\u2019s Ethnic Heritage Ensemble",
     "Bill_ID": "2025-03-30|Big Ears Festival",
     "Show_Number": 121,
     "media": null

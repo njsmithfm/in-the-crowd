@@ -13,6 +13,7 @@ const quotes = [
   "let me tell you what I think about frog spit (I'm for it)",
   "na-na-na-na-na-na-na-na-na-na-na",
   "plugged in and ready to fall",
+  "do you like my stupid hair?",
 ];
 
 export function load() {

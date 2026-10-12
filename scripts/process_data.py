@@ -34,6 +34,8 @@ def get_primary_artist(artist):
         return ['Rob Mazurek','Chad Taylor','Chicago Underground Duo']
     if 'pharoah sanders' in artist_lower:
         return ['James Brandon Lewis','Joshua Abrams','Chad Taylor','Jeff Parker']
+    if 'Anoushka Shankar' in artist_lower:
+        return ['Anoushka Shankar','Sarathy Korwar']
     
     return artist
 

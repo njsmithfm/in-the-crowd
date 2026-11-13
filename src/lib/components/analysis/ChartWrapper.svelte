@@ -1,5 +1,7 @@
 <script>
-  let { title, subtitle, children } = $props();
+  import { onMount } from "svelte";
+
+  let { title, subtitle, children, onTooltipReady } = $props();
   let tooltip = $state({
     visible: false,
     x: 0,
@@ -20,6 +22,10 @@
   function hideTooltip() {
     tooltip.visible = false;
   }
+
+  onMount(() => {
+    onTooltipReady?.(showTooltip, hideTooltip);
+  });
 </script>
 
 <section class="chart-panel">

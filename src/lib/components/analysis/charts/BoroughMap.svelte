@@ -15,7 +15,14 @@
   );
 
   let svgEl;
-  let tooltip = {};
+  let tooltip = {
+    show: () => {},
+    hide: () => {},
+  };
+
+  function setTooltip(show, hide) {
+    tooltip = { show, hide };
+  }
 
   onMount(() => {
     const width = 400;
@@ -108,9 +115,9 @@
 <ChartWrapper
   title="NYC Concerts"
   subtitle="(No shows in The Bronx or Staten Island yet)"
+  onTooltipReady={setTooltip}
 >
-  {#snippet children(show, hide)}
-    {@const _ = ((tooltip.show = show), (tooltip.hide = hide))}
+  {#snippet children()}
     <svg style="margin-top:1.5rem" bind:this={svgEl}></svg>
   {/snippet}
 </ChartWrapper>

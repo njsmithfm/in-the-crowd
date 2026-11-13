@@ -33,7 +33,14 @@
     .padding(0.25);
 
   let svgEl;
-  let tooltip = {};
+  let tooltip = {
+    show: () => {},
+    hide: () => {},
+  };
+
+  function setTooltip(show, hide) {
+    tooltip = { show, hide };
+  }
 
   onMount(() => {
     const g = d3
@@ -88,9 +95,8 @@
   });
 </script>
 
-<ChartWrapper title="Days of the Week">
-  {#snippet children(show, hide)}
-    {@const _ = ((tooltip.show = show), (tooltip.hide = hide))}
+<ChartWrapper title="Days of the Week" onTooltipReady={setTooltip}>
+  {#snippet children()}
     <svg bind:this={svgEl}></svg>
   {/snippet}
 </ChartWrapper>

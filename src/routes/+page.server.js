@@ -13,6 +13,7 @@ const quotes = [
   "na-na-na-na-na-na-na-na-na-na-na",
   "plugged in and ready to fall",
   "do you like my stupid hair?",
+  "she thinks she missed the train to Mars",
 ];
 
 export function load() {

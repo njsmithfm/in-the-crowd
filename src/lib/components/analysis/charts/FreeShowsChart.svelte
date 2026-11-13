@@ -29,7 +29,14 @@
     .range([innerHeight, 0]);
 
   let svgEl;
-  let tooltip = {};
+  let tooltip = {
+    show: () => {},
+    hide: () => {},
+  };
+
+  function setTooltip(show, hide) {
+    tooltip = { show, hide };
+  }
 
   onMount(() => {
     const g = d3
@@ -72,9 +79,8 @@
   });
 </script>
 
-<ChartWrapper title="Free Shows by Year">
-  {#snippet children(show, hide)}
-    {@const _ = ((tooltip.show = show), (tooltip.hide = hide))}
+<ChartWrapper title="Free Shows by Year" onTooltipReady={setTooltip}>
+  {#snippet children()}
     <svg bind:this={svgEl}></svg>
   {/snippet}
 </ChartWrapper>

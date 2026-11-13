@@ -1,7 +1,7 @@
 <script>
-  import PageHeader from "$lib/components/PageHeader.svelte";
-  import ArchiveView from "$lib/components/ArchiveView.svelte";
-  import AnalysisDashboard from "$lib/components/analysis/AnalysisDashboard.svelte";
+  import PageHeader from "#lib/components/PageHeader.svelte";
+  import ArchiveView from "#lib/components/ArchiveView.svelte";
+  import AnalysisDashboard from "#lib/components/analysis/AnalysisDashboard.svelte";
   let viewMode = $state("archive");
   let { data } = $props();
   const setViewMode = (mode) => {

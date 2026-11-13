@@ -1,5 +1,4 @@
 const quotes = [
-  "I wanna smash my face into the goddamn radio",
   "chocolate makes you happy",
   "bring me the head of whoever said play fair",
   "WOO-HAH!!",

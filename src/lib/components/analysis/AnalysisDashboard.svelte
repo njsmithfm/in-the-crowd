@@ -1,9 +1,9 @@
 <script>
-  import SummaryCards from "$lib/components/analysis/cards/SummaryCards.svelte";
-  import FreeShowsChart from "$lib/components/analysis/charts/FreeShowsChart.svelte";
-  import TimelineChart from "$lib/components/analysis/charts/TimelineChart.svelte";
-  import DayOfWeek from "$lib/components/analysis/charts/DayOfWeek.svelte";
-  import BoroughMap from "$lib/components/analysis/charts/BoroughMap.svelte";
+  import SummaryCards from "#lib/components/analysis/cards/SummaryCards.svelte";
+  import FreeShowsChart from "#lib/components/analysis/charts/FreeShowsChart.svelte";
+  import TimelineChart from "#lib/components/analysis/charts/TimelineChart.svelte";
+  import DayOfWeek from "#lib/components/analysis/charts/DayOfWeek.svelte";
+  import BoroughMap from "#lib/components/analysis/charts/BoroughMap.svelte";
   import shows from "../../../../public/data/shows.json";
 
   const sortedShows = [...shows].sort((a, b) => b.Show_Number - a.Show_Number);

@@ -1,6 +1,6 @@
 <script>
-  import ShowsList from "$lib/components/ShowsList.svelte";
-  import ShowDetail from "$lib/components/ShowDetail.svelte";
+  import ShowsList from "#lib/components/ShowsList.svelte";
+  import ShowDetail from "#lib/components/ShowDetail.svelte";
 
   let selectedShow = $state(null);
 

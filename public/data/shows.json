@@ -130,7 +130,7 @@
   {
     "Artist": "Pink Siifu",
     "Date": "2022-07-23 00:00:00",
-    "Venue": " Herbert Von King Park",
+    "Venue": "Herbert Von King Park",
     "Borough": "Brooklyn",
     "Free_Show": true,
     "Notes": "Opener for Sampa the Great",
@@ -139,14 +139,14 @@
     "Month": 7,
     "Day": "Saturday",
     "Primary Artist": "Pink Siifu",
-    "Bill_ID": "2022-07-23| Herbert Von King Park",
+    "Bill_ID": "2022-07-23|Herbert Von King Park",
     "Show_Number": 9,
     "media": null
   },
   {
     "Artist": "Sampa the Great",
     "Date": "2022-07-23 00:00:00",
-    "Venue": " Herbert Von King Park",
+    "Venue": "Herbert Von King Park",
     "Borough": "Brooklyn",
     "Free_Show": true,
     "Notes": "I'd been following Sampa since I was living in Minneapolis. Seeing her live, for free, so shortly after coming to New York was surreal.",
@@ -155,7 +155,7 @@
     "Month": 7,
     "Day": "Saturday",
     "Primary Artist": "Sampa the Great",
-    "Bill_ID": "2022-07-23| Herbert Von King Park",
+    "Bill_ID": "2022-07-23|Herbert Von King Park",
     "Show_Number": 10,
     "media": null
   },
@@ -245,7 +245,7 @@
     "Venue": "Warsaw Concerts",
     "Borough": "Brooklyn",
     "Free_Show": false,
-    "Notes": "",
+    "Notes": "I fuckin love this band dude. Their comeback tour. And at the Warsaw, probably my favorite NYC venue. I think there's someone in the bande named Tank and he brewed a pot of coffee onstage and drank a mug during the set.",
     "Record_ID": "62a749da",
     "Year": 2022,
     "Month": 10,
@@ -1124,7 +1124,7 @@
     "Venue": "Knockdown Center",
     "Borough": "Queens",
     "Free_Show": false,
-    "Notes": "",
+    "Notes": "Who knows what happened to these guys. I really used to like them. Skiba is obviously never going to be the same as he was in their glory days. Now he's a grown man with a fierce bleached widow's peak, and his neck kinda swells like a frog ribbiting when he belts out the raspier lines. (Good for him, actually, still doing that) But all in all kind of a boring set tbh, they all wore black suits, leaning into not-quite-effortless gloomy lore, and just played songs that felt plucked at random from their catalogue. Radio was a high point, maybe the only one.",
     "Record_ID": "0d24ebfc",
     "Year": 2024,
     "Month": 3,
@@ -1438,7 +1438,7 @@
     "Venue": "Central Park Summerstage",
     "Borough": "Manhattan",
     "Free_Show": true,
-    "Notes": "",
+    "Notes": "I danced with Celeste in Central Park! lol",
     "Record_ID": "d955414e",
     "Year": 2024,
     "Month": 7,
@@ -1550,7 +1550,7 @@
     "Venue": "Hart Bar",
     "Borough": "Brooklyn",
     "Free_Show": false,
-    "Notes": "",
+    "Notes": "Go Dave!",
     "Record_ID": "cce503a2",
     "Year": 2024,
     "Month": 8,
@@ -1769,6 +1769,22 @@
     "media": null
   },
   {
+    "Artist": "Tarta Relena",
+    "Date": "2025-03-28 00:00:00",
+    "Venue": "Big Ears Festival",
+    "Borough": "Knoxville, TN",
+    "Free_Show": true,
+    "Notes": "Two Spanish women blending Lorca and the occult with electronics and percussion in a church. Like Eve and the Serpent, enjoying each other's company.",
+    "Record_ID": "e469ae0a",
+    "Year": 2025,
+    "Month": 3,
+    "Day": "Friday",
+    "Primary Artist": "Tarta Relena",
+    "Bill_ID": "2025-03-28|Big Ears Festival",
+    "Show_Number": 110,
+    "media": null
+  },
+  {
     "Artist": "Anohni",
     "Date": "2025-03-28 00:00:00",
     "Venue": "Big Ears Festival",
@@ -1781,7 +1797,7 @@
     "Day": "Friday",
     "Primary Artist": "Anohni",
     "Bill_ID": "2025-03-28|Big Ears Festival",
-    "Show_Number": 110,
+    "Show_Number": 111,
     "media": null
   },
   {
@@ -1797,7 +1813,7 @@
     "Day": "Friday",
     "Primary Artist": "Wadada Leo Smith",
     "Bill_ID": "2025-03-28|Big Ears Festival",
-    "Show_Number": 111,
+    "Show_Number": 112,
     "media": null
   },
   {
@@ -1813,7 +1829,7 @@
     "Day": "Saturday",
     "Primary Artist": "Ganavya",
     "Bill_ID": "2025-03-29|Big Ears Festival",
-    "Show_Number": 112,
+    "Show_Number": 113,
     "media": null
   },
   {
@@ -1829,7 +1845,7 @@
     "Day": "Saturday",
     "Primary Artist": "Maruja",
     "Bill_ID": "2025-03-29|Big Ears Festival",
-    "Show_Number": 113,
+    "Show_Number": 114,
     "media": null
   },
   {
@@ -1845,7 +1861,7 @@
     "Day": "Saturday",
     "Primary Artist": "Steve Roach",
     "Bill_ID": "2025-03-29|Big Ears Festival",
-    "Show_Number": 114,
+    "Show_Number": 115,
     "media": null
   },
   {
@@ -1861,7 +1877,7 @@
     "Day": "Saturday",
     "Primary Artist": "Mary Lattimore",
     "Bill_ID": "2025-03-29|Big Ears Festival",
-    "Show_Number": 115,
+    "Show_Number": 116,
     "media": null
   },
   {
@@ -1877,7 +1893,7 @@
     "Day": "Sunday",
     "Primary Artist": "DakhaBrakha",
     "Bill_ID": "2025-03-30|Big Ears Festival",
-    "Show_Number": 116,
+    "Show_Number": 117,
     "media": null
   },
   {
@@ -1893,7 +1909,7 @@
     "Day": "Sunday",
     "Primary Artist": "Anoushka Shankar",
     "Bill_ID": "2025-03-30|Big Ears Festival",
-    "Show_Number": 117,
+    "Show_Number": 118,
     "media": {
       "images": [
         "/media/a8cd658f/Anoushka_1.jpg"
@@ -1913,7 +1929,7 @@
     "Day": "Sunday",
     "Primary Artist": "M\u00fam",
     "Bill_ID": "2025-03-30|Big Ears Festival",
-    "Show_Number": 118,
+    "Show_Number": 119,
     "media": null
   },
   {
@@ -1929,11 +1945,11 @@
     "Day": "Sunday",
     "Primary Artist": "Carlos Ni\u00f1o & Idris Ackamoor",
     "Bill_ID": "2025-03-30|Big Ears Festival",
-    "Show_Number": 119,
+    "Show_Number": 120,
     "media": null
   },
   {
-    "Artist": "Kahil El'Zabar",
+    "Artist": "Kahil El'Zabar's Ethnic Heritage Ensemble",
     "Date": "2025-03-30 00:00:00",
     "Venue": "Big Ears Festival",
     "Borough": "Knoxville, TN",
@@ -1943,9 +1959,9 @@
     "Year": 2025,
     "Month": 3,
     "Day": "Sunday",
-    "Primary Artist": "Kahil El'Zabar",
+    "Primary Artist": "Kahil El'Zabar's Ethnic Heritage Ensemble",
     "Bill_ID": "2025-03-30|Big Ears Festival",
-    "Show_Number": 120,
+    "Show_Number": 121,
     "media": null
   },
   {
@@ -1961,7 +1977,7 @@
     "Day": "Tuesday",
     "Primary Artist": "Jeremiah Chiu",
     "Bill_ID": "2025-04-01|Public Records",
-    "Show_Number": 121,
+    "Show_Number": 122,
     "media": {
       "images": [
         "/media/a383775c/118.jpg"
@@ -1981,7 +1997,7 @@
     "Day": "Tuesday",
     "Primary Artist": "Ibellise Guardia Ferragutti & Frank Rosaly",
     "Bill_ID": "2025-04-01|Public Records",
-    "Show_Number": 122,
+    "Show_Number": 123,
     "media": {
       "images": [
         "/media/eeb45b18/Mestizx_1.jpg"
@@ -2001,7 +2017,7 @@
     "Day": "Thursday",
     "Primary Artist": "Carlos Ni\u00f1o & Saul Williams",
     "Bill_ID": "2025-05-29|Roulette Intermedium",
-    "Show_Number": 123,
+    "Show_Number": 124,
     "media": null
   },
   {
@@ -2017,7 +2033,7 @@
     "Day": "Sunday",
     "Primary Artist": "Xiu Xiu",
     "Bill_ID": "2025-06-22|The Ruins at Knockdown Center",
-    "Show_Number": 124,
+    "Show_Number": 125,
     "media": {
       "images": [
         "/media/0942c729/121.jpg"
@@ -2037,7 +2053,7 @@
     "Day": "Sunday",
     "Primary Artist": "Chuquimamani-Condori",
     "Bill_ID": "2025-06-22|The Ruins at Knockdown Center",
-    "Show_Number": 125,
+    "Show_Number": 126,
     "media": {
       "images": [
         "/media/3f9c4ca2/122.jpg"
@@ -2057,7 +2073,7 @@
     "Day": "Saturday",
     "Primary Artist": "Nduduzo Makhathini",
     "Bill_ID": "2025-10-25|Jazz at Lincoln Center",
-    "Show_Number": 126,
+    "Show_Number": 127,
     "media": {
       "images": [
         "/media/e9bf934d/Makathini_1.jpg",
@@ -2066,19 +2082,51 @@
     }
   },
   {
+    "Artist": "Gladie",
+    "Date": "2025-12-04 00:00:00",
+    "Venue": "Racket NYC",
+    "Borough": "Manhattan",
+    "Free_Show": false,
+    "Notes": "Opener for the Algernon show. I've known about Gladie for forever (they're pretty Jeff-Rosenstock-affiliated) but never listened to them. The bassist rips and I liked his all-white outfit that night. They had an Elliott Smith cover which was cool, but it was Needle In The Hay. I've never known why people like that song so much when he had so many other, better ones.",
+    "Record_ID": "d0b145e0",
+    "Year": 2025,
+    "Month": 12,
+    "Day": "Thursday",
+    "Primary Artist": "Gladie",
+    "Bill_ID": "2025-12-04|Racket NYC",
+    "Show_Number": 128,
+    "media": null
+  },
+  {
+    "Artist": "Boy Problems",
+    "Date": "2025-12-04 00:00:00",
+    "Venue": "Racket NYC",
+    "Borough": "Manhattan",
+    "Free_Show": false,
+    "Notes": "Opener for the Algernon show. Apparently these guys are a cult hit legendary screamo band or something. Good set.",
+    "Record_ID": "a3857aae",
+    "Year": 2025,
+    "Month": 12,
+    "Day": "Thursday",
+    "Primary Artist": "Boy Problems",
+    "Bill_ID": "2025-12-04|Racket NYC",
+    "Show_Number": 129,
+    "media": null
+  },
+  {
     "Artist": "Algernon Cadwallader",
     "Date": "2025-12-04 00:00:00",
     "Venue": "Racket NYC",
     "Borough": "Manhattan",
     "Free_Show": false,
-    "Notes": "",
+    "Notes": "Yeah I fuckin love this band dude. This was a cold December night in Chelsea, and I had to kill like 4 hours in Manhattan after work until the show. I was tired. But glad I went--they were touring their newest album, their first after like at least a decade. It's different than the earlier ones and touches on things like homelessness and harm reduction. These guys still got the juice.",
     "Record_ID": "647a76c4",
     "Year": 2025,
     "Month": 12,
     "Day": "Thursday",
     "Primary Artist": "Algernon Cadwallader",
     "Bill_ID": "2025-12-04|Racket NYC",
-    "Show_Number": 127,
+    "Show_Number": 130,
     "media": {
       "images": [
         "/media/647a76c4/AC_1.jpg"
@@ -2102,7 +2150,7 @@
       "Antarctigo Vespucci"
     ],
     "Bill_ID": "2026-02-06|Warsaw Concerts",
-    "Show_Number": 128,
+    "Show_Number": 131,
     "media": null
   },
   {
@@ -2118,7 +2166,7 @@
     "Day": "Wednesday",
     "Primary Artist": "Busta Rhymes",
     "Bill_ID": "2026-05-27|Hudson Yards",
-    "Show_Number": 129,
+    "Show_Number": 132,
     "media": {
       "images": [
         "/media/f4322611/129.jpg"
@@ -2138,7 +2186,7 @@
     "Day": "Friday",
     "Primary Artist": "Iron Chic",
     "Bill_ID": "2026-06-26|Brooklyn Monarch",
-    "Show_Number": 130,
+    "Show_Number": 133,
     "media": {
       "images": [
         "/media/fc704b7f/00ironChic.jpg",
@@ -2159,7 +2207,7 @@
     "Day": "Friday",
     "Primary Artist": "The Lawrence Arms",
     "Bill_ID": "2026-06-26|Brooklyn Monarch",
-    "Show_Number": 131,
+    "Show_Number": 134,
     "media": null
   },
   {
@@ -2175,7 +2223,7 @@
     "Day": "Saturday",
     "Primary Artist": "Chris Farren",
     "Bill_ID": "2026-09-19|The Rooftop at Pier 17",
-    "Show_Number": 132,
+    "Show_Number": 135,
     "media": {
       "images": [
         "/media/8603ee75/chrisF.jpg"
@@ -2195,7 +2243,7 @@
     "Day": "Saturday",
     "Primary Artist": "Jeff Rosenstock",
     "Bill_ID": "2026-09-19|The Rooftop at Pier 17",
-    "Show_Number": 133,
+    "Show_Number": 136,
     "media": {
       "images": [
         "/media/1228103b/00jeffR.jpg",
@@ -2217,7 +2265,7 @@
     "Day": "Friday",
     "Primary Artist": "Lambchop",
     "Bill_ID": "2026-10-02|Public Records",
-    "Show_Number": 134,
+    "Show_Number": 137,
     "media": {
       "images": [
         "/media/6979e985/Lambchop_1.jpg",

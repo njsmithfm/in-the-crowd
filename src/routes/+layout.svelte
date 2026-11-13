@@ -1,5 +1,5 @@
 <script>
-  import favicon from "$lib/assets/favicon.png";
+  import favicon from "#lib/assets/favicon.png";
   import "@fontsource/public-sans";
   import "../app.css";
   let { children } = $props();

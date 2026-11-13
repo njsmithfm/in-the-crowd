@@ -1,25 +1,29 @@
 {
-	"name": "in-the-crowd",
-	"private": true,
-	"version": "0.0.1",
-	"type": "module",
-	"scripts": {
-		"dev": "vite dev",
-		"build": "vite build",
-		"preview": "vite preview",
-		"prepare": "svelte-kit sync || echo ''"
-	},
-	"devDependencies": {
-		"@sveltejs/adapter-auto": "^7.0.1",
-		"@sveltejs/kit": "^2.57.0",
-		"@sveltejs/vite-plugin-svelte": "^7.0.0",
-		"@types/node": "^25.9.1",
-		"svelte": "^5.55.2",
-		"vite": "^8.0.7"
-	},
-	"dependencies": {
-		"@fontsource/public-sans": "^5.2.7",
-		"d3": "^7.9.0",
-		"simplex-noise": "^4.0.3"
-	}
+  "name": "in-the-crowd",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "imports": {
+    "#lib/*": "./src/lib/*"
+  },
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prepare": "svelte-kit sync || echo ''"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-static": "^4.0.1",
+    "@sveltejs/kit": "^3.2.0",
+    "@sveltejs/vite-plugin-svelte": "^7.3.1",
+    "@types/node": "^25.9.1",
+    "svelte": "^5.57.3",
+    "vite": "^8.3.8"
+  },
+  "dependencies": {
+    "@fontsource/public-sans": "^5.2.7",
+    "d3": "^7.9.0",
+    "simplex-noise": "^4.0.3"
+  }
 }
+

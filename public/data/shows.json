@@ -346,10 +346,7 @@
     "Year": 2023,
     "Month": 1,
     "Day": "Saturday",
-    "Primary Artist": [
-      "Moor Mother",
-      "Irreversible Entanglements"
-    ],
+    "Primary Artist": ["Moor Mother", "Irreversible Entanglements"],
     "Bill_ID": "2023-01-14|Superior Ingredients",
     "Show_Number": 22,
     "media": null
@@ -950,9 +947,7 @@
     "Bill_ID": "2023-10-18|Public Records",
     "Show_Number": 59,
     "media": {
-      "images": [
-        "/media/c8d935b8/54.jpg"
-      ]
+      "images": ["media/c8d935b8/54.jpg"]
     }
   },
   {
@@ -1030,10 +1025,7 @@
     "Year": 2024,
     "Month": 1,
     "Day": "Monday",
-    "Primary Artist": [
-      "Moor Mother",
-      "Irreversible Entanglements"
-    ],
+    "Primary Artist": ["Moor Mother", "Irreversible Entanglements"],
     "Bill_ID": "2024-01-15|Le Poisson Rouge",
     "Show_Number": 64,
     "media": null
@@ -1241,11 +1233,7 @@
     "Year": 2024,
     "Month": 5,
     "Day": "Sunday",
-    "Primary Artist": [
-      "Rob Mazurek",
-      "Chad Taylor",
-      "Chicago Underground Duo"
-    ],
+    "Primary Artist": ["Rob Mazurek", "Chad Taylor", "Chicago Underground Duo"],
     "Bill_ID": "2024-05-05|Public Records",
     "Show_Number": 77,
     "media": null
@@ -1394,9 +1382,9 @@
     "Show_Number": 86,
     "media": {
       "images": [
-        "/media/72e1a794/84.jpg",
-        "/media/72e1a794/combochimbita.jpg",
-        "/media/72e1a794/comboChimbita1.jpg"
+        "media/72e1a794/84.jpg",
+        "media/72e1a794/combochimbita.jpg",
+        "media/72e1a794/comboChimbita1.jpg"
       ]
     }
   },
@@ -1911,9 +1899,7 @@
     "Bill_ID": "2025-03-30|Big Ears Festival",
     "Show_Number": 118,
     "media": {
-      "images": [
-        "/media/a8cd658f/Anoushka_1.jpg"
-      ]
+      "images": ["media/a8cd658f/Anoushka_1.jpg"]
     }
   },
   {
@@ -1979,9 +1965,7 @@
     "Bill_ID": "2025-04-01|Public Records",
     "Show_Number": 122,
     "media": {
-      "images": [
-        "/media/a383775c/118.jpg"
-      ]
+      "images": ["media/a383775c/118.jpg"]
     }
   },
   {
@@ -1999,9 +1983,7 @@
     "Bill_ID": "2025-04-01|Public Records",
     "Show_Number": 123,
     "media": {
-      "images": [
-        "/media/eeb45b18/Mestizx_1.jpg"
-      ]
+      "images": ["media/eeb45b18/Mestizx_1.jpg"]
     }
   },
   {
@@ -2035,9 +2017,7 @@
     "Bill_ID": "2025-06-22|The Ruins at Knockdown Center",
     "Show_Number": 125,
     "media": {
-      "images": [
-        "/media/0942c729/121.jpg"
-      ]
+      "images": ["media/0942c729/121.jpg"]
     }
   },
   {
@@ -2055,9 +2035,7 @@
     "Bill_ID": "2025-06-22|The Ruins at Knockdown Center",
     "Show_Number": 126,
     "media": {
-      "images": [
-        "/media/3f9c4ca2/122.jpg"
-      ]
+      "images": ["media/3f9c4ca2/122.jpg"]
     }
   },
   {
@@ -2076,8 +2054,8 @@
     "Show_Number": 127,
     "media": {
       "images": [
-        "/media/e9bf934d/Makathini_1.jpg",
-        "/media/e9bf934d/Makathini_2.jpg"
+        "media/e9bf934d/Makathini_1.jpg",
+        "media/e9bf934d/Makathini_2.jpg"
       ]
     }
   },
@@ -2128,9 +2106,7 @@
     "Bill_ID": "2025-12-04|Racket NYC",
     "Show_Number": 130,
     "media": {
-      "images": [
-        "/media/647a76c4/AC_1.jpg"
-      ]
+      "images": ["media/647a76c4/AC_1.jpg"]
     }
   },
   {
@@ -2168,9 +2144,7 @@
     "Bill_ID": "2026-05-27|Hudson Yards",
     "Show_Number": 132,
     "media": {
-      "images": [
-        "/media/f4322611/129.jpg"
-      ]
+      "images": ["media/f4322611/129.jpg"]
     }
   },
   {
@@ -2189,8 +2163,8 @@
     "Show_Number": 133,
     "media": {
       "images": [
-        "/media/fc704b7f/00ironChic.jpg",
-        "/media/fc704b7f/01ironChic.jpg"
+        "media/fc704b7f/00ironChic.jpg",
+        "media/fc704b7f/01ironChic.jpg"
       ]
     }
   },
@@ -2225,9 +2199,7 @@
     "Bill_ID": "2026-09-19|The Rooftop at Pier 17",
     "Show_Number": 135,
     "media": {
-      "images": [
-        "/media/8603ee75/chrisF.jpg"
-      ]
+      "images": ["media/8603ee75/chrisF.jpg"]
     }
   },
   {
@@ -2246,9 +2218,9 @@
     "Show_Number": 136,
     "media": {
       "images": [
-        "/media/1228103b/00jeffR.jpg",
-        "/media/1228103b/01jeffR.jpg",
-        "/media/1228103b/02jeffR.jpg"
+        "media/1228103b/00jeffR.jpg",
+        "media/1228103b/01jeffR.jpg",
+        "media/1228103b/02jeffR.jpg"
       ]
     }
   },
@@ -2268,9 +2240,9 @@
     "Show_Number": 137,
     "media": {
       "images": [
-        "/media/6979e985/Lambchop_1.jpg",
-        "/media/6979e985/Lambchop_2.jpg",
-        "/media/6979e985/Lambchop_3.jpg"
+        "media/6979e985/Lambchop_1.jpg",
+        "media/6979e985/Lambchop_2.jpg",
+        "media/6979e985/Lambchop_3.jpg"
       ]
     }
   }

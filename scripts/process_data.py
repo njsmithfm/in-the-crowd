@@ -68,7 +68,7 @@ for _, row in df.iterrows():
     if image_dir.exists():
         image_files = sorted(image_dir.glob("*.jpg"))
         if image_files:
-            media['images'] = [f"/media/{record_id}/{img.name}" for img in image_files]
+            media['images'] = [f"media/{record_id}/{img.name}" for img in image_files]
     
     record['media'] = media if media else None
     

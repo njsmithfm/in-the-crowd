@@ -1,4 +1,5 @@
 <script>
+  import { asset } from "$app/paths";
   let { show, onClose } = $props();
   let selectedImageIndex = $state(0);
 </script>
@@ -28,7 +29,7 @@
         <div>
           <center>
             <img
-              src={show.media.images[selectedImageIndex]}
+              src={asset(show.media.images[selectedImageIndex])}
               alt={show.Artist}
               style="max-width: 100%; height: auto; margin-bottom: 10px;"
             /></center

@@ -64,12 +64,14 @@
 
     .archive-list-pane {
       display: flex;
-      flex: 1 1 auto;
       flex-direction: column;
-      min-height: 0;
+      width: 100%;
       overflow: hidden;
       border-right: 0;
       border-bottom: 1px solid #000;
+      box-sizing: border-box;
+      flex: 1 1 0%;
+      min-height: 0;
     }
 
     .archive-detail-pane {

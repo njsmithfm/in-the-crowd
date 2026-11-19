@@ -95,18 +95,27 @@
   .shows-list-container {
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
     height: 100%;
     min-height: 0;
+    flex: 1 1 0%;
     overflow: hidden;
   }
 
   .fixed-header {
-    position: sticky;
-    top: 0;
-    background-color: white;
+    width: 100%;
+    background: white;
     flex: 0 0 auto;
-    z-index: 100;
-    padding-bottom: 0.5rem;
+  }
+
+  .date-shows-scrolling-area {
+    width: 100%;
+    min-width: 0;
+    min-height: 0;
+    flex: 1 1 0%;
+    overflow-x: hidden;
+    overflow-y: auto;
   }
 
   .search-bar {
@@ -120,17 +129,12 @@
     border: 3px solid rgba(255, 0, 212, 0.5);
     padding: 0.55rem 0.75rem;
     background: #fff;
+    box-sizing: border-box;
+    min-width: 0;
   }
   .search-bar input:focus {
     border: 3px solid rgb(255, 0, 212);
     outline: none;
-  }
-
-  .date-shows-scrolling-area {
-    flex: 1 1 auto;
-    min-width: 0;
-    min-height: 0;
-    overflow-y: auto;
   }
 
   button {
@@ -162,14 +166,15 @@
 
   @media (max-width: 700px) {
     .shows-list-container {
-      flex: 1 1 auto;
-      height: auto;
+      flex: 1 1 0%;
+      width: 100%;
+      height: 100%;
+      min-height: 0;
     }
 
     .date-shows-scrolling-area {
-      flex: 1 1 auto;
       min-height: 0;
-      overflow-x: auto;
+      overflow-x: hidden;
       overflow-y: auto;
     }
 

@@ -9,7 +9,7 @@ MEDIA_DIR = Path("static/media")
 df = pd.read_csv(CSV_PATH)
 
 if 'Record_ID' not in df.columns:
-    print("❌ Record_ID column not found in CSV!")
+    print("Record_ID column not found in CSV!")
     exit(1)
 
 # Find rows missing Record_ID

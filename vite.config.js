@@ -9,9 +9,8 @@ export default defineConfig({
         fallback: "404.html",
       }),
       paths: {
-        base: "",
+        base: "/in-the-crowd",
       },
     }),
   ],
 });
-

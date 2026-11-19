@@ -9,7 +9,7 @@
   };
 </script>
 
-<PageHeader quote={data.quote} {viewMode} onChangeView={setViewMode} />
+<PageHeader {viewMode} onChangeView={setViewMode} />
 
 {#if viewMode === "archive"}
   <ArchiveView />

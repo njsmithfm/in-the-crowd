@@ -1,10 +1,35 @@
 <script>
+  import { onMount } from "svelte";
+
+  const quotes = [
+    "chocolate makes you happy",
+    "bring me the head of whoever said play fair",
+    "WOO-HAH!!",
+    "I've come to my senses that I've become senseless",
+    "mirror in the bathroom please talk free",
+    "every day is like Sunday",
+    "I go to Fugazi shows requesting Minor Threat songs",
+    "I ride the rhythm like a Schwinn bike",
+    "she's always passin me by",
+    "M-E-T-H-O-D MAN",
+    "let me tell you what I think about frog spit (I'm for it)",
+    "na-na-na-na-na-na-na-na-na-na-na",
+    "plugged in and ready to fall",
+    "do you like my stupid hair?",
+    "she thinks she missed the train to Mars",
+  ];
+
   let { quote, viewMode = "archive", onChangeView = () => {} } = $props();
+  let displayedQuote = $state("");
+
+  onMount(() => {
+    displayedQuote = quotes[Math.floor(Math.random() * quotes.length)];
+  });
 </script>
 
 <header class="page-header">
   <div class="top-quote">
-    <p>{quote}</p>
+    <p>{displayedQuote || quote}</p>
   </div>
   <div class="site-header">
     <div class="title">

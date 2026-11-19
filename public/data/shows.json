@@ -22,7 +22,7 @@
     "Borough": "Brooklyn",
     "Free_Show": false,
     "Notes": "Got invited to this one and I would not have gone otherwise. I was bored to tears. Tom Misch makes boring milquetoast Gen-Z \"vibe\" music.",
-    "Record_ID": "07b99025",
+    "Record_ID": "07b99025F",
     "Year": 2022,
     "Month": 3,
     "Day": "Tuesday",
@@ -346,7 +346,10 @@
     "Year": 2023,
     "Month": 1,
     "Day": "Saturday",
-    "Primary Artist": ["Moor Mother", "Irreversible Entanglements"],
+    "Primary Artist": [
+      "Moor Mother",
+      "Irreversible Entanglements"
+    ],
     "Bill_ID": "2023-01-14|Superior Ingredients",
     "Show_Number": 22,
     "media": null
@@ -864,7 +867,7 @@
     "media": null
   },
   {
-    "Artist": "Wu Tang Clan",
+    "Artist": "Wu-Tang Clan",
     "Date": "2023-09-27 00:00:00",
     "Venue": "Barclays Center",
     "Borough": "Brooklyn",
@@ -874,7 +877,7 @@
     "Year": 2023,
     "Month": 9,
     "Day": "Wednesday",
-    "Primary Artist": "Wu Tang Clan",
+    "Primary Artist": "Wu-Tang Clan",
     "Bill_ID": "2023-09-27|Barclays Center",
     "Show_Number": 55,
     "media": null
@@ -947,7 +950,9 @@
     "Bill_ID": "2023-10-18|Public Records",
     "Show_Number": 59,
     "media": {
-      "images": ["media/c8d935b8/54.jpg"]
+      "images": [
+        "media/c8d935b8/54.jpg"
+      ]
     }
   },
   {
@@ -1025,7 +1030,10 @@
     "Year": 2024,
     "Month": 1,
     "Day": "Monday",
-    "Primary Artist": ["Moor Mother", "Irreversible Entanglements"],
+    "Primary Artist": [
+      "Moor Mother",
+      "Irreversible Entanglements"
+    ],
     "Bill_ID": "2024-01-15|Le Poisson Rouge",
     "Show_Number": 64,
     "media": null
@@ -1233,7 +1241,11 @@
     "Year": 2024,
     "Month": 5,
     "Day": "Sunday",
-    "Primary Artist": ["Rob Mazurek", "Chad Taylor", "Chicago Underground Duo"],
+    "Primary Artist": [
+      "Rob Mazurek",
+      "Chad Taylor",
+      "Chicago Underground Duo"
+    ],
     "Bill_ID": "2024-05-05|Public Records",
     "Show_Number": 77,
     "media": null
@@ -1899,7 +1911,9 @@
     "Bill_ID": "2025-03-30|Big Ears Festival",
     "Show_Number": 118,
     "media": {
-      "images": ["media/a8cd658f/Anoushka_1.jpg"]
+      "images": [
+        "media/a8cd658f/Anoushka_1.jpg"
+      ]
     }
   },
   {
@@ -1965,7 +1979,9 @@
     "Bill_ID": "2025-04-01|Public Records",
     "Show_Number": 122,
     "media": {
-      "images": ["media/a383775c/118.jpg"]
+      "images": [
+        "media/a383775c/118.jpg"
+      ]
     }
   },
   {
@@ -1983,7 +1999,9 @@
     "Bill_ID": "2025-04-01|Public Records",
     "Show_Number": 123,
     "media": {
-      "images": ["media/eeb45b18/Mestizx_1.jpg"]
+      "images": [
+        "media/eeb45b18/Mestizx_1.jpg"
+      ]
     }
   },
   {
@@ -2017,7 +2035,9 @@
     "Bill_ID": "2025-06-22|The Ruins at Knockdown Center",
     "Show_Number": 125,
     "media": {
-      "images": ["media/0942c729/121.jpg"]
+      "images": [
+        "media/0942c729/121.jpg"
+      ]
     }
   },
   {
@@ -2035,7 +2055,9 @@
     "Bill_ID": "2025-06-22|The Ruins at Knockdown Center",
     "Show_Number": 126,
     "media": {
-      "images": ["media/3f9c4ca2/122.jpg"]
+      "images": [
+        "media/3f9c4ca2/122.jpg"
+      ]
     }
   },
   {
@@ -2106,7 +2128,9 @@
     "Bill_ID": "2025-12-04|Racket NYC",
     "Show_Number": 130,
     "media": {
-      "images": ["media/647a76c4/AC_1.jpg"]
+      "images": [
+        "media/647a76c4/AC_1.jpg"
+      ]
     }
   },
   {
@@ -2144,7 +2168,9 @@
     "Bill_ID": "2026-05-27|Hudson Yards",
     "Show_Number": 132,
     "media": {
-      "images": ["media/f4322611/129.jpg"]
+      "images": [
+        "media/f4322611/129.jpg"
+      ]
     }
   },
   {
@@ -2199,7 +2225,9 @@
     "Bill_ID": "2026-09-19|The Rooftop at Pier 17",
     "Show_Number": 135,
     "media": {
-      "images": ["media/8603ee75/chrisF.jpg"]
+      "images": [
+        "media/8603ee75/chrisF.jpg"
+      ]
     }
   },
   {

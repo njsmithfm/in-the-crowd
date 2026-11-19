@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# scripts/process_shows.py
-
 import json
 import pandas as pd
 from pathlib import Path
@@ -30,12 +27,43 @@ def get_primary_artist(artist):
         return ['Jeff Rosenstock','Chris Farren','Antarctigo Vespucci']
     if 'irreversible entanglements' in artist_lower:
         return ['Moor Mother','Irreversible Entanglements']
-    if 'chicago underground' in artist_lower:
+    if 'Chicago Underground Duo' in artist_lower:
         return ['Rob Mazurek','Chad Taylor','Chicago Underground Duo']
-    if 'pharoah sanders' in artist_lower:
+    if 'Pharoah Sanders' in artist_lower:
         return ['James Brandon Lewis','Joshua Abrams','Chad Taylor','Jeff Parker']
     if 'Anoushka Shankar' in artist_lower:
         return ['Anoushka Shankar','Sarathy Korwar']
+    if 'Carlos Niño & Idris Ackamoor' in artist_lower:
+        return ['Carlos Niño','Idris Ackamoor']
+    if 'Carlos Niño & Saul Williams' in artist_lower:
+        return ['Carlos Niño','Saul Williams']
+    if 'Carlos Niño & Photay' in artist_lower:
+        return ['Carlos Niño','Photay']
+    if 'DOMi and JD Beck' in artist_lower:
+        return ['DOMi','JD Beck']
+    if 'The Comet Is Coming' in artist_lower:
+        return ['Shabaka Hutchings','Danalogue','Betamax']
+    if 'Parliament-Funkadelic' in artist_lower:
+        return ['George Clinton','Parliament-Funkadelic', 'Parliament', 'Funkadelic']
+    if 'Wu-Tang Clan' in artist_lower:
+        return ['RZA','GZA','Young Dirty Bastard','Method Man','Raekwon','Ghostface Killah','Inspectah Deck','U-God','Masta Killa','Cappadonna']
+    if 'Shabaka Hutchings & Esperanza Spalding' in artist_lower:
+        return ['Shabaka Hutchings','Esperanza Spalding']
+    if 'Vijay Iyer & Nicole Mitchell' in artist_lower:
+        return ['Vijay Iyer','Nicole Mitchell']
+    if 'Messthetics & James Brandon Lewis' in artist_lower:
+        return ['Messthetics','James Brandon Lewis']
+    if 'Raw Poetic & Damu The Fudgemunk' in artist_lower:
+        return ['Raw Poetic','Damu The Fudgemunk']
+    if 'Arooj Aftab, Vijay Iyer, & Shazhad Ismaily' in artist_lower:
+        return ['Arooj Aftab','Vijay Iyer','Shazhad Ismaily']
+    if 'Vijay Iyer & Arooj Aftab' in artist_lower:
+        return ['Vijay Iyer','Arooj Aftab']
+    if 'Armand Hammer' in artist_lower:
+        return ['Armand Hammer','Billy Woods','Elucid','DJ Haram']
+    
+    
+    
     
     return artist
 
